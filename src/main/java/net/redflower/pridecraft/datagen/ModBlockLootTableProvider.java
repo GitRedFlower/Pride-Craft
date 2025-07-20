@@ -26,16 +26,38 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        //Flag Blocks
+        dropSelf(ModBlocks.ABROSEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.AGENDER_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.AROACE_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.AROMANTIC_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.ASEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.BIGENDER_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.BISEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.DEMIBOY_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.DEMIGIRL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.DEMIROMANTIC_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.DEMISEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.GAY_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.GENDERFLUID_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.GENDERFLUX_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.GENDERQUEER_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.GRAYSEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.INTERSEX_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.LESBIAN_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.NONBINARY_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.OMNISEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.PANSEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.PROGRESS_PRIDE_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.QUEER_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.RAINBOW_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.TRANSGENDER_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.DEMINONBINARY_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.GRAYROMANTIC_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.POLYSEXUAL_FLAG_BLOCK.get());
 
-    }
+        //Flag Carpets
 
-    //Creates Multiple Ore Drops. Created By Modding by Kaupenjoe. DO NOT TOUCH!!!!
-    protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
-        HolderLookup.RegistryLookup<Enchantment> registryLookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);
-        return this.createSilkTouchDispatchTable(pBlock,
-                this.applyExplosionDecay(pBlock, LootItem.lootTableItem(item)
-                        .apply(SetItemCountFunction.setCount(UniformGenerator.between(minDrops,maxDrops)))
-                        .apply(ApplyBonusCount.addOreBonusCount(registryLookup.getOrThrow(Enchantments.FORTUNE)))));
     }
 
     @Override

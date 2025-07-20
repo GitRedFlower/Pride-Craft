@@ -1,0 +1,9 @@
+{
+  "asset_name": "aromantic",
+  "description": {
+    "color": "#3DA542",
+    "translate": "trim_material.pridecraft.aromantic"
+  },
+  "ingredient": "pridecraft:aromantic_material",
+  "item_model_index": 0.7
+}

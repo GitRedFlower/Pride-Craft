@@ -1,0 +1,9 @@
+{
+  "asset_name": "progress_pride",
+  "description": {
+    "color": "#603917",
+    "translate": "trim_material.pridecraft.progress_pride"
+  },
+  "ingredient": "pridecraft:progress_pride_material",
+  "item_model_index": 0.7
+}

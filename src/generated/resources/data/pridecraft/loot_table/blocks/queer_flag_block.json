@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pridecraft:queer_flag_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "pridecraft:blocks/queer_flag_block"
+}

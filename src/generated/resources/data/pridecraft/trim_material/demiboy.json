@@ -1,0 +1,9 @@
+{
+  "asset_name": "demiboy",
+  "description": {
+    "color": "#9AD9EB",
+    "translate": "trim_material.pridecraft.demiboy"
+  },
+  "ingredient": "pridecraft:demiboy_material",
+  "item_model_index": 0.7
+}

@@ -1,0 +1,9 @@
+{
+  "asset_name": "aroace",
+  "description": {
+    "color": "#E28C00",
+    "translate": "trim_material.pridecraft.aroace"
+  },
+  "ingredient": "pridecraft:aroace_material",
+  "item_model_index": 0.7
+}

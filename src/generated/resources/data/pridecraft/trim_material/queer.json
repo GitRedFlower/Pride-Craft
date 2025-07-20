@@ -1,0 +1,9 @@
+{
+  "asset_name": "queer",
+  "description": {
+    "color": "#FFFFFF",
+    "translate": "trim_material.pridecraft.queer"
+  },
+  "ingredient": "pridecraft:queer_material",
+  "item_model_index": 0.7
+}

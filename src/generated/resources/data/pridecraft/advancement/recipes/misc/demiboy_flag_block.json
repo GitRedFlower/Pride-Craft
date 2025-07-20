@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_demiboy_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pridecraft:demiboy_material"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pridecraft:demiboy_flag_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_demiboy_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pridecraft:demiboy_flag_block"
+    ]
+  }
+}

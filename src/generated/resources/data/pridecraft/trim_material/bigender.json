@@ -1,0 +1,9 @@
+{
+  "asset_name": "bigender",
+  "description": {
+    "color": "#C479A2",
+    "translate": "trim_material.pridecraft.bigender"
+  },
+  "ingredient": "pridecraft:bigender_material",
+  "item_model_index": 0.7
+}

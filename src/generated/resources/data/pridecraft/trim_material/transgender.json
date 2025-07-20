@@ -1,0 +1,9 @@
+{
+  "asset_name": "transgender",
+  "description": {
+    "color": "#F6A8B9",
+    "translate": "trim_material.pridecraft.transgender"
+  },
+  "ingredient": "pridecraft:transgender_material",
+  "item_model_index": 0.7
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_demigirl_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pridecraft:demigirl_material"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pridecraft:demigirl_flag_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_demigirl_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pridecraft:demigirl_flag_block"
+    ]
+  }
+}

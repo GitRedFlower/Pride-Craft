@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gay_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pridecraft:gay_material"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pridecraft:gay_flag_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gay_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pridecraft:gay_flag_block"
+    ]
+  }
+}

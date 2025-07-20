@@ -1,0 +1,9 @@
+{
+  "asset_name": "demisexual",
+  "description": {
+    "color": "#6E0070",
+    "translate": "trim_material.pridecraft.demisexual"
+  },
+  "ingredient": "pridecraft:demisexual_material",
+  "item_model_index": 0.7
+}

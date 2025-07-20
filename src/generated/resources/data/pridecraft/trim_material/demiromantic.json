@@ -1,0 +1,9 @@
+{
+  "asset_name": "demiromantic",
+  "description": {
+    "color": "#3DA542",
+    "translate": "trim_material.pridecraft.demiromantic"
+  },
+  "ingredient": "pridecraft:demiromantic_material",
+  "item_model_index": 0.7
+}

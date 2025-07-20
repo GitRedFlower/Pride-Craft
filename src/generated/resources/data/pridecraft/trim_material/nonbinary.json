@@ -1,0 +1,9 @@
+{
+  "asset_name": "nonbinary",
+  "description": {
+    "color": "#FEF436",
+    "translate": "trim_material.pridecraft.nonbinary"
+  },
+  "ingredient": "pridecraft:nonbinary_material",
+  "item_model_index": 0.7
+}
