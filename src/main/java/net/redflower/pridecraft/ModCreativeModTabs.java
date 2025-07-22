@@ -21,7 +21,11 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                 .icon(() -> new ItemStack(ModBlocks.PROGRESS_PRIDE_FLAG_BLOCK))
                 .title(Component.translatable("creativetab.pridecraft.blocks"))
                 .displayItems((itemDisplayParameters, output) -> {
-                    //Blocks
+                    //Other Blocks
+                    output.accept(ModBlocks.UNKNOWN_ORE);
+                    output.accept(ModBlocks.DEEPSLATE_UNKNOWN_ORE);
+
+                    //Flag Blocks
                     output.accept(ModBlocks.ABROSEXUAL_FLAG_BLOCK);
                     output.accept(ModBlocks.AGENDER_FLAG_BLOCK);
                     output.accept(ModBlocks.AROACE_FLAG_BLOCK);

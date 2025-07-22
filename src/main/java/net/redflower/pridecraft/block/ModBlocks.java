@@ -16,6 +16,16 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(PrideCraft.MODID);
 
+    public static final DeferredBlock<Block> UNKNOWN_ORE = registerBlock("unknown_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.4f)
+                    .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> DEEPSLATE_UNKNOWN_ORE = registerBlock("deepslate_unknown_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.4f)
+                    .sound(SoundType.STONE)));
+
     //Flag Blocks
     public static final DeferredBlock<Block> ABROSEXUAL_FLAG_BLOCK = registerBlock("abrosexual_flag_block",
             () -> new Block(BlockBehaviour.Properties.of()

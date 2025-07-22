@@ -1,0 +1,9 @@
+{
+  "asset_name": "polysexual",
+  "description": {
+    "color": "#F61CB9",
+    "translate": "trim_material.pridecraft.polysexual"
+  },
+  "ingredient": "pridecraft:polysexual_material",
+  "item_model_index": 0.7
+}

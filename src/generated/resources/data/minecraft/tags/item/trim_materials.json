@@ -24,6 +24,9 @@
     "pridecraft:progress_pride_material",
     "pridecraft:queer_material",
     "pridecraft:rainbow_material",
-    "pridecraft:transgender_material"
+    "pridecraft:transgender_material",
+    "pridecraft:deminonbinary_material",
+    "pridecraft:grayromantic_material",
+    "pridecraft:polysexual_material"
   ]
 }

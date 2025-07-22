@@ -44,6 +44,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWIthItem(ModBlocks.DEMINONBINARY_FLAG_BLOCK);
         blockWIthItem(ModBlocks.GRAYROMANTIC_FLAG_BLOCK);
         blockWIthItem(ModBlocks.POLYSEXUAL_FLAG_BLOCK);
+
+        //Other Blocks
+        blockWIthItem(ModBlocks.UNKNOWN_ORE);
+        blockWIthItem(ModBlocks.DEEPSLATE_UNKNOWN_ORE);
     }
 
     private void blockWIthItem(DeferredBlock<?> deferredBlock) {

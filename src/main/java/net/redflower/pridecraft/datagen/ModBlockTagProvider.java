@@ -48,7 +48,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RAINBOW_FLAG_BLOCK.get())
                 .add(ModBlocks.TRANSGENDER_FLAG_BLOCK.get());
 
-        //Carpets
+        //Needs Pickaxe
+        tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(ModBlocks.UNKNOWN_ORE.get())
+                .add(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get());
+
+        //Stone Level
 
     }
 

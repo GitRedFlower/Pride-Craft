@@ -2,6 +2,9 @@
   "creativetab.pridecraft.blocks": "Pride Craft Blocks",
   "creativetab.pridecraft.items": "Pride Craft Items",
 
+  "block.pridecraft.unknown_ore": "Unknown Ore",
+  "block.pridecraft.deepslate_unknown_ore": "Deepslate Unknown Ore",
+
   "block.pridecraft.abrosexual_flag_block": "Abrosexual Flag Block",
   "block.pridecraft.agender_flag_block": "Agender Flag Block",
   "block.pridecraft.aroace_flag_block": "AroAce Flag Block",
@@ -87,5 +90,8 @@
   "trim_material.pridecraft.progress_pride": "Progress Pride Material",
   "trim_material.pridecraft.queer": "Queer Material",
   "trim_material.pridecraft.rainbow": "Rainbow Material",
-  "trim_material.pridecraft.transgender": "Transgender Material"
+  "trim_material.pridecraft.transgender": "Transgender Material",
+  "trim_material.pridecraft.deminonbinary": "Deminonbinary Material",
+  "trim_material.pridecraft.grayromantic": "Grayromantic Material",
+  "trim_material.pridecraft.polysexual": "Polysexual Material"
 }

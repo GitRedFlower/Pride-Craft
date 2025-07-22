@@ -92,6 +92,15 @@ public class ModTrimMaterials {
     public static final ResourceKey<TrimMaterial> TRANSGENDER =
             ResourceKey.create(Registries.TRIM_MATERIAL, ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID, "transgender"));
 
+    public static final ResourceKey<TrimMaterial> DEMINONBINARY =
+            ResourceKey.create(Registries.TRIM_MATERIAL, ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID, "deminonbinary"));
+
+    public static final ResourceKey<TrimMaterial> GRAYROMANTIC =
+            ResourceKey.create(Registries.TRIM_MATERIAL, ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID, "grayromantic"));
+
+    public static final ResourceKey<TrimMaterial> POLYSEXUAL =
+            ResourceKey.create(Registries.TRIM_MATERIAL, ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID, "polysexual"));
+
     public static void bootstrap(BootstrapContext<TrimMaterial> context) {
         register(context, ABROSEXUAL, ModItems.ABROSEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#76CB92").getOrThrow()), 0.7f);
         register(context, AGENDER, ModItems.AGENDER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#B8F483").getOrThrow()), 0.7f);
@@ -118,6 +127,9 @@ public class ModTrimMaterials {
         register(context, QUEER, ModItems.QUEER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FFFFFF").getOrThrow()), 0.7f);
         register(context, RAINBOW, ModItems.RAINBOW_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#E50204").getOrThrow()), 0.7f);
         register(context, TRANSGENDER, ModItems.TRANSGENDER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#F6A8B9").getOrThrow()), 0.7f);
+        register(context, DEMINONBINARY, ModItems.DEMINONBINARY_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FBFF74").getOrThrow()), 0.7f);
+        register(context, GRAYROMANTIC, ModItems.GRAYROMANTIC_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#087D16").getOrThrow()), 0.7f);
+        register(context, POLYSEXUAL, ModItems.POLYSEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#F61CB9").getOrThrow()), 0.7f);
     }
 
 

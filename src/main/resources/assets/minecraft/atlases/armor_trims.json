@@ -77,7 +77,10 @@
         "progress_pride": "pridecraft:trims/color_palettes/progress_pride",
         "queer": "pridecraft:trims/color_palettes/queer",
         "rainbow": "pridecraft:trims/color_palettes/rainbow",
-        "transgender": "pridecraft:trims/color_palettes/transgender"
+        "transgender": "pridecraft:trims/color_palettes/transgender",
+        "deminonbinary": "pridecraft:trims/color_palettes/deminonbinary",
+        "grayromantic": "pridecraft:trims/color_palettes/grayromantic",
+        "polysexual": "pridecraft:trims/color_palettes/polysexual"
       }
     }
   ]
