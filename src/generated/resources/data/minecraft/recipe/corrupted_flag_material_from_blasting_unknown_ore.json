@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "rainbow",
+  "ingredient": {
+    "item": "pridecraft:unknown_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "pridecraft:corrupted_flag_material"
+  }
+}

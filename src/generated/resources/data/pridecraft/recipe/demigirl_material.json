@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pridecraft:demigirl_flag_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "pridecraft:demigirl_material"
+  }
+}

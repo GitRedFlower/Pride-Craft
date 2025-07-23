@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_unknown_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pridecraft:deepslate_unknown_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:corrupted_flag_material_from_smelting_deepslate_unknown_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_deepslate_unknown_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:corrupted_flag_material_from_smelting_deepslate_unknown_ore"
+    ]
+  }
+}

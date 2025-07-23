@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:corrupted_flag_material_from_blasting_unknown_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_unknown_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pridecraft:unknown_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_unknown_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:corrupted_flag_material_from_blasting_unknown_ore"
+    ]
+  }
+}

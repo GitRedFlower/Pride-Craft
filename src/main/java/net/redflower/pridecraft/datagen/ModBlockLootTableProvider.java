@@ -15,6 +15,7 @@ import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
+import net.neoforged.fml.common.Mod;
 import net.redflower.pridecraft.block.ModBlocks;
 import net.redflower.pridecraft.item.ModItems;
 
@@ -56,13 +57,12 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.TRANSGENDER_FLAG_BLOCK.get());
         dropSelf(ModBlocks.DEMINONBINARY_FLAG_BLOCK.get());
         dropSelf(ModBlocks.GRAYROMANTIC_FLAG_BLOCK.get());
-        dropSelf(ModBlocks.POLYSEXUAL_FLAG_BLOCK.get());
 
         //Other Blocks
         add(ModBlocks.UNKNOWN_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),4,6));
+                block -> createMultipleOreDrops(ModBlocks.UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,10));
         add(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),4,6));
+                block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,10));
     }
 
     //Creates Multiple Ore Drops. Created By Modding by Kaupenjoe. DO NOT TOUCH!!!!

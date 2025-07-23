@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pridecraft:pansexual_flag_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "pridecraft:pansexual_material"
+  }
+}

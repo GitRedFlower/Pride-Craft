@@ -2,10 +2,7 @@ package net.redflower.pridecraft.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.RecipeCategory;
-import net.minecraft.data.recipes.RecipeOutput;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.ShapedRecipeBuilder;
+import net.minecraft.data.recipes.*;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.redflower.pridecraft.block.ModBlocks;
@@ -24,34 +21,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
         //Lists
-        List<ItemLike> UNKNOWN_SMELTABLES = List.of(ModItems.UNKNOWN_MATERIAL);
-
-        List<ItemLike> FLAG_MATERIALS = List.of(
-                ModItems.ABROSEXUAL_MATERIAL,
-                ModItems.AGENDER_MATERIAL,
-                ModItems.AROACE_MATERIAL,
-                ModItems.AROMANTIC_MATERIAL,
-                ModItems.ASEXUAL_MATERIAL,
-                ModItems.BIGENDER_MATERIAL,
-                ModItems.BISEXUAL_MATERIAL,
-                ModItems.DEMIBOY_MATERIAL,
-                ModItems.DEMIGIRL_MATERIAL,
-                ModItems.DEMIROMANTIC_MATERIAL,
-                ModItems.DEMISEXUAL_MATERIAL,
-                ModItems.GAY_MATERIAL,
-                ModItems.GENDERFLUID_MATERIAL,
-                ModItems.GENDERFLUX_MATERIAL,
-                ModItems.GENDERQUEER_MATERIAL,
-                ModItems.GRAYSEXUAL_MATERIAL,
-                ModItems.INTERSEX_MATERIAL,
-                ModItems.LESBIAN_MATERIAL,
-                ModItems.NONBINARY_MATERIAL,
-                ModItems.OMNISEXUAL_MATERIAL,
-                ModItems.PANSEXUAL_MATERIAL,
-                ModItems.PROGRESS_PRIDE_MATERIAL,
-                ModItems.QUEER_MATERIAL,
-                ModItems.RAINBOW_MATERIAL,
-                ModItems.TRANSGENDER_MATERIAL);
+        List<ItemLike> UNKNOWN_SMELTABLES = List.of(ModItems.UNKNOWN_MATERIAL, ModBlocks.UNKNOWN_ORE, ModBlocks.DEEPSLATE_UNKNOWN_ORE);
 
         //Shaped
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ABROSEXUAL_FLAG_BLOCK.get())
@@ -279,6 +249,150 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(recipeOutput);
 
         //Shapeless
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ABROSEXUAL_MATERIAL.get(), 9)
+                .requires(ModBlocks.ABROSEXUAL_FLAG_BLOCK)
+                .unlockedBy("has_abrosexual_flag_block", has(ModBlocks.ABROSEXUAL_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.AGENDER_MATERIAL.get(), 9)
+                .requires(ModBlocks.AGENDER_FLAG_BLOCK)
+                .unlockedBy("has_agender_flag_block", has(ModBlocks.AGENDER_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.AROACE_MATERIAL.get(), 9)
+                .requires(ModBlocks.AROACE_FLAG_BLOCK)
+                .unlockedBy("has_aroace_flag_block", has(ModBlocks.AROACE_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.AROMANTIC_MATERIAL.get(), 9)
+                .requires(ModBlocks.AROMANTIC_FLAG_BLOCK)
+                .unlockedBy("has_aromantic_flag_block", has(ModBlocks.AROMANTIC_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ASEXUAL_MATERIAL.get(), 9)
+                .requires(ModBlocks.ASEXUAL_FLAG_BLOCK)
+                .unlockedBy("has_asexual_flag_block", has(ModBlocks.ASEXUAL_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BIGENDER_MATERIAL.get(), 9)
+                .requires(ModBlocks.BIGENDER_FLAG_BLOCK)
+                .unlockedBy("has_bigender_flag_block", has(ModBlocks.BIGENDER_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BISEXUAL_MATERIAL.get(), 9)
+                .requires(ModBlocks.BISEXUAL_FLAG_BLOCK)
+                .unlockedBy("has_bisexual_flag_block", has(ModBlocks.BISEXUAL_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DEMIBOY_MATERIAL.get(), 9)
+                .requires(ModBlocks.DEMIBOY_FLAG_BLOCK)
+                .unlockedBy("has_demiboy_flag_block", has(ModBlocks.DEMIBOY_FLAG_BLOCK))
+                .save(recipeOutput);
+
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DEMIGIRL_MATERIAL.get(), 9)
+                .requires(ModBlocks.DEMIGIRL_FLAG_BLOCK)
+                .unlockedBy("has_demigirl_flag_block", has(ModBlocks.DEMIGIRL_FLAG_BLOCK))
+                .save(recipeOutput);
+
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DEMINONBINARY_MATERIAL.get(), 9)
+                .requires(ModBlocks.DEMINONBINARY_FLAG_BLOCK)
+                .unlockedBy("has_deminonbinary_flag_block", has(ModBlocks.DEMINONBINARY_FLAG_BLOCK))
+                .save(recipeOutput);
+
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DEMIROMANTIC_MATERIAL.get(), 9)
+                .requires(ModBlocks.DEMIROMANTIC_FLAG_BLOCK)
+                .unlockedBy("has_demiromantic_flag_block", has(ModBlocks.DEMIROMANTIC_FLAG_BLOCK))
+                .save(recipeOutput);
+
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DEMISEXUAL_MATERIAL.get(), 9)
+                .requires(ModBlocks.DEMISEXUAL_FLAG_BLOCK)
+                .unlockedBy("has_demisexual_flag_block", has(ModBlocks.DEMISEXUAL_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GAY_MATERIAL.get(), 9)
+                .requires(ModBlocks.GAY_FLAG_BLOCK)
+                .unlockedBy("has_gay_flag_block", has(ModBlocks.GAY_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GENDERFLUID_MATERIAL.get(), 9)
+                .requires(ModBlocks.GENDERFLUID_FLAG_BLOCK)
+                .unlockedBy("has_genderfluid_flag_block", has(ModBlocks.GENDERFLUID_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GENDERFLUX_MATERIAL.get(), 9)
+                .requires(ModBlocks.GENDERFLUX_FLAG_BLOCK)
+                .unlockedBy("has_genderflux_flag_block", has(ModBlocks.GENDERFLUX_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GENDERQUEER_MATERIAL.get(), 9)
+                .requires(ModBlocks.GENDERQUEER_FLAG_BLOCK)
+                .unlockedBy("has_genderqueer_flag_block", has(ModBlocks.GENDERQUEER_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GRAYROMANTIC_MATERIAL.get(), 9)
+                .requires(ModBlocks.GRAYROMANTIC_FLAG_BLOCK)
+                .unlockedBy("has_grayromantic_flag_block", has(ModBlocks.GRAYROMANTIC_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GRAYSEXUAL_MATERIAL.get(), 9)
+                .requires(ModBlocks.GRAYSEXUAL_FLAG_BLOCK)
+                .unlockedBy("has_graysexual_flag_block", has(ModBlocks.GRAYSEXUAL_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.INTERSEX_MATERIAL.get(), 9)
+                .requires(ModBlocks.INTERSEX_FLAG_BLOCK)
+                .unlockedBy("has_intersex_flag_block", has(ModBlocks.INTERSEX_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.LESBIAN_MATERIAL.get(), 9)
+                .requires(ModBlocks.LESBIAN_FLAG_BLOCK)
+                .unlockedBy("has_lesbian_flag_block", has(ModBlocks.LESBIAN_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.NONBINARY_MATERIAL.get(), 9)
+                .requires(ModBlocks.NONBINARY_FLAG_BLOCK)
+                .unlockedBy("has_nonbinary_flag_block", has(ModBlocks.NONBINARY_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.OMNISEXUAL_MATERIAL.get(), 9)
+                .requires(ModBlocks.OMNISEXUAL_FLAG_BLOCK)
+                .unlockedBy("has_omnisexual_flag_block", has(ModBlocks.OMNISEXUAL_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PANSEXUAL_MATERIAL.get(), 9)
+                .requires(ModBlocks.PANSEXUAL_FLAG_BLOCK)
+                .unlockedBy("has_pansexual_flag_block", has(ModBlocks.PANSEXUAL_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.POLYSEXUAL_MATERIAL.get(), 9)
+                .requires(ModBlocks.POLYSEXUAL_FLAG_BLOCK)
+                .unlockedBy("has_polysexual_flag_block", has(ModBlocks.POLYSEXUAL_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PROGRESS_PRIDE_MATERIAL.get(), 9)
+                .requires(ModBlocks.PROGRESS_PRIDE_FLAG_BLOCK)
+                .unlockedBy("has_progress_pride_flag_block", has(ModBlocks.PROGRESS_PRIDE_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.QUEER_MATERIAL.get(), 9)
+                .requires(ModBlocks.QUEER_FLAG_BLOCK)
+                .unlockedBy("has_queer_flag_block", has(ModBlocks.QUEER_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAINBOW_MATERIAL.get(), 9)
+                .requires(ModBlocks.RAINBOW_FLAG_BLOCK)
+                .unlockedBy("has_rainbow_flag_block", has(ModBlocks.RAINBOW_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.TRANSGENDER_MATERIAL.get(), 9)
+                .requires(ModBlocks.TRANSGENDER_FLAG_BLOCK)
+                .unlockedBy("has_transgender_flag_block", has(ModBlocks.TRANSGENDER_FLAG_BLOCK))
+                .save(recipeOutput);
+
 
 
         //Smelting

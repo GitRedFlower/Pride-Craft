@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_asexual_flag_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pridecraft:asexual_flag_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pridecraft:asexual_material"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_asexual_flag_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pridecraft:asexual_material"
+    ]
+  }
+}

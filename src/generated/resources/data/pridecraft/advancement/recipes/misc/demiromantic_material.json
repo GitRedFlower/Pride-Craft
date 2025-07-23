@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_demiromantic_flag_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pridecraft:demiromantic_flag_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pridecraft:demiromantic_material"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_demiromantic_flag_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pridecraft:demiromantic_material"
+    ]
+  }
+}
