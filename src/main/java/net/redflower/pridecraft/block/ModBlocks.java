@@ -9,6 +9,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.redflower.pridecraft.PrideCraft;
+import net.redflower.pridecraft.block.custom.MiniFlag;
 import net.redflower.pridecraft.item.ModItems;
 
 import java.util.function.Supplier;
@@ -166,6 +167,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(0.4f)
                     .sound(SoundType.WOOL)));
+
+    //Mini Flags
+    public static final DeferredBlock<Block> ABROSEXUAL_MINI_FLAG = registerBlock("abrosexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
 
 
 

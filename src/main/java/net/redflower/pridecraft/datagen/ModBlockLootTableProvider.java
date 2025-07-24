@@ -58,6 +58,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.DEMINONBINARY_FLAG_BLOCK.get());
         dropSelf(ModBlocks.GRAYROMANTIC_FLAG_BLOCK.get());
 
+        //Mini Flags
+        dropSelf(ModBlocks.ABROSEXUAL_MINI_FLAG.get());
+
         //Other Blocks
         add(ModBlocks.UNKNOWN_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,10));

@@ -54,6 +54,10 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                     output.accept(ModBlocks.QUEER_FLAG_BLOCK);
                     output.accept(ModBlocks.RAINBOW_FLAG_BLOCK);
                     output.accept(ModBlocks.TRANSGENDER_FLAG_BLOCK);
+
+                    //Mini Flags
+                    output.accept(ModBlocks.ABROSEXUAL_MINI_FLAG);
+
                 })
                 .build());
 
