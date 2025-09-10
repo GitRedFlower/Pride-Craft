@@ -16,7 +16,7 @@ public class MiniFlag extends HorizontalDirectionalBlock {
 
     public static final MapCodec<MiniFlag> CODEC = simpleCodec(MiniFlag::new);
 
-    private static final VoxelShape SHAPE = Block.box(0.0,0.0,4.0, 14.0, 16.0, 10.0);
+    private static final VoxelShape SHAPE = Block.box(1.0,0.0,1.0, 15.0, 16.0, 15.0);
 
     public MiniFlag(Properties properties) {super(properties);}
 

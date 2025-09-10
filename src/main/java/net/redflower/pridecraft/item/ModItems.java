@@ -101,7 +101,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
 
-
     //Registers The Items. DO NOT TOUCH!!!
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
