@@ -57,15 +57,43 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.TRANSGENDER_FLAG_BLOCK.get());
         dropSelf(ModBlocks.DEMINONBINARY_FLAG_BLOCK.get());
         dropSelf(ModBlocks.GRAYROMANTIC_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.POLYSEXUAL_FLAG_BLOCK.get());
 
         //Mini Flags
         dropSelf(ModBlocks.ABROSEXUAL_MINI_FLAG.get());
+        dropSelf(ModBlocks.AGENDER_MINI_FLAG.get());
+        dropSelf(ModBlocks.AROACE_MINI_FLAG.get());
+        dropSelf(ModBlocks.AROMANTIC_MINI_FLAG.get());
+        dropSelf(ModBlocks.ASEXUAL_MINI_FLAG.get());
+        dropSelf(ModBlocks.BIGENDER_MINI_FLAG.get());
+        dropSelf(ModBlocks.BISEXUAL_MINI_FLAG.get());
+        dropSelf(ModBlocks.DEMIBOY_MINI_FLAG.get());
+        dropSelf(ModBlocks.DEMIGIRL_MINI_FLAG.get());
+        dropSelf(ModBlocks.DEMINONBINARY_MINI_FLAG.get());
+        dropSelf(ModBlocks.DEMIROMANTIC_MINI_FLAG.get());
+        dropSelf(ModBlocks.DEMISEXUAL_MINI_FLAG.get());
+        dropSelf(ModBlocks.GAY_MINI_FLAG.get());
+        dropSelf(ModBlocks.GENDERFLUID_MINI_FLAG.get());
+        dropSelf(ModBlocks.GENDERFLUX_MINI_FLAG.get());
+        dropSelf(ModBlocks.GENDERQUEER_MINI_FLAG.get());
+        dropSelf(ModBlocks.GRAYROMANTIC_MINI_FLAG.get());
+        dropSelf(ModBlocks.GRAYSEXUAL_MINI_FLAG.get());
+        dropSelf(ModBlocks.INTERSEX_MINI_FLAG.get());
+        dropSelf(ModBlocks.LESBIAN_MINI_FLAG.get());
+        dropSelf(ModBlocks.NONBINARY_MINI_FLAG.get());
+        dropSelf(ModBlocks.OMNISEXUAL_MINI_FLAG.get());
+        dropSelf(ModBlocks.PANSEXUAL_MINI_FLAG.get());
+        dropSelf(ModBlocks.POLYSEXUAL_MINI_FLAG.get());
+        dropSelf(ModBlocks.PROGRESS_PRIDE_MINI_FLAG.get());
+        dropSelf(ModBlocks.QUEER_MINI_FLAG.get());
+        dropSelf(ModBlocks.RAINBOW_MINI_FLAG.get());
+        dropSelf(ModBlocks.TRANSGENDER_MINI_FLAG.get());
 
         //Other Blocks
         add(ModBlocks.UNKNOWN_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,10));
+                block -> createMultipleOreDrops(ModBlocks.UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,8));
         add(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,10));
+                block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,8));
     }
 
     //Creates Multiple Ore Drops. Created By Modding by Kaupenjoe. DO NOT TOUCH!!!!

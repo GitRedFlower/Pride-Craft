@@ -19,12 +19,12 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> UNKNOWN_ORE = registerBlock("unknown_ore",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(0.4f)
+                    .strength(3f)
                     .sound(SoundType.STONE)));
 
     public static final DeferredBlock<Block> DEEPSLATE_UNKNOWN_ORE = registerBlock("deepslate_unknown_ore",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(0.4f)
+                    .strength(4.5f)
                     .sound(SoundType.STONE)));
 
     //Flag Blocks
@@ -172,7 +172,86 @@ public class ModBlocks {
     public static final DeferredBlock<Block> ABROSEXUAL_MINI_FLAG = registerBlock("abrosexual_mini_flag",
             () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
 
+    public static final DeferredBlock<Block> AGENDER_MINI_FLAG = registerBlock("agender_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
 
+    public static final DeferredBlock<Block> AROACE_MINI_FLAG = registerBlock("aroace_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> AROMANTIC_MINI_FLAG = registerBlock("aromantic_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> ASEXUAL_MINI_FLAG = registerBlock("asexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> BIGENDER_MINI_FLAG = registerBlock("bigender_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> BISEXUAL_MINI_FLAG = registerBlock("bisexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> DEMIBOY_MINI_FLAG = registerBlock("demiboy_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> DEMIGIRL_MINI_FLAG = registerBlock("demigirl_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> DEMINONBINARY_MINI_FLAG = registerBlock("deminonbinary_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> DEMIROMANTIC_MINI_FLAG = registerBlock("demiromantic_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> DEMISEXUAL_MINI_FLAG = registerBlock("demisexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> GAY_MINI_FLAG = registerBlock("gay_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> GENDERFLUID_MINI_FLAG = registerBlock("genderfluid_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> GENDERFLUX_MINI_FLAG = registerBlock("genderflux_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> GENDERQUEER_MINI_FLAG = registerBlock("genderqueer_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> GRAYROMANTIC_MINI_FLAG = registerBlock("grayromantic_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> GRAYSEXUAL_MINI_FLAG = registerBlock("graysexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> INTERSEX_MINI_FLAG = registerBlock("intersex_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> LESBIAN_MINI_FLAG = registerBlock("lesbian_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> NONBINARY_MINI_FLAG = registerBlock("nonbinary_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> OMNISEXUAL_MINI_FLAG = registerBlock("omnisexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> PANSEXUAL_MINI_FLAG = registerBlock("pansexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> POLYSEXUAL_MINI_FLAG = registerBlock("polysexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> PROGRESS_PRIDE_MINI_FLAG = registerBlock("progress_pride_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> QUEER_MINI_FLAG = registerBlock("queer_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> RAINBOW_MINI_FLAG = registerBlock("rainbow_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final DeferredBlock<Block> TRANSGENDER_MINI_FLAG = registerBlock("transgender_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()));
 
 
     //Registers The Blocks. DO NOT TOUCH!!!!

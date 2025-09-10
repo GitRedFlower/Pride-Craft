@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bigender_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pridecraft:bigender_material"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pridecraft:bigender_mini_flag"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bigender_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pridecraft:bigender_mini_flag"
+    ]
+  }
+}

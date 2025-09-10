@@ -1,0 +1,64 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "pridecraft:block/progress_pride_mini_flag",
+		"particle": "pridecraft:block/progress_pride_mini_flag"
+	},
+	"elements": [
+		{
+			"from": [1, 10, 7],
+			"to": [13, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, -1, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 3], "texture": "#0"},
+				"east": {"uv": [3, 6, 4, 9], "texture": "#0"},
+				"south": {"uv": [0, 3, 6, 6], "texture": "#0"},
+				"west": {"uv": [4, 6, 5, 9], "texture": "#0"},
+				"up": {"uv": [13, 1, 7, 0], "texture": "#0"},
+				"down": {"uv": [13, 1, 7, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [13, 0, 7],
+			"to": [15, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 6, 1, 14], "texture": "#0"},
+				"east": {"uv": [6, 0, 7, 8], "texture": "#0"},
+				"south": {"uv": [1, 6, 2, 14], "texture": "#0"},
+				"west": {"uv": [2, 6, 3, 14], "texture": "#0"},
+				"up": {"uv": [6, 7, 5, 6], "texture": "#0"},
+				"down": {"uv": [8, 2, 7, 3], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-1, 1, 1.25],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [1, 1, 1.25],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 1.75, -0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 1.75, -0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [0, -180, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

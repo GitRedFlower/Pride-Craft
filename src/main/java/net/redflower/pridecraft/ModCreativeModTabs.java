@@ -57,6 +57,33 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
 
                     //Mini Flags
                     output.accept(ModBlocks.ABROSEXUAL_MINI_FLAG);
+                    output.accept(ModBlocks.AGENDER_MINI_FLAG);
+                    output.accept(ModBlocks.AROACE_MINI_FLAG);
+                    output.accept(ModBlocks.AROMANTIC_MINI_FLAG);
+                    output.accept(ModBlocks.ASEXUAL_MINI_FLAG);
+                    output.accept(ModBlocks.BIGENDER_MINI_FLAG);
+                    output.accept(ModBlocks.BISEXUAL_MINI_FLAG);
+                    output.accept(ModBlocks.DEMIBOY_MINI_FLAG);
+                    output.accept(ModBlocks.DEMIGIRL_MINI_FLAG);
+                    output.accept(ModBlocks.DEMINONBINARY_MINI_FLAG);
+                    output.accept(ModBlocks.DEMIROMANTIC_MINI_FLAG);
+                    output.accept(ModBlocks.DEMISEXUAL_MINI_FLAG);
+                    output.accept(ModBlocks.GAY_MINI_FLAG);
+                    output.accept(ModBlocks.GENDERFLUID_MINI_FLAG);
+                    output.accept(ModBlocks.GENDERFLUX_MINI_FLAG);
+                    output.accept(ModBlocks.GENDERQUEER_MINI_FLAG);
+                    output.accept(ModBlocks.GRAYROMANTIC_MINI_FLAG);
+                    output.accept(ModBlocks.GRAYSEXUAL_MINI_FLAG);
+                    output.accept(ModBlocks.INTERSEX_MINI_FLAG);
+                    output.accept(ModBlocks.LESBIAN_MINI_FLAG);
+                    output.accept(ModBlocks.NONBINARY_MINI_FLAG);
+                    output.accept(ModBlocks.OMNISEXUAL_MINI_FLAG);
+                    output.accept(ModBlocks.PANSEXUAL_MINI_FLAG);
+                    output.accept(ModBlocks.POLYSEXUAL_MINI_FLAG);
+                    output.accept(ModBlocks.PROGRESS_PRIDE_MINI_FLAG);
+                    output.accept(ModBlocks.QUEER_MINI_FLAG);
+                    output.accept(ModBlocks.RAINBOW_MINI_FLAG);
+                    output.accept(ModBlocks.TRANSGENDER_MINI_FLAG);
 
                 })
                 .build());

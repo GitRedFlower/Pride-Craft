@@ -102,6 +102,8 @@ public class ModTrimMaterials {
             ResourceKey.create(Registries.TRIM_MATERIAL, ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID, "polysexual"));
 
     public static void bootstrap(BootstrapContext<TrimMaterial> context) {
+        
+        //Name, Item Used, Item Text Color, Item Texture Color
         register(context, ABROSEXUAL, ModItems.ABROSEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#76CB92").getOrThrow()), 0.7f);
         register(context, AGENDER, ModItems.AGENDER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#B8F483").getOrThrow()), 0.7f);
         register(context, AROACE, ModItems.AROACE_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#E28C00").getOrThrow()), 0.7f);

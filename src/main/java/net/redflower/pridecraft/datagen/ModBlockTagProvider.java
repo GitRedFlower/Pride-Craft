@@ -54,6 +54,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get());
 
         //Stone Level
+        tag(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.UNKNOWN_ORE.get())
+                .add(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get());
 
     }
 

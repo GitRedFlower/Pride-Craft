@@ -31,7 +31,7 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(stoneReplaceables, ModBlocks.UNKNOWN_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_UNKNOWN_ORE.get().defaultBlockState()));
 
-        register(context, UNKNOWN_ORE_KEY, Feature.ORE, new OreConfiguration(unknownOres, 12));
+        register(context, UNKNOWN_ORE_KEY, Feature.ORE, new OreConfiguration(unknownOres, 8));
 
     }
 

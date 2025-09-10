@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aromantic_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pridecraft:aromantic_material"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pridecraft:aromantic_mini_flag"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aromantic_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pridecraft:aromantic_mini_flag"
+    ]
+  }
+}

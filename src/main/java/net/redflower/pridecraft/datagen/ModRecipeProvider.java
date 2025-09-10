@@ -3,6 +3,7 @@ package net.redflower.pridecraft.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.redflower.pridecraft.block.ModBlocks;
@@ -248,6 +249,260 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_polysexual_material", has(ModItems.POLYSEXUAL_MATERIAL))
                 .save(recipeOutput);
 
+        //Shaped Mini Flags
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ABROSEXUAL_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.ABROSEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_abrosexual_material", has(ModItems.ABROSEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.AGENDER_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.AGENDER_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_agender_material", has(ModItems.AGENDER_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.AROACE_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.AROACE_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_aroace_material", has(ModItems.AROACE_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.AROMANTIC_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.AROMANTIC_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_aromantic_material", has(ModItems.AROMANTIC_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ASEXUAL_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.ASEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_asexual_material", has(ModItems.ASEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BIGENDER_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.BIGENDER_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_bigender_material", has(ModItems.BIGENDER_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BISEXUAL_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.BISEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_bisexual_material", has(ModItems.BISEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DEMIBOY_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.DEMIBOY_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_demiboy_material", has(ModItems.DEMIBOY_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DEMIGIRL_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.DEMIGIRL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_demigirl_material", has(ModItems.DEMIGIRL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DEMINONBINARY_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.DEMINONBINARY_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_deminonbinary_material", has(ModItems.DEMINONBINARY_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DEMIROMANTIC_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.DEMIROMANTIC_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_demiromatic_material", has(ModItems.DEMIROMANTIC_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DEMISEXUAL_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.DEMISEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_demisexual_material", has(ModItems.DEMISEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GAY_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.GAY_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_gay_material", has(ModItems.GAY_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GENDERFLUID_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.GENDERFLUID_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_genderfluid_material", has(ModItems.GENDERFLUID_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GENDERFLUX_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.GENDERFLUX_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_genderflux_material", has(ModItems.GENDERFLUX_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GENDERQUEER_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.GENDERQUEER_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_genderqueer_material", has(ModItems.GENDERQUEER_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GRAYROMANTIC_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.GRAYROMANTIC_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_grayromantic_material", has(ModItems.GRAYROMANTIC_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GRAYSEXUAL_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.GRAYSEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_graysexual_material", has(ModItems.GRAYSEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.INTERSEX_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.INTERSEX_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_intersex_material", has(ModItems.INTERSEX_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LESBIAN_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.LESBIAN_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_lesbian_material", has(ModItems.LESBIAN_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.NONBINARY_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.NONBINARY_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_nonbinary_material", has(ModItems.NONBINARY_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.OMNISEXUAL_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.OMNISEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_nonbinary_material", has(ModItems.OMNISEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PANSEXUAL_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.PANSEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_pansexual_material", has(ModItems.PANSEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.POLYSEXUAL_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.POLYSEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_polysexual_material", has(ModItems.POLYSEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PROGRESS_PRIDE_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.PROGRESS_PRIDE_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_progress_pride_material", has(ModItems.PROGRESS_PRIDE_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.QUEER_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.QUEER_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_queer_material", has(ModItems.QUEER_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RAINBOW_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.RAINBOW_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_rainbow_material", has(ModItems.RAINBOW_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TRANSGENDER_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.TRANSGENDER_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_`transgender_material", has(ModItems.TRANSGENDER_MATERIAL))
+                .save(recipeOutput);
+
         //Shapeless
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ABROSEXUAL_MATERIAL.get(), 9)
                 .requires(ModBlocks.ABROSEXUAL_FLAG_BLOCK)
@@ -402,31 +657,31 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreBlasting(recipeOutput, UNKNOWN_SMELTABLES, RecipeCategory.MISC, ModItems.CORRUPTED_FLAG_MATERIAL, 0.25f, 100, "rainbow");
 
         //Stone Cutting
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.ABROSEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.AGENDER_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.AROACE_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.AROMANTIC_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.ASEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.BIGENDER_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.BISEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.DEMIBOY_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.DEMIGIRL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.DEMIROMANTIC_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.DEMISEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.GAY_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.GENDERFLUID_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.GENDERFLUX_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.GENDERQUEER_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.GRAYSEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.INTERSEX_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.LESBIAN_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.PANSEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.PROGRESS_PRIDE_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.QUEER_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.RAINBOW_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.TRANSGENDER_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.DEMINONBINARY_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.GRAYROMANTIC_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.POLYSEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 16);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.ABROSEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.AGENDER_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.AROACE_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.AROMANTIC_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.ASEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.BIGENDER_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.BISEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.DEMIBOY_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.DEMIGIRL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.DEMIROMANTIC_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.DEMISEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.GAY_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.GENDERFLUID_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.GENDERFLUX_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.GENDERQUEER_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.GRAYSEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.INTERSEX_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.LESBIAN_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.PANSEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.PROGRESS_PRIDE_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.QUEER_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.RAINBOW_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.TRANSGENDER_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.DEMINONBINARY_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.GRAYROMANTIC_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.POLYSEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
     }
 }

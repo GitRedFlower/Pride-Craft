@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "pridecraft:gay_material"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "BAA",
+    "B  ",
+    "B  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "pridecraft:gay_mini_flag"
+  }
+}

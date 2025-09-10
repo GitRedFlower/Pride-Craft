@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_demisexual_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pridecraft:demisexual_material"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pridecraft:demisexual_mini_flag"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_demisexual_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pridecraft:demisexual_mini_flag"
+    ]
+  }
+}

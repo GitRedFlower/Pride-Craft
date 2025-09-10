@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pridecraft:block/gay_mini_flag"
+    },
+    "facing=south": {
+      "model": "pridecraft:block/gay_mini_flag",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "pridecraft:block/gay_mini_flag",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "pridecraft:block/gay_mini_flag",
+      "y": 270
+    }
+  }
+}
