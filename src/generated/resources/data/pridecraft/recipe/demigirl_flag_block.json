@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "pridecraft:demigirl_material"
-    }
+    "A": "pridecraft:demigirl_material"
   },
   "pattern": [
     "AAA",

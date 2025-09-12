@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "pridecraft:demiromantic_material"
-    }
+    "A": "pridecraft:demiromantic_material"
   },
   "pattern": [
     "AAA",

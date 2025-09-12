@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "pridecraft:lesbian_flag_block"
-    }
+    "pridecraft:lesbian_flag_block"
   ],
   "result": {
     "count": 9,

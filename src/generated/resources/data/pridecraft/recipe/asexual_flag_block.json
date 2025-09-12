@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "pridecraft:asexual_material"
-    }
+    "A": "pridecraft:asexual_material"
   },
   "pattern": [
     "AAA",

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "pridecraft:lesbian_material"
-    }
+    "A": "pridecraft:lesbian_material"
   },
   "pattern": [
     "AAA",

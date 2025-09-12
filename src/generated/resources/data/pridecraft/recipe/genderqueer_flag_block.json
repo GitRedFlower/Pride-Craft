@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "pridecraft:genderqueer_material"
-    }
+    "A": "pridecraft:genderqueer_material"
   },
   "pattern": [
     "AAA",

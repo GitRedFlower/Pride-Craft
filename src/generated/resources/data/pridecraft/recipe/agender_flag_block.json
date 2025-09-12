@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "pridecraft:agender_material"
-    }
+    "A": "pridecraft:agender_material"
   },
   "pattern": [
     "AAA",

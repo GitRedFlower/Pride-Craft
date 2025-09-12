@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "pridecraft:progress_pride_flag_block"
-    }
+    "pridecraft:progress_pride_flag_block"
   ],
   "result": {
     "count": 9,

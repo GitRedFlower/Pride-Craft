@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "pridecraft:nonbinary_material"
-    }
+    "A": "pridecraft:nonbinary_material"
   },
   "pattern": [
     "AAA",

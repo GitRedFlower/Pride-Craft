@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "pridecraft:progress_pride_material"
-    }
+    "A": "pridecraft:progress_pride_material"
   },
   "pattern": [
     "AAA",

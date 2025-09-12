@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "pridecraft:genderflux_material"
-    }
+    "A": "pridecraft:genderflux_material"
   },
   "pattern": [
     "AAA",

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "pridecraft:demisexual_flag_block"
-    }
+    "pridecraft:demisexual_flag_block"
   ],
   "result": {
     "count": 9,

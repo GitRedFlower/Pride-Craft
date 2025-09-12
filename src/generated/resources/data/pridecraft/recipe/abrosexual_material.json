@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "pridecraft:abrosexual_flag_block"
-    }
+    "pridecraft:abrosexual_flag_block"
   ],
   "result": {
     "count": 9,
