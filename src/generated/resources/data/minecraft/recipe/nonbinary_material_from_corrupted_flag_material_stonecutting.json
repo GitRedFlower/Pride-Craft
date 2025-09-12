@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "pridecraft:corrupted_flag_material",
+  "result": {
+    "count": 8,
+    "id": "pridecraft:nonbinary_material"
+  }
+}

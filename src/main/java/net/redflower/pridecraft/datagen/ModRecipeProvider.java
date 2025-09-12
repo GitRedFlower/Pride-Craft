@@ -693,6 +693,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         stonecutterResultFromBase(RecipeCategory.MISC, ModItems.GRAYSEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
         stonecutterResultFromBase(RecipeCategory.MISC, ModItems.INTERSEX_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
         stonecutterResultFromBase(RecipeCategory.MISC, ModItems.LESBIAN_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(RecipeCategory.MISC, ModItems.NONBINARY_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(RecipeCategory.MISC, ModItems.OMNISEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
         stonecutterResultFromBase(RecipeCategory.MISC, ModItems.PANSEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
         stonecutterResultFromBase(RecipeCategory.MISC, ModItems.PROGRESS_PRIDE_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
         stonecutterResultFromBase(RecipeCategory.MISC, ModItems.QUEER_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
