@@ -46,7 +46,10 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.PROGRESS_PRIDE_FLAG_BLOCK.get())
                 .add(ModBlocks.QUEER_FLAG_BLOCK.get())
                 .add(ModBlocks.RAINBOW_FLAG_BLOCK.get())
-                .add(ModBlocks.TRANSGENDER_FLAG_BLOCK.get());
+                .add(ModBlocks.TRANSGENDER_FLAG_BLOCK.get())
+                .add(ModBlocks.DEMINONBINARY_FLAG_BLOCK.get())
+                .add(ModBlocks.GRAYROMANTIC_FLAG_BLOCK.get())
+                .add(ModBlocks.POLYSEXUAL_FLAG_BLOCK.get());
 
         //Needs Pickaxe
         tag(BlockTags.MINEABLE_WITH_PICKAXE)

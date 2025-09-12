@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "pridecraft:corrupted_flag_material"
+  },
+  "result": {
+    "count": 8,
+    "id": "pridecraft:omnisexual_material"
+  }
+}

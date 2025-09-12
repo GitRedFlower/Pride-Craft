@@ -24,6 +24,9 @@
     "pridecraft:progress_pride_flag_block",
     "pridecraft:queer_flag_block",
     "pridecraft:rainbow_flag_block",
-    "pridecraft:transgender_flag_block"
+    "pridecraft:transgender_flag_block",
+    "pridecraft:deminonbinary_flag_block",
+    "pridecraft:grayromantic_flag_block",
+    "pridecraft:polysexual_flag_block"
   ]
 }
