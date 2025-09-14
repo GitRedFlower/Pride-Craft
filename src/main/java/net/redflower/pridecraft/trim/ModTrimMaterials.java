@@ -103,42 +103,42 @@ public class ModTrimMaterials {
 
     public static void bootstrap(BootstrapContext<TrimMaterial> context) {
         
-        //Name, Item Used, Item Text Color, Item Texture Color
-        register(context, ABROSEXUAL, ModItems.ABROSEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#76CB92").getOrThrow()), 0.7f);
-        register(context, AGENDER, ModItems.AGENDER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#B8F483").getOrThrow()), 0.7f);
-        register(context, AROACE, ModItems.AROACE_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#E28C00").getOrThrow()), 0.7f);
-        register(context, AROMANTIC, ModItems.AROMANTIC_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#3DA542").getOrThrow()), 0.7f);
-        register(context, ASEXUAL, ModItems.ASEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#8D0085").getOrThrow()), 0.7f);
-        register(context, BIGENDER, ModItems.BIGENDER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#C479A2").getOrThrow()), 0.7f);
-        register(context, BISEXUAL, ModItems.BISEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#D70271").getOrThrow()), 0.7f);
-        register(context, DEMIBOY, ModItems.DEMIBOY_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#9AD9EB").getOrThrow()), 0.7f);
-        register(context, DEMIGIRL, ModItems.DEMIGIRL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FFAEC9").getOrThrow()), 0.7f);
-        register(context, DEMIROMANTIC, ModItems.DEMIROMANTIC_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#3DA542").getOrThrow()), 0.7f);
-        register(context, DEMISEXUAL, ModItems.DEMISEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#6E0070").getOrThrow()), 0.7f);
-        register(context, GAY, ModItems.GAY_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#088D71").getOrThrow()), 0.7f);
-        register(context, GENDERFLUID, ModItems.GENDERFLUID_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FF75A2").getOrThrow()), 0.7f);
-        register(context, GENDERFLUX, ModItems.GENDERFLUX_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#F47694").getOrThrow()), 0.7f);
-        register(context, GENDERQUEER, ModItems.GENDERQUEER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#B899DD").getOrThrow()), 0.7f);
-        register(context, GRAYSEXUAL, ModItems.GRAYSEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#B2B2B2").getOrThrow()), 0.7f);
-        register(context, INTERSEX, ModItems.INTERSEX_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FFD800").getOrThrow()), 0.7f);
-        register(context, LESBIAN, ModItems.LESBIAN_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#D62C01").getOrThrow()), 0.7f);
-        register(context, NONBINARY, ModItems.NONBINARY_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FEF436").getOrThrow()), 0.7f);
-        register(context, OMNISEXUAL, ModItems.OMNISEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FF9BCF").getOrThrow()), 0.7f);
-        register(context, PANSEXUAL, ModItems.PANSEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FF218D").getOrThrow()), 0.7f);
-        register(context, PROGRESS_PRIDE, ModItems.PROGRESS_PRIDE_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#603917").getOrThrow()), 0.7f);
-        register(context, QUEER, ModItems.QUEER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FFFFFF").getOrThrow()), 0.7f);
-        register(context, RAINBOW, ModItems.RAINBOW_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#E50204").getOrThrow()), 0.7f);
-        register(context, TRANSGENDER, ModItems.TRANSGENDER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#F6A8B9").getOrThrow()), 0.7f);
-        register(context, DEMINONBINARY, ModItems.DEMINONBINARY_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FBFF74").getOrThrow()), 0.7f);
-        register(context, GRAYROMANTIC, ModItems.GRAYROMANTIC_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#087D16").getOrThrow()), 0.7f);
-        register(context, POLYSEXUAL, ModItems.POLYSEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#F61CB9").getOrThrow()), 0.7f);
+        //Name, Item Used, Item Text Color, Item Texture Color is different in 1.21.4
+        register(context, ABROSEXUAL, ModItems.ABROSEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#76CB92").getOrThrow()));
+        register(context, AGENDER, ModItems.AGENDER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#B8F483").getOrThrow()));
+        register(context, AROACE, ModItems.AROACE_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#E28C00").getOrThrow()));
+        register(context, AROMANTIC, ModItems.AROMANTIC_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#3DA542").getOrThrow()));
+        register(context, ASEXUAL, ModItems.ASEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#8D0085").getOrThrow()));
+        register(context, BIGENDER, ModItems.BIGENDER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#C479A2").getOrThrow()));
+        register(context, BISEXUAL, ModItems.BISEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#D70271").getOrThrow()));
+        register(context, DEMIBOY, ModItems.DEMIBOY_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#9AD9EB").getOrThrow()));
+        register(context, DEMIGIRL, ModItems.DEMIGIRL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FFAEC9").getOrThrow()));
+        register(context, DEMIROMANTIC, ModItems.DEMIROMANTIC_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#3DA542").getOrThrow()));
+        register(context, DEMISEXUAL, ModItems.DEMISEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#6E0070").getOrThrow()));
+        register(context, GAY, ModItems.GAY_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#088D71").getOrThrow()));
+        register(context, GENDERFLUID, ModItems.GENDERFLUID_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FF75A2").getOrThrow()));
+        register(context, GENDERFLUX, ModItems.GENDERFLUX_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#F47694").getOrThrow()));
+        register(context, GENDERQUEER, ModItems.GENDERQUEER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#B899DD").getOrThrow()));
+        register(context, GRAYSEXUAL, ModItems.GRAYSEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#B2B2B2").getOrThrow()));
+        register(context, INTERSEX, ModItems.INTERSEX_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FFD800").getOrThrow()));
+        register(context, LESBIAN, ModItems.LESBIAN_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#D62C01").getOrThrow()));
+        register(context, NONBINARY, ModItems.NONBINARY_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FEF436").getOrThrow()));
+        register(context, OMNISEXUAL, ModItems.OMNISEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FF9BCF").getOrThrow()));
+        register(context, PANSEXUAL, ModItems.PANSEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FF218D").getOrThrow()));
+        register(context, PROGRESS_PRIDE, ModItems.PROGRESS_PRIDE_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#603917").getOrThrow()));
+        register(context, QUEER, ModItems.QUEER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FFFFFF").getOrThrow()));
+        register(context, RAINBOW, ModItems.RAINBOW_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#E50204").getOrThrow()));
+        register(context, TRANSGENDER, ModItems.TRANSGENDER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#F6A8B9").getOrThrow()));
+        register(context, DEMINONBINARY, ModItems.DEMINONBINARY_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FBFF74").getOrThrow()));
+        register(context, GRAYROMANTIC, ModItems.GRAYROMANTIC_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#087D16").getOrThrow()));
+        register(context, POLYSEXUAL, ModItems.POLYSEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#F61CB9").getOrThrow()));
     }
 
 
 
     public static void register(BootstrapContext<TrimMaterial> context, ResourceKey<TrimMaterial> trimMaterialResourceKey, Item item,
-                                Style style, float itemModelIndex) {
-        TrimMaterial trimMaterial = TrimMaterial.create(trimMaterialResourceKey.location().getPath(), item, itemModelIndex,
+                                Style style) {
+        TrimMaterial trimMaterial = TrimMaterial.create(trimMaterialResourceKey.location().getPath(), item,
                 Component.translatable(Util.makeDescriptionId("trim_material", trimMaterialResourceKey.location())).withStyle(style), Map.of());
         context.register(trimMaterialResourceKey, trimMaterial);
     }

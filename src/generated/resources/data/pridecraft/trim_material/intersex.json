@@ -4,6 +4,5 @@
     "color": "#FFD800",
     "translate": "trim_material.pridecraft.intersex"
   },
-  "ingredient": "pridecraft:intersex_material",
-  "item_model_index": 0.7
+  "ingredient": "pridecraft:intersex_material"
 }

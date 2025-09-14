@@ -4,6 +4,5 @@
     "color": "#FF9BCF",
     "translate": "trim_material.pridecraft.omnisexual"
   },
-  "ingredient": "pridecraft:omnisexual_material",
-  "item_model_index": 0.7
+  "ingredient": "pridecraft:omnisexual_material"
 }

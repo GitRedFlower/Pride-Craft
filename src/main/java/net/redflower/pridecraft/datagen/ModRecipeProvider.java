@@ -5,14 +5,13 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
-import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.redflower.pridecraft.block.ModBlocks;
 import net.redflower.pridecraft.item.ModItems;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
-public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
+public class ModRecipeProvider extends RecipeProvider {
 
 
     protected ModRecipeProvider(HolderLookup.Provider provider, RecipeOutput recipeOutput) {

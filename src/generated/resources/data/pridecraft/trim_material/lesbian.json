@@ -4,6 +4,5 @@
     "color": "#D62C01",
     "translate": "trim_material.pridecraft.lesbian"
   },
-  "ingredient": "pridecraft:lesbian_material",
-  "item_model_index": 0.7
+  "ingredient": "pridecraft:lesbian_material"
 }

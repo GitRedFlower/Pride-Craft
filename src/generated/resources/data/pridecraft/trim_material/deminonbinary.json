@@ -4,6 +4,5 @@
     "color": "#FBFF74",
     "translate": "trim_material.pridecraft.deminonbinary"
   },
-  "ingredient": "pridecraft:deminonbinary_material",
-  "item_model_index": 0.7
+  "ingredient": "pridecraft:deminonbinary_material"
 }

@@ -4,6 +4,5 @@
     "color": "#B899DD",
     "translate": "trim_material.pridecraft.genderqueer"
   },
-  "ingredient": "pridecraft:genderqueer_material",
-  "item_model_index": 0.7
+  "ingredient": "pridecraft:genderqueer_material"
 }

@@ -4,6 +4,5 @@
     "color": "#3DA542",
     "translate": "trim_material.pridecraft.demiromantic"
   },
-  "ingredient": "pridecraft:demiromantic_material",
-  "item_model_index": 0.7
+  "ingredient": "pridecraft:demiromantic_material"
 }

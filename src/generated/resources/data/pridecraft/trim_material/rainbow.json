@@ -4,6 +4,5 @@
     "color": "#E50204",
     "translate": "trim_material.pridecraft.rainbow"
   },
-  "ingredient": "pridecraft:rainbow_material",
-  "item_model_index": 0.7
+  "ingredient": "pridecraft:rainbow_material"
 }

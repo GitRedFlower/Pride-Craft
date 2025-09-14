@@ -4,6 +4,5 @@
     "color": "#FF75A2",
     "translate": "trim_material.pridecraft.genderfluid"
   },
-  "ingredient": "pridecraft:genderfluid_material",
-  "item_model_index": 0.7
+  "ingredient": "pridecraft:genderfluid_material"
 }
