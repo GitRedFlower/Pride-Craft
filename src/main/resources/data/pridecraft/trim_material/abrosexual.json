@@ -4,5 +4,6 @@
     "color": "#76CB92",
     "translate": "trim_material.pridecraft.abrosexual"
   },
-  "ingredient": "pridecraft:abrosexual_material"
+  "ingredient": "pridecraft:abrosexual_material",
+  "item_model_index": 0.0021494
 }
