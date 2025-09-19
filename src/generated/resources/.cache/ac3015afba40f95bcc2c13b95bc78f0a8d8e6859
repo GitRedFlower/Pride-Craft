@@ -1,4 +1,4 @@
-// 1.21.5	2025-09-14T22:53:50.5728211	Tags for minecraft:block mod id pridecraft
+// 1.21.8	2025-09-19T14:23:10.0598948	Tags for minecraft:block mod id pridecraft
 8dc0f70ab660a215aac49d12ef896687ac0989c6 data/minecraft/tags/block/mineable/hoe.json
 3b32766d36db81fd0d29de82239a4d72ca342db9 data/minecraft/tags/block/mineable/pickaxe.json
 3b32766d36db81fd0d29de82239a4d72ca342db9 data/minecraft/tags/block/needs_stone_tool.json

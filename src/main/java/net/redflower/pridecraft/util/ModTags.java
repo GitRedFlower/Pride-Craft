@@ -19,7 +19,7 @@ public class ModTags {
 
     public static class Items {
 
-        public static final TagKey<Item> FLAG_MATERIALS = createTag("flag_materials");
+
 
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID, name));
