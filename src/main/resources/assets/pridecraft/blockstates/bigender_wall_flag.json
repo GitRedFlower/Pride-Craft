@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pridecraft:block/bigender_wall_flag",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "pridecraft:block/bigender_wall_flag"
+    },
+    "facing=east": {
+      "model": "pridecraft:block/bigender_wall_flag",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "pridecraft:block/bigender_wall_flag",
+      "y": 90
+    }
+  }
+}
