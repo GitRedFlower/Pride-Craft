@@ -87,11 +87,76 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.RAINBOW_MINI_FLAG.get());
         dropSelf(ModBlocks.TRANSGENDER_MINI_FLAG.get());
 
+        //Wall Flags
+        dropSelf(ModBlocks.ABROSEXUAL_WALL_FLAG.get());
+        dropSelf(ModBlocks.AGENDER_WALL_FLAG.get());
+        dropSelf(ModBlocks.AROACE_WALL_FLAG.get());
+        dropSelf(ModBlocks.AROMANTIC_WALL_FLAG.get());
+        dropSelf(ModBlocks.ASEXUAL_WALL_FLAG.get());
+        dropSelf(ModBlocks.BIGENDER_WALL_FLAG.get());
+        dropSelf(ModBlocks.BISEXUAL_WALL_FLAG.get());
+        dropSelf(ModBlocks.DEMIBOY_WALL_FLAG.get());
+        dropSelf(ModBlocks.DEMIGIRL_WALL_FLAG.get());
+        dropSelf(ModBlocks.DEMINONBINARY_WALL_FLAG.get());
+        dropSelf(ModBlocks.DEMIROMANTIC_WALL_FLAG.get());
+        dropSelf(ModBlocks.DEMISEXUAL_WALL_FLAG.get());
+        dropSelf(ModBlocks.GAY_WALL_FLAG.get());
+        dropSelf(ModBlocks.GENDERFLUID_WALL_FLAG.get());
+        dropSelf(ModBlocks.GENDERFLUX_WALL_FLAG.get());
+        dropSelf(ModBlocks.GENDERQUEER_WALL_FLAG.get());
+        dropSelf(ModBlocks.GRAYROMANTIC_WALL_FLAG.get());
+        dropSelf(ModBlocks.GRAYSEXUAL_WALL_FLAG.get());
+        dropSelf(ModBlocks.INTERSEX_WALL_FLAG.get());
+        dropSelf(ModBlocks.LESBIAN_WALL_FLAG.get());
+        dropSelf(ModBlocks.NONBINARY_WALL_FLAG.get());
+        dropSelf(ModBlocks.OMNISEXUAL_WALL_FLAG.get());
+        dropSelf(ModBlocks.PANSEXUAL_WALL_FLAG.get());
+        dropSelf(ModBlocks.POLYSEXUAL_WALL_FLAG.get());
+        dropSelf(ModBlocks.PROGRESS_PRIDE_WALL_FLAG.get());
+        dropSelf(ModBlocks.QUEER_WALL_FLAG.get());
+        dropSelf(ModBlocks.RAINBOW_WALL_FLAG.get());
+        dropSelf(ModBlocks.TRANSGENDER_WALL_FLAG.get());
+
+        //Flag Carpets
+        dropSelf(ModBlocks.ABROSEXUAL_FLAG_CARPET.get());
+        dropSelf(ModBlocks.AGENDER_FLAG_CARPET.get());
+        dropSelf(ModBlocks.AROACE_FLAG_CARPET.get());
+        dropSelf(ModBlocks.AROMANTIC_FLAG_CARPET.get());
+        dropSelf(ModBlocks.ASEXUAL_FLAG_CARPET.get());
+        dropSelf(ModBlocks.BIGENDER_FLAG_CARPET.get());
+        dropSelf(ModBlocks.BISEXUAL_FLAG_CARPET.get());
+        dropSelf(ModBlocks.DEMIBOY_FLAG_CARPET.get());
+        dropSelf(ModBlocks.DEMIGIRL_FLAG_CARPET.get());
+        dropSelf(ModBlocks.DEMINONBINARY_FLAG_CARPET.get());
+        dropSelf(ModBlocks.DEMIROMANTIC_FLAG_CARPET.get());
+        dropSelf(ModBlocks.DEMISEXUAL_FLAG_CARPET.get());
+        dropSelf(ModBlocks.GAY_FLAG_CARPET.get());
+        dropSelf(ModBlocks.GENDERFLUID_FLAG_CARPET.get());
+        dropSelf(ModBlocks.GENDERFLUX_FLAG_CARPET.get());
+        dropSelf(ModBlocks.GENDERQUEER_FLAG_CARPET.get());
+        dropSelf(ModBlocks.GRAYROMANTIC_FLAG_CARPET.get());
+        dropSelf(ModBlocks.GRAYSEXUAL_FLAG_CARPET.get());
+        dropSelf(ModBlocks.INTERSEX_FLAG_CARPET.get());
+        dropSelf(ModBlocks.LESBIAN_FLAG_CARPET.get());
+        dropSelf(ModBlocks.NONBINARY_FLAG_CARPET.get());
+        dropSelf(ModBlocks.OMNISEXUAL_FLAG_CARPET.get());
+        dropSelf(ModBlocks.PANSEXUAL_FLAG_CARPET.get());
+        dropSelf(ModBlocks.POLYSEXUAL_FLAG_CARPET.get());
+        dropSelf(ModBlocks.PROGRESS_PRIDE_FLAG_CARPET.get());
+        dropSelf(ModBlocks.QUEER_FLAG_CARPET.get());
+        dropSelf(ModBlocks.RAINBOW_FLAG_CARPET.get());
+        dropSelf(ModBlocks.TRANSGENDER_FLAG_CARPET.get());
+
         //Other Blocks
+        //Ores
         add(ModBlocks.UNKNOWN_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,8));
         add(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,8));
+
+        //Storage Blocks
+        dropSelf(ModBlocks.UNKNOWN_MATERIAL_BLOCK.get());
+        dropSelf(ModBlocks.CORRUPTED_FLAG_BLOCK.get());
     }
 
     //Creates Multiple Ore Drops. Created By Modding by Kaupenjoe. DO NOT TOUCH!!!!

@@ -41,6 +41,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildRecipes() {
         //Lists
         List<ItemLike> UNKNOWN_SMELTABLES = List.of(ModItems.UNKNOWN_MATERIAL, ModBlocks.UNKNOWN_ORE, ModBlocks.DEEPSLATE_UNKNOWN_ORE);
+        List<ItemLike> UNKNOWN_BLOCK_SMELTABLES = List.of(ModBlocks.UNKNOWN_MATERIAL_BLOCK);
 
         //Shaped
         shaped(RecipeCategory.MISC, ModBlocks.ABROSEXUAL_FLAG_BLOCK.get())
@@ -521,6 +522,501 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_`transgender_material", has(ModItems.TRANSGENDER_MATERIAL))
                 .save(this.output);
 
+        //Wall Flags
+        shaped(RecipeCategory.MISC, ModBlocks.ABROSEXUAL_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.ABROSEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_abrosexual_material", has(ModItems.ABROSEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.AGENDER_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.AGENDER_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_agender_material", has(ModItems.AGENDER_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.AROACE_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.AROACE_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_aroace_material", has(ModItems.AROACE_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.AROMANTIC_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.AROMANTIC_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_aromantic_material", has(ModItems.AROMANTIC_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.ASEXUAL_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.ASEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_asexual_material", has(ModItems.ASEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.BIGENDER_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.BIGENDER_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_bigender_material", has(ModItems.BIGENDER_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.BISEXUAL_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.BISEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_bisexual_material", has(ModItems.BISEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEMIBOY_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.DEMIBOY_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_demiboy_material", has(ModItems.DEMIBOY_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEMIGIRL_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.DEMIGIRL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_demigirl_material", has(ModItems.DEMIGIRL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEMINONBINARY_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.DEMINONBINARY_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_deminonbinary_material", has(ModItems.DEMINONBINARY_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEMIROMANTIC_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.DEMIROMANTIC_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_demiromantic_material", has(ModItems.DEMIROMANTIC_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEMISEXUAL_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.DEMISEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_demisexual_material", has(ModItems.DEMISEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.GAY_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.GAY_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_gay_material", has(ModItems.GAY_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.GENDERFLUID_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.GENDERFLUID_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_genderfluid_material", has(ModItems.GENDERFLUID_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.GENDERFLUX_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.GENDERFLUX_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_genderflux_material", has(ModItems.GENDERFLUX_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.GENDERQUEER_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.GENDERQUEER_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_genderqueer_material", has(ModItems.GENDERQUEER_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.GRAYROMANTIC_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.GRAYROMANTIC_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_grayromantic_material", has(ModItems.GRAYROMANTIC_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.GRAYSEXUAL_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.GRAYSEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_graysexual_material", has(ModItems.GRAYSEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.INTERSEX_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.INTERSEX_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_intersex_material", has(ModItems.INTERSEX_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.LESBIAN_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.LESBIAN_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_lesbian_material", has(ModItems.LESBIAN_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.NONBINARY_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.NONBINARY_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_nonbinary_material", has(ModItems.NONBINARY_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.OMNISEXUAL_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.OMNISEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_omnisexual_material", has(ModItems.OMNISEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.PANSEXUAL_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.PANSEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_pansexual_material", has(ModItems.PANSEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.POLYSEXUAL_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.POLYSEXUAL_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_polysexual_material", has(ModItems.POLYSEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.PROGRESS_PRIDE_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.PROGRESS_PRIDE_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_progress_pride_material", has(ModItems.PROGRESS_PRIDE_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.QUEER_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.QUEER_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_queer_material", has(ModItems.QUEER_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.RAINBOW_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.RAINBOW_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_rainbow_material", has(ModItems.RAINBOW_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.TRANSGENDER_WALL_FLAG.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.TRANSGENDER_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_transgender_material", has(ModItems.TRANSGENDER_MATERIAL))
+                .save(this.output);
+
+        //Flag Carpets
+        shaped(RecipeCategory.MISC, ModBlocks.ABROSEXUAL_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.ABROSEXUAL_MATERIAL.get())
+                .unlockedBy("has_abrosexual_material", has(ModItems.ABROSEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.AGENDER_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.AGENDER_MATERIAL.get())
+                .unlockedBy("has_agender_material", has(ModItems.AGENDER_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.AROACE_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.AROACE_MATERIAL.get())
+                .unlockedBy("has_aroace_material", has(ModItems.AROACE_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.AROMANTIC_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.AROMANTIC_MATERIAL.get())
+                .unlockedBy("has_aromantic_material", has(ModItems.AROMANTIC_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.ASEXUAL_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.ASEXUAL_MATERIAL.get())
+                .unlockedBy("has_asexual_material", has(ModItems.ASEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.BIGENDER_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.BIGENDER_MATERIAL.get())
+                .unlockedBy("has_bigender_material", has(ModItems.BIGENDER_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.BISEXUAL_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.BISEXUAL_MATERIAL.get())
+                .unlockedBy("has_bisexual_material", has(ModItems.BISEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEMIBOY_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.DEMIBOY_MATERIAL.get())
+                .unlockedBy("has_demiboy_material", has(ModItems.DEMIBOY_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEMIGIRL_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.DEMIGIRL_MATERIAL.get())
+                .unlockedBy("has_demigirl_material", has(ModItems.DEMIGIRL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEMINONBINARY_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.DEMINONBINARY_MATERIAL.get())
+                .unlockedBy("has_deminonbinary_material", has(ModItems.DEMINONBINARY_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEMIROMANTIC_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.DEMIROMANTIC_MATERIAL.get())
+                .unlockedBy("has_demiromantic_material", has(ModItems.DEMIROMANTIC_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEMISEXUAL_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.DEMISEXUAL_MATERIAL.get())
+                .unlockedBy("has_demisexual_material", has(ModItems.DEMISEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.GAY_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.GAY_MATERIAL.get())
+                .unlockedBy("has_gay_material", has(ModItems.GAY_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.GENDERFLUID_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.GENDERFLUID_MATERIAL.get())
+                .unlockedBy("has_genderfluid_material", has(ModItems.GENDERFLUID_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.GENDERFLUX_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.GENDERFLUX_MATERIAL.get())
+                .unlockedBy("has_genderflux_material", has(ModItems.GENDERFLUX_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.GENDERQUEER_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.GENDERQUEER_MATERIAL.get())
+                .unlockedBy("has_genderqueer_material", has(ModItems.GENDERQUEER_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.GRAYROMANTIC_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.GRAYROMANTIC_MATERIAL.get())
+                .unlockedBy("has_grayromantic_material", has(ModItems.GRAYROMANTIC_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.GRAYSEXUAL_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.GRAYSEXUAL_MATERIAL.get())
+                .unlockedBy("has_graysexual_material", has(ModItems.GRAYSEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.INTERSEX_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.INTERSEX_MATERIAL.get())
+                .unlockedBy("has_intersex_material", has(ModItems.INTERSEX_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.LESBIAN_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.LESBIAN_MATERIAL.get())
+                .unlockedBy("has_lesbian_material", has(ModItems.LESBIAN_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.NONBINARY_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.NONBINARY_MATERIAL.get())
+                .unlockedBy("has_nonbinary_material", has(ModItems.NONBINARY_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.OMNISEXUAL_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.OMNISEXUAL_MATERIAL.get())
+                .unlockedBy("has_omnisexual_material", has(ModItems.OMNISEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.PANSEXUAL_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.PANSEXUAL_MATERIAL.get())
+                .unlockedBy("has_pansexual_material", has(ModItems.PANSEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.POLYSEXUAL_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.POLYSEXUAL_MATERIAL.get())
+                .unlockedBy("has_polysexual_material", has(ModItems.POLYSEXUAL_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.PROGRESS_PRIDE_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.PROGRESS_PRIDE_MATERIAL.get())
+                .unlockedBy("has_progress_pride_material", has(ModItems.PROGRESS_PRIDE_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.QUEER_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.QUEER_MATERIAL.get())
+                .unlockedBy("has_queer_material", has(ModItems.QUEER_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.RAINBOW_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.RAINBOW_MATERIAL.get())
+                .unlockedBy("has_rainbow_material", has(ModItems.RAINBOW_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.TRANSGENDER_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.TRANSGENDER_MATERIAL.get())
+                .unlockedBy("has_transgender_material", has(ModItems.TRANSGENDER_MATERIAL))
+                .save(this.output);
+
+        //Other Blocks
+        shaped(RecipeCategory.MISC, ModBlocks.UNKNOWN_MATERIAL_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.UNKNOWN_MATERIAL.get())
+                .unlockedBy("has_unknown_material", has(ModItems.UNKNOWN_MATERIAL))
+                .save(this.output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.CORRUPTED_FLAG_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.CORRUPTED_FLAG_MATERIAL.get())
+                .unlockedBy("has_corrupted_flag_material", has(ModItems.CORRUPTED_FLAG_MATERIAL))
+                .save(this.output);
+
         //Shapeless
         shapeless(RecipeCategory.MISC, ModItems.ABROSEXUAL_MATERIAL.get(), 9)
                 .requires(ModBlocks.ABROSEXUAL_FLAG_BLOCK)
@@ -666,13 +1162,26 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_transgender_flag_block", has(ModBlocks.TRANSGENDER_FLAG_BLOCK))
                 .save(this.output);
 
+        //Other Blocks
+        shapeless(RecipeCategory.MISC, ModItems.UNKNOWN_MATERIAL.get(), 9)
+                .requires(ModBlocks.UNKNOWN_MATERIAL_BLOCK)
+                .unlockedBy("has_unknown_material_block", has(ModBlocks.UNKNOWN_MATERIAL_BLOCK))
+                .save(this.output);
+
+        shapeless(RecipeCategory.MISC, ModItems.CORRUPTED_FLAG_MATERIAL.get(), 9)
+                .requires(ModBlocks.CORRUPTED_FLAG_BLOCK)
+                .unlockedBy("has_corrupted_flag_block", has(ModBlocks.CORRUPTED_FLAG_BLOCK))
+                .save(this.output);
+
 
 
         //Smelting
         oreSmelting(UNKNOWN_SMELTABLES, RecipeCategory.MISC, ModItems.CORRUPTED_FLAG_MATERIAL, 0.25f, 200, "rainbow");
+        oreSmelting(UNKNOWN_BLOCK_SMELTABLES, RecipeCategory.MISC, ModBlocks.CORRUPTED_FLAG_BLOCK, 0.25f, 200, "rainbow");
 
         //Blasting
         oreBlasting(UNKNOWN_SMELTABLES, RecipeCategory.MISC, ModItems.CORRUPTED_FLAG_MATERIAL, 0.25f, 100, "rainbow");
+        oreBlasting(UNKNOWN_BLOCK_SMELTABLES, RecipeCategory.MISC, ModBlocks.CORRUPTED_FLAG_BLOCK, 0.25f, 100, "rainbow");
 
         //Stone Cutting
         stonecutterResultFromBase(RecipeCategory.MISC, ModItems.ABROSEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
