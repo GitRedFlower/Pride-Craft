@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "rainbow",
+  "ingredient": "pridecraft:unknown_material_block",
+  "result": {
+    "count": 1,
+    "id": "pridecraft:corrupted_flag_block"
+  }
+}

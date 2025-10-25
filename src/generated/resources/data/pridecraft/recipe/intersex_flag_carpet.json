@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "pridecraft:intersex_material"
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "AA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "pridecraft:intersex_flag_carpet"
+  }
+}

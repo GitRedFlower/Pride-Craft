@@ -13,80 +13,145 @@ import net.redflower.pridecraft.item.ModItems;
 import java.util.function.Supplier;
 
 public class ModCreativeModTabs {
-public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
-        DeferredRegister.create(Registries.CREATIVE_MODE_TAB, PrideCraft.MODID);
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, PrideCraft.MODID);
 
-public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_MODE_TAB.register("pride_craft_blocks_tab",
-        () -> CreativeModeTab.builder()
-                .icon(() -> new ItemStack(ModBlocks.PROGRESS_PRIDE_FLAG_BLOCK))
-                .title(Component.translatable("creativetab.pridecraft.blocks"))
-                .displayItems((itemDisplayParameters, output) -> {
-                    //Other Blocks
-                    output.accept(ModBlocks.UNKNOWN_ORE);
-                    output.accept(ModBlocks.DEEPSLATE_UNKNOWN_ORE);
+    public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_MODE_TAB.register("pride_craft_blocks_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.PROGRESS_PRIDE_FLAG_BLOCK))
+                    .title(Component.translatable("creativetab.pridecraft.blocks"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        //Other Blocks
+                        //Ores
+                        output.accept(ModBlocks.UNKNOWN_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_UNKNOWN_ORE);
+                        //Storage Blocks
+                        output.accept(ModBlocks.UNKNOWN_MATERIAL_BLOCK);
+                        output.accept(ModBlocks.CORRUPTED_FLAG_BLOCK);
 
-                    //Flag Blocks
-                    output.accept(ModBlocks.ABROSEXUAL_FLAG_BLOCK);
-                    output.accept(ModBlocks.AGENDER_FLAG_BLOCK);
-                    output.accept(ModBlocks.AROACE_FLAG_BLOCK);
-                    output.accept(ModBlocks.AROMANTIC_FLAG_BLOCK);
-                    output.accept(ModBlocks.ASEXUAL_FLAG_BLOCK);
-                    output.accept(ModBlocks.BIGENDER_FLAG_BLOCK);
-                    output.accept(ModBlocks.BISEXUAL_FLAG_BLOCK);
-                    output.accept(ModBlocks.DEMIBOY_FLAG_BLOCK);
-                    output.accept(ModBlocks.DEMIGIRL_FLAG_BLOCK);
-                    output.accept(ModBlocks.DEMINONBINARY_FLAG_BLOCK);
-                    output.accept(ModBlocks.DEMIROMANTIC_FLAG_BLOCK);
-                    output.accept(ModBlocks.DEMISEXUAL_FLAG_BLOCK);
-                    output.accept(ModBlocks.GAY_FLAG_BLOCK);
-                    output.accept(ModBlocks.GENDERFLUID_FLAG_BLOCK);
-                    output.accept(ModBlocks.GENDERFLUX_FLAG_BLOCK);
-                    output.accept(ModBlocks.GENDERQUEER_FLAG_BLOCK);
-                    output.accept(ModBlocks.GRAYROMANTIC_FLAG_BLOCK);
-                    output.accept(ModBlocks.GRAYSEXUAL_FLAG_BLOCK);
-                    output.accept(ModBlocks.INTERSEX_FLAG_BLOCK);
-                    output.accept(ModBlocks.LESBIAN_FLAG_BLOCK);
-                    output.accept(ModBlocks.NONBINARY_FLAG_BLOCK);
-                    output.accept(ModBlocks.OMNISEXUAL_FLAG_BLOCK);
-                    output.accept(ModBlocks.PANSEXUAL_FLAG_BLOCK);
-                    output.accept(ModBlocks.POLYSEXUAL_FLAG_BLOCK);
-                    output.accept(ModBlocks.PROGRESS_PRIDE_FLAG_BLOCK);
-                    output.accept(ModBlocks.QUEER_FLAG_BLOCK);
-                    output.accept(ModBlocks.RAINBOW_FLAG_BLOCK);
-                    output.accept(ModBlocks.TRANSGENDER_FLAG_BLOCK);
+                        //Flag Blocks
+                        output.accept(ModBlocks.ABROSEXUAL_FLAG_BLOCK);
+                        output.accept(ModBlocks.AGENDER_FLAG_BLOCK);
+                        output.accept(ModBlocks.AROACE_FLAG_BLOCK);
+                        output.accept(ModBlocks.AROMANTIC_FLAG_BLOCK);
+                        output.accept(ModBlocks.ASEXUAL_FLAG_BLOCK);
+                        output.accept(ModBlocks.BIGENDER_FLAG_BLOCK);
+                        output.accept(ModBlocks.BISEXUAL_FLAG_BLOCK);
+                        output.accept(ModBlocks.DEMIBOY_FLAG_BLOCK);
+                        output.accept(ModBlocks.DEMIGIRL_FLAG_BLOCK);
+                        output.accept(ModBlocks.DEMINONBINARY_FLAG_BLOCK);
+                        output.accept(ModBlocks.DEMIROMANTIC_FLAG_BLOCK);
+                        output.accept(ModBlocks.DEMISEXUAL_FLAG_BLOCK);
+                        output.accept(ModBlocks.GAY_FLAG_BLOCK);
+                        output.accept(ModBlocks.GENDERFLUID_FLAG_BLOCK);
+                        output.accept(ModBlocks.GENDERFLUX_FLAG_BLOCK);
+                        output.accept(ModBlocks.GENDERQUEER_FLAG_BLOCK);
+                        output.accept(ModBlocks.GRAYROMANTIC_FLAG_BLOCK);
+                        output.accept(ModBlocks.GRAYSEXUAL_FLAG_BLOCK);
+                        output.accept(ModBlocks.INTERSEX_FLAG_BLOCK);
+                        output.accept(ModBlocks.LESBIAN_FLAG_BLOCK);
+                        output.accept(ModBlocks.NONBINARY_FLAG_BLOCK);
+                        output.accept(ModBlocks.OMNISEXUAL_FLAG_BLOCK);
+                        output.accept(ModBlocks.PANSEXUAL_FLAG_BLOCK);
+                        output.accept(ModBlocks.POLYSEXUAL_FLAG_BLOCK);
+                        output.accept(ModBlocks.PROGRESS_PRIDE_FLAG_BLOCK);
+                        output.accept(ModBlocks.QUEER_FLAG_BLOCK);
+                        output.accept(ModBlocks.RAINBOW_FLAG_BLOCK);
+                        output.accept(ModBlocks.TRANSGENDER_FLAG_BLOCK);
 
-                    //Mini Flags
-                    output.accept(ModBlocks.ABROSEXUAL_MINI_FLAG);
-                    output.accept(ModBlocks.AGENDER_MINI_FLAG);
-                    output.accept(ModBlocks.AROACE_MINI_FLAG);
-                    output.accept(ModBlocks.AROMANTIC_MINI_FLAG);
-                    output.accept(ModBlocks.ASEXUAL_MINI_FLAG);
-                    output.accept(ModBlocks.BIGENDER_MINI_FLAG);
-                    output.accept(ModBlocks.BISEXUAL_MINI_FLAG);
-                    output.accept(ModBlocks.DEMIBOY_MINI_FLAG);
-                    output.accept(ModBlocks.DEMIGIRL_MINI_FLAG);
-                    output.accept(ModBlocks.DEMINONBINARY_MINI_FLAG);
-                    output.accept(ModBlocks.DEMIROMANTIC_MINI_FLAG);
-                    output.accept(ModBlocks.DEMISEXUAL_MINI_FLAG);
-                    output.accept(ModBlocks.GAY_MINI_FLAG);
-                    output.accept(ModBlocks.GENDERFLUID_MINI_FLAG);
-                    output.accept(ModBlocks.GENDERFLUX_MINI_FLAG);
-                    output.accept(ModBlocks.GENDERQUEER_MINI_FLAG);
-                    output.accept(ModBlocks.GRAYROMANTIC_MINI_FLAG);
-                    output.accept(ModBlocks.GRAYSEXUAL_MINI_FLAG);
-                    output.accept(ModBlocks.INTERSEX_MINI_FLAG);
-                    output.accept(ModBlocks.LESBIAN_MINI_FLAG);
-                    output.accept(ModBlocks.NONBINARY_MINI_FLAG);
-                    output.accept(ModBlocks.OMNISEXUAL_MINI_FLAG);
-                    output.accept(ModBlocks.PANSEXUAL_MINI_FLAG);
-                    output.accept(ModBlocks.POLYSEXUAL_MINI_FLAG);
-                    output.accept(ModBlocks.PROGRESS_PRIDE_MINI_FLAG);
-                    output.accept(ModBlocks.QUEER_MINI_FLAG);
-                    output.accept(ModBlocks.RAINBOW_MINI_FLAG);
-                    output.accept(ModBlocks.TRANSGENDER_MINI_FLAG);
+                        //Flag Carpets
+                        output.accept(ModBlocks.ABROSEXUAL_FLAG_CARPET);
+                        output.accept(ModBlocks.AGENDER_FLAG_CARPET);
+                        output.accept(ModBlocks.AROACE_FLAG_CARPET);
+                        output.accept(ModBlocks.AROMANTIC_FLAG_CARPET);
+                        output.accept(ModBlocks.ASEXUAL_FLAG_CARPET);
+                        output.accept(ModBlocks.BIGENDER_FLAG_CARPET);
+                        output.accept(ModBlocks.BISEXUAL_FLAG_CARPET);
+                        output.accept(ModBlocks.DEMIBOY_FLAG_CARPET);
+                        output.accept(ModBlocks.DEMIGIRL_FLAG_CARPET);
+                        output.accept(ModBlocks.DEMINONBINARY_FLAG_CARPET);
+                        output.accept(ModBlocks.DEMIROMANTIC_FLAG_CARPET);
+                        output.accept(ModBlocks.DEMISEXUAL_FLAG_CARPET);
+                        output.accept(ModBlocks.GAY_FLAG_CARPET);
+                        output.accept(ModBlocks.GENDERFLUID_FLAG_CARPET);
+                        output.accept(ModBlocks.GENDERFLUX_FLAG_CARPET);
+                        output.accept(ModBlocks.GENDERQUEER_FLAG_CARPET);
+                        output.accept(ModBlocks.GRAYROMANTIC_FLAG_CARPET);
+                        output.accept(ModBlocks.GRAYSEXUAL_FLAG_CARPET);
+                        output.accept(ModBlocks.INTERSEX_FLAG_CARPET);
+                        output.accept(ModBlocks.LESBIAN_FLAG_CARPET);
+                        output.accept(ModBlocks.NONBINARY_FLAG_CARPET);
+                        output.accept(ModBlocks.OMNISEXUAL_FLAG_CARPET);
+                        output.accept(ModBlocks.PANSEXUAL_FLAG_CARPET);
+                        output.accept(ModBlocks.POLYSEXUAL_FLAG_CARPET);
+                        output.accept(ModBlocks.PROGRESS_PRIDE_FLAG_CARPET);
+                        output.accept(ModBlocks.QUEER_FLAG_CARPET);
+                        output.accept(ModBlocks.RAINBOW_FLAG_CARPET);
+                        output.accept(ModBlocks.TRANSGENDER_FLAG_CARPET);
 
-                })
-                .build());
+                        //Mini Flags
+                        output.accept(ModBlocks.ABROSEXUAL_MINI_FLAG);
+                        output.accept(ModBlocks.AGENDER_MINI_FLAG);
+                        output.accept(ModBlocks.AROACE_MINI_FLAG);
+                        output.accept(ModBlocks.AROMANTIC_MINI_FLAG);
+                        output.accept(ModBlocks.ASEXUAL_MINI_FLAG);
+                        output.accept(ModBlocks.BIGENDER_MINI_FLAG);
+                        output.accept(ModBlocks.BISEXUAL_MINI_FLAG);
+                        output.accept(ModBlocks.DEMIBOY_MINI_FLAG);
+                        output.accept(ModBlocks.DEMIGIRL_MINI_FLAG);
+                        output.accept(ModBlocks.DEMINONBINARY_MINI_FLAG);
+                        output.accept(ModBlocks.DEMIROMANTIC_MINI_FLAG);
+                        output.accept(ModBlocks.DEMISEXUAL_MINI_FLAG);
+                        output.accept(ModBlocks.GAY_MINI_FLAG);
+                        output.accept(ModBlocks.GENDERFLUID_MINI_FLAG);
+                        output.accept(ModBlocks.GENDERFLUX_MINI_FLAG);
+                        output.accept(ModBlocks.GENDERQUEER_MINI_FLAG);
+                        output.accept(ModBlocks.GRAYROMANTIC_MINI_FLAG);
+                        output.accept(ModBlocks.GRAYSEXUAL_MINI_FLAG);
+                        output.accept(ModBlocks.INTERSEX_MINI_FLAG);
+                        output.accept(ModBlocks.LESBIAN_MINI_FLAG);
+                        output.accept(ModBlocks.NONBINARY_MINI_FLAG);
+                        output.accept(ModBlocks.OMNISEXUAL_MINI_FLAG);
+                        output.accept(ModBlocks.PANSEXUAL_MINI_FLAG);
+                        output.accept(ModBlocks.POLYSEXUAL_MINI_FLAG);
+                        output.accept(ModBlocks.PROGRESS_PRIDE_MINI_FLAG);
+                        output.accept(ModBlocks.QUEER_MINI_FLAG);
+                        output.accept(ModBlocks.RAINBOW_MINI_FLAG);
+                        output.accept(ModBlocks.TRANSGENDER_MINI_FLAG);
+
+
+                        //Wall Flags
+                        output.accept(ModBlocks.ABROSEXUAL_WALL_FLAG);
+                        output.accept(ModBlocks.AGENDER_WALL_FLAG);
+                        output.accept(ModBlocks.AROACE_WALL_FLAG);
+                        output.accept(ModBlocks.AROMANTIC_WALL_FLAG);
+                        output.accept(ModBlocks.ASEXUAL_WALL_FLAG);
+                        output.accept(ModBlocks.BIGENDER_WALL_FLAG);
+                        output.accept(ModBlocks.BISEXUAL_WALL_FLAG);
+                        output.accept(ModBlocks.DEMIBOY_WALL_FLAG);
+                        output.accept(ModBlocks.DEMIGIRL_WALL_FLAG);
+                        output.accept(ModBlocks.DEMINONBINARY_WALL_FLAG);
+                        output.accept(ModBlocks.DEMIROMANTIC_WALL_FLAG);
+                        output.accept(ModBlocks.DEMISEXUAL_WALL_FLAG);
+                        output.accept(ModBlocks.GAY_WALL_FLAG);
+                        output.accept(ModBlocks.GENDERFLUID_WALL_FLAG);
+                        output.accept(ModBlocks.GENDERFLUX_WALL_FLAG);
+                        output.accept(ModBlocks.GENDERQUEER_WALL_FLAG);
+                        output.accept(ModBlocks.GRAYROMANTIC_WALL_FLAG);
+                        output.accept(ModBlocks.GRAYSEXUAL_WALL_FLAG);
+                        output.accept(ModBlocks.INTERSEX_WALL_FLAG);
+                        output.accept(ModBlocks.LESBIAN_WALL_FLAG);
+                        output.accept(ModBlocks.NONBINARY_WALL_FLAG);
+                        output.accept(ModBlocks.OMNISEXUAL_WALL_FLAG);
+                        output.accept(ModBlocks.PANSEXUAL_WALL_FLAG);
+                        output.accept(ModBlocks.POLYSEXUAL_WALL_FLAG);
+                        output.accept(ModBlocks.PROGRESS_PRIDE_WALL_FLAG);
+                        output.accept(ModBlocks.QUEER_WALL_FLAG);
+                        output.accept(ModBlocks.RAINBOW_WALL_FLAG);
+                        output.accept(ModBlocks.TRANSGENDER_WALL_FLAG);
+
+                    })
+                    .build());
 
     public static final Supplier<CreativeModeTab> PRIDE_CRAFT_ITEMS_TAB = CREATIVE_MODE_TAB.register("pride_craft_items_tab",
             () -> CreativeModeTab.builder()
@@ -133,5 +198,5 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
 
 
 
-public static void register(IEventBus eventBus) {CREATIVE_MODE_TAB.register(eventBus); }
+    public static void register(IEventBus eventBus) {CREATIVE_MODE_TAB.register(eventBus); }
 }

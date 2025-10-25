@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "pridecraft:demiboy_material",
+    "B": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "BBB",
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pridecraft:demiboy_wall_flag"
+  }
+}

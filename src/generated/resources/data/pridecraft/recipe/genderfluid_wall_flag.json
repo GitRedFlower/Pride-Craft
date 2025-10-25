@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "pridecraft:genderfluid_material",
+    "B": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "BBB",
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pridecraft:genderfluid_wall_flag"
+  }
+}
