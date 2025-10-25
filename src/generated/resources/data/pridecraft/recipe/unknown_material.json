@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "pridecraft:unknown_material_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "pridecraft:unknown_material"
+  }
+}

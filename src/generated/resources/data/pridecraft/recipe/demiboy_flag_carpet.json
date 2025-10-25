@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "pridecraft:demiboy_material"
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "AA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "pridecraft:demiboy_flag_carpet"
+  }
+}
