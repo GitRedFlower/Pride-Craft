@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pridecraft:block/pansexual_flag_carpet",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "pridecraft:block/pansexual_flag_carpet"
+    },
+    "facing=east": {
+      "model": "pridecraft:block/pansexual_flag_carpet",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "pridecraft:block/pansexual_flag_carpet",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "pridecraft:block/grayromantic_flag_carpet",
+		"particle": "pridecraft:block/grayromantic_flag_carpet"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 1, 16],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 0.5], "texture": "#0"},
+				"east": {"uv": [8, 1, 13, 1.5], "texture": "#0"},
+				"south": {"uv": [8, 0.5, 16, 1], "texture": "#0"},
+				"west": {"uv": [8, 1.5, 13, 2], "texture": "#0"},
+				"up": {"uv": [8, 5, 0, 0], "texture": "#0"},
+				"down": {"uv": [8, 5, 0, 10], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 2, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 2, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"ground": {
+			"translation": [0, 1, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [-150, -45, -180],
+			"translation": [2, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}
