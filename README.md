@@ -12,7 +12,7 @@ Current Supported Versions:
 *   1.21.8 (Short Term Support)
 *   1.21.10 (Short Term Support)
 
-Short Term: Supported till 1.22 (if it happens)
+Short Term: Supported till 1.22 (if it happens)  
 Long Term: Supported till gets hard to update with never features
 
 Download Links:
