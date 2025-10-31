@@ -6,9 +6,9 @@
     "B": "minecraft:iron_ingot"
   },
   "pattern": [
-    "BBB",
-    "AAA",
-    "AAA"
+    "BB ",
+    "AA ",
+    "   "
   ],
   "result": {
     "count": 1,
