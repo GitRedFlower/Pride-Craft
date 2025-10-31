@@ -7,7 +7,6 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.redflower.pridecraft.PrideCraft;
 import net.redflower.pridecraft.item.ModItems;
-import net.redflower.pridecraft.util.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
