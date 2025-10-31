@@ -2,17 +2,17 @@ Pride Craft
 ===========
 Adds a bunch of LGBT+ related items, blocks and more to Minecraft
 
-Current Supported Versions:
+Official Mod Versions:
 ---------------------------
 
 *   1.21.1 (Long Term Support)
-*   1.21.3 (Short Term Support)
-*   1.21.4 (Short Term Support)
-*   1.21.5 (Short Term Support)
-*   1.21.8 (Short Term Support)
+*   1.21.3 (Last Support Version 2.2.1)
+*   1.21.4 (Last Support Version 2.2.1)
+*   1.21.5 (Last Support Version 2.2.1)
+*   1.21.8 (Last Support Version 2.2.1)
 *   1.21.10 (Short Term Support)
 
-Short Term: Supported till 1.22 (if it happens)  
+Short Term: Supported till next drop is released  
 Long Term: Supported till gets hard to update with never features
 
 Download Links:
