@@ -20,13 +20,30 @@ public class MiniFlag extends HorizontalDirectionalBlock {
 
     public static final MapCodec<MiniFlag> CODEC = simpleCodec(MiniFlag::new);
 
-    private static final VoxelShape SHAPE = Block.box(1.0,0.0,1.0, 15.0, 16.0, 15.0);
+    private static final VoxelShape NORTH_SHAPE = Block.box(0.0,0.0,6.0,16.0,16.0,10.0);
+    private static final VoxelShape SOUTH_SHAPE = Block.box(0.0,0.0,6.0,16.0,16.0,10.0);
+    private static final VoxelShape EAST_SHAPE = Block.box(6.0,0.0,0.0,10.0,16.0,16.0);
+    private static final VoxelShape WEST_SHAPE = Block.box(6.0,0.0,0.0,10.0,16.0,16.0);
 
     public MiniFlag(Properties properties) {super(properties);}
 
     @Override
-    protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
-        return SHAPE;
+    public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
+        Direction direction = state.getValue(FACING);
+        switch (direction) {
+            case NORTH -> {
+                return NORTH_SHAPE;
+            }
+            case SOUTH -> {
+                return SOUTH_SHAPE;
+            }
+            case WEST -> {
+                return WEST_SHAPE;
+            }
+            default ->  {
+                return EAST_SHAPE;
+            }
+        }
     }
 
     @Nullable

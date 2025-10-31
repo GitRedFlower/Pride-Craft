@@ -8,7 +8,6 @@ import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.redflower.pridecraft.PrideCraft;
 import net.redflower.pridecraft.item.ModItems;
-import net.redflower.pridecraft.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;

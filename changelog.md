@@ -1,28 +1,12 @@
-Added:
-
-    Unknown Material Block
-    Corrupted Flag Block
-    Wall Flags For ALl Flags
-    Flag Carpets For All Flags
-
 Changes:
+
+    Updated NeoForge Version
+    Wall Flags Are now a 2x2 recipe instead of a 3x3 recipe
     
-    Add Proper Sounds to all Mini Flags
-    Mini Flags now Require an Iron Pickaxe
-    Mini Flags now Require a Support Block
-
-Textures:
-
-    Removed Unused textures
-
 Fixes:
 
-    Removed Unused Tag
-    Deepslate Unknown Ore now has correct sound
-    Mini Flags now have the correct block hardness
-    Unknown Ore now requires the correct tool for drops
-    Mini Flags now require the correct tool for drops
+    Mini Flags Now have a better hitbox
+    Flag Carpets now render better overall
+    Mini Flags now render better overall
+    Wall Flags now render better overall
 
-Other: 
-    
-    Custom Blocks Now Have A little Datagen
