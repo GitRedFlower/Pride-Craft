@@ -191,6 +191,10 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                         output.accept(ModItems.QUEER_MATERIAL);
                         output.accept(ModItems.RAINBOW_MATERIAL);
                         output.accept(ModItems.TRANSGENDER_MATERIAL);
+
+                        output.accept(ModItems.BLAHAJ);
+                        output.accept(ModItems.GOLDEN_BLAHAJ);
+                        output.accept(ModItems.GARLIC_BREAD);
                     })
                     .build());
 

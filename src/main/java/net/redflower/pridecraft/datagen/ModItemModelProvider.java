@@ -47,5 +47,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         //Other Items
         basicItem(ModItems.UNKNOWN_MATERIAL.get());
         basicItem(ModItems.CORRUPTED_FLAG_MATERIAL.get());
+        basicItem(ModItems.GARLIC_BREAD.get());
     }
 }

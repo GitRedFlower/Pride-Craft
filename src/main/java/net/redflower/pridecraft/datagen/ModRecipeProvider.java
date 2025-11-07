@@ -999,6 +999,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_corrupted_flag_material", has(ModItems.CORRUPTED_FLAG_MATERIAL))
                 .save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GOLDEN_BLAHAJ.get())
+                .pattern("CBC")
+                .pattern("BAB")
+                .pattern("CBC")
+                .define('A', ModItems.BLAHAJ.get())
+                .define('B', Items.ENCHANTED_GOLDEN_APPLE)
+                .define('C', Items.GOLD_INGOT)
+                .unlockedBy("has_blahaj", has(ModItems.BLAHAJ))
+                .save(recipeOutput);
+
         //Shapeless
         //Flag Blocks
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ABROSEXUAL_MATERIAL.get(), 9)

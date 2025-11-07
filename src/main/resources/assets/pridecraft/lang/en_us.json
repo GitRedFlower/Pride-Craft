@@ -158,6 +158,9 @@
   "item.pridecraft.grayromantic_material": "Grayromantic Material",
   "item.pridecraft.polysexual_material": "Polysexual Material",
 
+  "item.pridecraft.blahaj": "Blahaj",
+  "item.pridecraft.golden_blahaj": "Golden Blahaj",
+
   "trim_material.pridecraft.abrosexual": "Abrosexual Material",
   "trim_material.pridecraft.agender": "Agender Material",
   "trim_material.pridecraft.aroace": "AroAce Material",
@@ -185,5 +188,8 @@
   "trim_material.pridecraft.transgender": "Transgender Material",
   "trim_material.pridecraft.deminonbinary": "Deminonbinary Material",
   "trim_material.pridecraft.grayromantic": "Grayromantic Material",
-  "trim_material.pridecraft.polysexual": "Polysexual Material"
+  "trim_material.pridecraft.polysexual": "Polysexual Material",
+
+  "pridecraft.jei.info.blahaj" : "Found in Ancient Cities, Gives effect Resistence I",
+  "pridecraft.jei.info.golden_blahaj" : "Crafted from a Blahaj, Gives effect Resistance II"
 }

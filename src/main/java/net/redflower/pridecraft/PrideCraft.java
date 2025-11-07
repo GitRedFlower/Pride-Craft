@@ -2,6 +2,7 @@ package net.redflower.pridecraft;
 
 import net.redflower.pridecraft.block.ModBlocks;
 import net.redflower.pridecraft.item.ModItems;
+import net.redflower.pridecraft.loot.ModLootModifiers;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -25,8 +26,7 @@ public class PrideCraft {
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public PrideCraft(IEventBus modEventBus, ModContainer modContainer)
-    {
+    public PrideCraft(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -40,6 +40,8 @@ public class PrideCraft {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
 
 

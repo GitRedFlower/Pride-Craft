@@ -1,10 +1,14 @@
 package net.redflower.pridecraft.item;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.redflower.pridecraft.PrideCraft;
+import net.redflower.pridecraft.item.custom.BlahajItem;
+import net.redflower.pridecraft.item.custom.GoldenBlahajItem;
+import net.redflower.pridecraft.item.custom.ModFoodProperties;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PrideCraft.MODID);
@@ -99,6 +103,15 @@ public class ModItems {
 
     public static final DeferredItem<Item> POLYSEXUAL_MATERIAL = ITEMS.register("polysexual_material",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> BLAHAJ = ITEMS.register("blahaj",
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.RARE)));
+
+    public static final DeferredItem<Item> GOLDEN_BLAHAJ = ITEMS.register("golden_blahaj",
+            () -> new GoldenBlahajItem(new Item.Properties().rarity(Rarity.EPIC)));
+
+    public static final DeferredItem<Item> GARLIC_BREAD = ITEMS.register("garlic_bread",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.GARLIC_BREAD)));
 
 
     //Registers The Items. DO NOT TOUCH!!!
