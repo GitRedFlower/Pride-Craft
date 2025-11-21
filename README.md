@@ -1,9 +1,12 @@
-Pride Craft
-===========
+# Pride Craft
 Adds a bunch of LGBT+ related items, blocks and more to Minecraft
 
-Official Mod Versions:
----------------------------
+## Download Links:
+
+* [CurseForge](https://www.curseforge.com/minecraft/mc-mods/pride-craft)
+* [Modrith](https://modrinth.com/mod/pride-craft)
+
+## Official Mod Versions:
 
 *   1.21.1 (Long Term Support)
 *   1.21.3 (Last Support Version 2.2.2)
@@ -15,8 +18,3 @@ Official Mod Versions:
 Short Term: Supported till next drop is released  
 Long Term: Supported till gets hard to update with never features
 
-Download Links:
----------------------------
-
-* [CurseForge](https://www.curseforge.com/minecraft/mc-mods/pride-craft)
-* [Modrith](https://modrinth.com/mod/pride-craft)
