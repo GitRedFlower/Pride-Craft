@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:corrupted_flag_material_from_blasting_unknown_material"
+        "recipe": "pridecraft:transfeminine_flag_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_unknown_material": {
+    "has_transfeminine_material": {
       "conditions": {
         "items": [
           {
-            "items": "pridecraft:unknown_material"
+            "items": "pridecraft:transfeminine_material"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_unknown_material"
+      "has_transfeminine_material"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:corrupted_flag_material_from_blasting_unknown_material"
+      "pridecraft:transfeminine_flag_block"
     ]
   }
 }

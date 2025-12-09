@@ -57,7 +57,9 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                     output.accept(ModBlocks.PROGRESS_PRIDE_FLAG_BLOCK);
                     output.accept(ModBlocks.QUEER_FLAG_BLOCK);
                     output.accept(ModBlocks.RAINBOW_FLAG_BLOCK);
+                    output.accept(ModBlocks.TRANSFEMININE_FLAG_BLOCK);
                     output.accept(ModBlocks.TRANSGENDER_FLAG_BLOCK);
+                    output.accept(ModBlocks.TRANSMASCULINE_FLAG_BLOCK);
 
                     //Flag Carpets
                     output.accept(ModBlocks.ABROSEXUAL_FLAG_CARPET);
@@ -87,7 +89,9 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                     output.accept(ModBlocks.PROGRESS_PRIDE_FLAG_CARPET);
                     output.accept(ModBlocks.QUEER_FLAG_CARPET);
                     output.accept(ModBlocks.RAINBOW_FLAG_CARPET);
+                    output.accept(ModBlocks.TRANSFEMININE_FLAG_CARPET);
                     output.accept(ModBlocks.TRANSGENDER_FLAG_CARPET);
+                    output.accept(ModBlocks.TRANSMASCULINE_FLAG_CARPET);
 
                     //Mini Flags
                     output.accept(ModBlocks.ABROSEXUAL_MINI_FLAG);
@@ -117,7 +121,9 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                     output.accept(ModBlocks.PROGRESS_PRIDE_MINI_FLAG);
                     output.accept(ModBlocks.QUEER_MINI_FLAG);
                     output.accept(ModBlocks.RAINBOW_MINI_FLAG);
+                    output.accept(ModBlocks.TRANSFEMININE_MINI_FLAG);
                     output.accept(ModBlocks.TRANSGENDER_MINI_FLAG);
+                    output.accept(ModBlocks.TRANSMASCULINE_MINI_FLAG);
 
                     //Wall Flags
                     output.accept(ModBlocks.ABROSEXUAL_WALL_FLAG);
@@ -147,7 +153,9 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                     output.accept(ModBlocks.PROGRESS_PRIDE_WALL_FLAG);
                     output.accept(ModBlocks.QUEER_WALL_FLAG);
                     output.accept(ModBlocks.RAINBOW_WALL_FLAG);
+                    output.accept(ModBlocks.TRANSFEMININE_WALL_FLAG);
                     output.accept(ModBlocks.TRANSGENDER_WALL_FLAG);
+                    output.accept(ModBlocks.TRANSMASCULINE_WALL_FLAG);
 
                 })
                 .build());
@@ -190,11 +198,12 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                         output.accept(ModItems.PROGRESS_PRIDE_MATERIAL);
                         output.accept(ModItems.QUEER_MATERIAL);
                         output.accept(ModItems.RAINBOW_MATERIAL);
+                        output.accept(ModItems.TRANSFEMININE_MATERIAL);
                         output.accept(ModItems.TRANSGENDER_MATERIAL);
+                        output.accept(ModItems.TRANSMASCULINE_MATERIAL);
 
                         output.accept(ModItems.BLAHAJ);
                         output.accept(ModItems.GOLDEN_BLAHAJ);
-                        output.accept(ModItems.GARLIC_BREAD);
                     })
                     .build());
 

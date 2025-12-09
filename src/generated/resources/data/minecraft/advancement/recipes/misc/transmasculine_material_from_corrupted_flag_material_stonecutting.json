@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_deepslate_unknown_ore": {
+    "has_corrupted_flag_material": {
       "conditions": {
         "items": [
           {
-            "items": "pridecraft:deepslate_unknown_ore"
+            "items": "pridecraft:corrupted_flag_material"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:corrupted_flag_material_from_smelting_deepslate_unknown_ore"
+        "recipe": "minecraft:transmasculine_material_from_corrupted_flag_material_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_deepslate_unknown_ore"
+      "has_corrupted_flag_material"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:corrupted_flag_material_from_smelting_deepslate_unknown_ore"
+      "minecraft:transmasculine_material_from_corrupted_flag_material_stonecutting"
     ]
   }
 }

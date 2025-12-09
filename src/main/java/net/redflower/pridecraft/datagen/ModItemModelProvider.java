@@ -43,10 +43,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.DEMINONBINARY_MATERIAL.get());
         basicItem(ModItems.GRAYROMANTIC_MATERIAL.get());
         basicItem(ModItems.POLYSEXUAL_MATERIAL.get());
+        basicItem(ModItems.TRANSFEMININE_MATERIAL.get());
+        basicItem(ModItems.TRANSMASCULINE_MATERIAL.get());
 
         //Other Items
         basicItem(ModItems.UNKNOWN_MATERIAL.get());
         basicItem(ModItems.CORRUPTED_FLAG_MATERIAL.get());
-        basicItem(ModItems.GARLIC_BREAD.get());
     }
 }

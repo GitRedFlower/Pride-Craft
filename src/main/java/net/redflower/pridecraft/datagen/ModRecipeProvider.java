@@ -4,8 +4,10 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
+import net.redflower.pridecraft.PrideCraft;
 import net.redflower.pridecraft.block.ModBlocks;
 import net.redflower.pridecraft.item.ModItems;
 
@@ -248,6 +250,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AAA")
                 .define('A', ModItems.POLYSEXUAL_MATERIAL.get())
                 .unlockedBy("has_polysexual_material", has(ModItems.POLYSEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TRANSFEMININE_FLAG_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.TRANSFEMININE_MATERIAL.get())
+                .unlockedBy("has_transfeminine_material", has(ModItems.TRANSFEMININE_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TRANSMASCULINE_FLAG_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.TRANSMASCULINE_MATERIAL.get())
+                .unlockedBy("has_transmasculine_material", has(ModItems.TRANSMASCULINE_MATERIAL))
                 .save(recipeOutput);
 
         //Mini Flags
@@ -503,6 +521,24 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_transgender_material", has(ModItems.TRANSGENDER_MATERIAL))
                 .save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TRANSFEMININE_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.TRANSFEMININE_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_transfeminine_material", has(ModItems.TRANSFEMININE_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TRANSMASCULINE_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', ModItems.TRANSMASCULINE_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_transmasculine_material", has(ModItems.TRANSMASCULINE_MATERIAL))
+                .save(recipeOutput);
+
         //Wall Flags
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ABROSEXUAL_WALL_FLAG.get())
                 .pattern("BB ")
@@ -756,6 +792,24 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_transgender_material", has(ModItems.TRANSGENDER_MATERIAL))
                 .save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TRANSFEMININE_WALL_FLAG.get())
+                .pattern("BB ")
+                .pattern("AA ")
+                .pattern("   ")
+                .define('A', ModItems.TRANSFEMININE_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_transfeminine_material", has(ModItems.TRANSFEMININE_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TRANSMASCULINE_WALL_FLAG.get())
+                .pattern("BB ")
+                .pattern("AA ")
+                .pattern("   ")
+                .define('A', ModItems.TRANSMASCULINE_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_transmasculine_material", has(ModItems.TRANSMASCULINE_MATERIAL))
+                .save(recipeOutput);
+
         //Flag Carpets
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ABROSEXUAL_FLAG_CARPET.get())
                 .pattern("   ")
@@ -981,6 +1035,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_transgender_material", has(ModItems.TRANSGENDER_MATERIAL))
                 .save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TRANSFEMININE_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.TRANSFEMININE_MATERIAL.get())
+                .unlockedBy("has_transfeminine_material", has(ModItems.TRANSFEMININE_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TRANSMASCULINE_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', ModItems.TRANSMASCULINE_MATERIAL.get())
+                .unlockedBy("has_transmasculine_material", has(ModItems.TRANSMASCULINE_MATERIAL))
+                .save(recipeOutput);
+
 
         //Other Blocks
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.UNKNOWN_MATERIAL_BLOCK.get())
@@ -1004,7 +1074,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("BAB")
                 .pattern("CBC")
                 .define('A', ModItems.BLAHAJ.get())
-                .define('B', Items.ENCHANTED_GOLDEN_APPLE)
+                .define('B', Items.GOLD_BLOCK)
                 .define('C', Items.GOLD_INGOT)
                 .unlockedBy("has_blahaj", has(ModItems.BLAHAJ))
                 .save(recipeOutput);
@@ -1155,6 +1225,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_transgender_flag_block", has(ModBlocks.TRANSGENDER_FLAG_BLOCK))
                 .save(recipeOutput);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.TRANSFEMININE_MATERIAL.get(), 9)
+                .requires(ModBlocks.TRANSFEMININE_FLAG_BLOCK)
+                .unlockedBy("has_transfeminine_flag_block", has(ModBlocks.TRANSFEMININE_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.TRANSMASCULINE_MATERIAL.get(), 9)
+                .requires(ModBlocks.TRANSMASCULINE_FLAG_BLOCK)
+                .unlockedBy("has_transmasculine_flag_block", has(ModBlocks.TRANSMASCULINE_FLAG_BLOCK))
+                .save(recipeOutput);
+
         //Other Blocks
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.UNKNOWN_MATERIAL.get(), 9)
                 .requires(ModBlocks.UNKNOWN_MATERIAL_BLOCK)
@@ -1205,5 +1285,26 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.DEMINONBINARY_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
         stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.GRAYROMANTIC_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
         stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.POLYSEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.TRANSFEMININE_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModItems.TRANSMASCULINE_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
+    }
+
+    //Custom Recipe Changes and Name Space fixes
+    //Furnace
+    protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> ingredients, RecipeCategory category, ItemLike result, float experience, int cookingTime, String group) {
+        oreCooking(recipeOutput, RecipeSerializer.SMELTING_RECIPE, SmeltingRecipe::new, ingredients, category, result, experience, cookingTime, group, "_from_smelting");
+    }
+
+    //Blast Furnace
+    protected static void oreBlasting(RecipeOutput recipeOutput, List<ItemLike> ingredients, RecipeCategory category, ItemLike result, float experience, int cookingTime, String group) {
+        oreCooking(recipeOutput, RecipeSerializer.BLASTING_RECIPE, BlastingRecipe::new, ingredients, category, result, experience, cookingTime, group, "_from_blasting");
+    }
+
+    //Changes the minecraft namespace to the Pride Craft namespace
+    protected static <T extends AbstractCookingRecipe> void oreCooking(RecipeOutput recipeOutput, RecipeSerializer<T> pCookingSerializer, AbstractCookingRecipe.Factory<T> factory, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup, String pRecipeName) {
+        for(ItemLike itemlike : pIngredients) {
+            SimpleCookingRecipeBuilder.generic(Ingredient.of(itemlike), pCategory, pResult, pExperience, pCookingTime, pCookingSerializer, factory).group(pGroup).unlockedBy(getHasName(itemlike), has(itemlike))
+                    .save(recipeOutput, PrideCraft.MODID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemlike));
+        }
     }
 }

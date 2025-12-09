@@ -101,6 +101,12 @@ public class ModTrimMaterials {
     public static final ResourceKey<TrimMaterial> POLYSEXUAL =
             ResourceKey.create(Registries.TRIM_MATERIAL, ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID, "polysexual"));
 
+    public static final ResourceKey<TrimMaterial> TRANSFEMININE =
+            ResourceKey.create(Registries.TRIM_MATERIAL, ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID, "transfeminine"));
+
+    public static final ResourceKey<TrimMaterial> TRANSMASCULINE =
+            ResourceKey.create(Registries.TRIM_MATERIAL, ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID, "transmasculine"));
+
     public static void bootstrap(BootstrapContext<TrimMaterial> context) {
 
         //Name, Item Used, Item Text Color, Item Texture Color
@@ -132,6 +138,8 @@ public class ModTrimMaterials {
         register(context, DEMINONBINARY, ModItems.DEMINONBINARY_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#FBFF74").getOrThrow()), 0.7f);
         register(context, GRAYROMANTIC, ModItems.GRAYROMANTIC_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#087D16").getOrThrow()), 0.7f);
         register(context, POLYSEXUAL, ModItems.POLYSEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#F61CB9").getOrThrow()), 0.7f);
+        register(context, TRANSFEMININE, ModItems.TRANSFEMININE_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#087D16").getOrThrow()), 0.7f);
+        register(context, TRANSMASCULINE, ModItems.TRANSMASCULINE_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#087D16").getOrThrow()), 0.7f);
     }
 
 

@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-03T23:09:27.68738	Item Models: pridecraft
+// 1.21.1	2025-12-06T21:30:40.015810008	Item Models: pridecraft
 400cdb3bcd79d8f99b6bf177d40f8e788fe4ece3 assets/pridecraft/models/item/abrosexual_material.json
 fe85026549dc41257942282a657d8c6a12de4a18 assets/pridecraft/models/item/agender_material.json
 45d8258b2398c107ca1702ce11df7cbe75f9bf30 assets/pridecraft/models/item/aroace_material.json
@@ -12,7 +12,6 @@ b603cf2a7789896a718fa4d3bf8ed930c21e14bf assets/pridecraft/models/item/demigirl_
 afc12a60a6464044ac0421d03b9d5b36fa4059d2 assets/pridecraft/models/item/deminonbinary_material.json
 60723a856ef4eecc19d061560f7cabec52c926e7 assets/pridecraft/models/item/demiromantic_material.json
 d283c48fe0660f20efacfaaf137f013c84192182 assets/pridecraft/models/item/demisexual_material.json
-e0a2a770fbf333e38803a94dfd8eb0e960164af3 assets/pridecraft/models/item/garlic_bread.json
 50ce5820f5d3cfd560fe03113bd5c05034158269 assets/pridecraft/models/item/gay_material.json
 e389df3f220a1ba94f6aef3671f974cc87707cb5 assets/pridecraft/models/item/genderfluid_material.json
 4a4c94cf5c128a98f99b812b403873e4c91e723d assets/pridecraft/models/item/genderflux_material.json
@@ -28,5 +27,7 @@ f5dd6ac8367f6aef48e114e5a53332feeb2f96a2 assets/pridecraft/models/item/lesbian_m
 14cbf51376e695c9dafd5bbcaa3cd008fc7136ba assets/pridecraft/models/item/progress_pride_material.json
 349abbe47ed1b7ab672323bedcb3dc3d9e786c34 assets/pridecraft/models/item/queer_material.json
 35b48749424370f87f73d581bd872b74072f24a8 assets/pridecraft/models/item/rainbow_material.json
+cd011d3e31fb1ba5a30845b5ac6b84734c3a527c assets/pridecraft/models/item/transfeminine_material.json
 2d05743877c16470f37582c1fb38bea7fcb3d054 assets/pridecraft/models/item/transgender_material.json
+d5fb53e96ab1ecf1f933f662ce4fb4d2fcf63e21 assets/pridecraft/models/item/transmasculine_material.json
 bfb261f5078cf14031b17344baa7e78fd60800e1 assets/pridecraft/models/item/unknown_material.json

@@ -56,6 +56,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.DEMINONBINARY_FLAG_BLOCK.get());
         dropSelf(ModBlocks.GRAYROMANTIC_FLAG_BLOCK.get());
         dropSelf(ModBlocks.POLYSEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.TRANSFEMININE_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.TRANSMASCULINE_FLAG_BLOCK.get());
 
         //Mini Flags
         dropSelf(ModBlocks.ABROSEXUAL_MINI_FLAG.get());
@@ -86,6 +88,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.QUEER_MINI_FLAG.get());
         dropSelf(ModBlocks.RAINBOW_MINI_FLAG.get());
         dropSelf(ModBlocks.TRANSGENDER_MINI_FLAG.get());
+        dropSelf(ModBlocks.TRANSFEMININE_MINI_FLAG.get());
+        dropSelf(ModBlocks.TRANSMASCULINE_MINI_FLAG.get());
 
         //Wall Flags
         dropSelf(ModBlocks.ABROSEXUAL_WALL_FLAG.get());
@@ -116,6 +120,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.QUEER_WALL_FLAG.get());
         dropSelf(ModBlocks.RAINBOW_WALL_FLAG.get());
         dropSelf(ModBlocks.TRANSGENDER_WALL_FLAG.get());
+        dropSelf(ModBlocks.TRANSFEMININE_WALL_FLAG.get());
+        dropSelf(ModBlocks.TRANSMASCULINE_WALL_FLAG.get());
 
         //Flag Carpets
         dropSelf(ModBlocks.ABROSEXUAL_FLAG_CARPET.get());
@@ -146,6 +152,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.QUEER_FLAG_CARPET.get());
         dropSelf(ModBlocks.RAINBOW_FLAG_CARPET.get());
         dropSelf(ModBlocks.TRANSGENDER_FLAG_CARPET.get());
+        dropSelf(ModBlocks.TRANSFEMININE_FLAG_CARPET.get());
+        dropSelf(ModBlocks.TRANSMASCULINE_FLAG_CARPET.get());
 
 
         //Other Blocks

@@ -48,6 +48,8 @@ public class ModBlockModelProvider extends BlockStateProvider {
         blockWIthItem(ModBlocks.DEMINONBINARY_FLAG_BLOCK);
         blockWIthItem(ModBlocks.GRAYROMANTIC_FLAG_BLOCK);
         blockWIthItem(ModBlocks.POLYSEXUAL_FLAG_BLOCK);
+        blockWIthItem(ModBlocks.TRANSFEMININE_FLAG_BLOCK);
+        blockWIthItem(ModBlocks.TRANSMASCULINE_FLAG_BLOCK);
 
         //Mini Flags
         customBlockItem(ModBlocks.ABROSEXUAL_MINI_FLAG);
@@ -78,6 +80,8 @@ public class ModBlockModelProvider extends BlockStateProvider {
         customBlockItem(ModBlocks.QUEER_MINI_FLAG);
         customBlockItem(ModBlocks.RAINBOW_MINI_FLAG);
         customBlockItem(ModBlocks.TRANSGENDER_MINI_FLAG);
+        customBlockItem(ModBlocks.TRANSFEMININE_MINI_FLAG);
+        customBlockItem(ModBlocks.TRANSMASCULINE_MINI_FLAG);
 
 
         //Wall Flags
@@ -109,6 +113,8 @@ public class ModBlockModelProvider extends BlockStateProvider {
         customBlockItem(ModBlocks.QUEER_WALL_FLAG);
         customBlockItem(ModBlocks.RAINBOW_WALL_FLAG);
         customBlockItem(ModBlocks.TRANSGENDER_WALL_FLAG);
+        customBlockItem(ModBlocks.TRANSFEMININE_WALL_FLAG);
+        customBlockItem(ModBlocks.TRANSMASCULINE_WALL_FLAG);
 
 
         //Flag Carpets
@@ -140,6 +146,8 @@ public class ModBlockModelProvider extends BlockStateProvider {
         customBlockItem(ModBlocks.QUEER_FLAG_CARPET);
         customBlockItem(ModBlocks.RAINBOW_FLAG_CARPET);
         customBlockItem(ModBlocks.TRANSGENDER_FLAG_CARPET);
+        customBlockItem(ModBlocks.TRANSFEMININE_FLAG_CARPET);
+        customBlockItem(ModBlocks.TRANSMASCULINE_FLAG_CARPET);
 
 
         //Other Blocks

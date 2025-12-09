@@ -80,7 +80,9 @@
         "transgender": "pridecraft:trims/color_palettes/transgender",
         "deminonbinary": "pridecraft:trims/color_palettes/deminonbinary",
         "grayromantic": "pridecraft:trims/color_palettes/grayromantic",
-        "polysexual": "pridecraft:trims/color_palettes/polysexual"
+        "polysexual": "pridecraft:trims/color_palettes/polysexual",
+        "transfeminine": "pridecraft:trims/color_palettes/transfeminine",
+        "transmasculine": "pridecraft:trims/color_palettes/transmasculine"
       }
     }
   ]

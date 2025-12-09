@@ -185,6 +185,16 @@ public class ModBlocks {
                     .strength(0.4f)
                     .sound(SoundType.WOOL)));
 
+    public static final DeferredBlock<Block> TRANSFEMININE_FLAG_BLOCK = registerBlock("transfeminine_flag_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.4f)
+                    .sound(SoundType.WOOL)));
+
+    public static final DeferredBlock<Block> TRANSMASCULINE_FLAG_BLOCK = registerBlock("transmasculine_flag_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.4f)
+                    .sound(SoundType.WOOL)));
+
     //Mini Flags
     public static final DeferredBlock<MiniFlag> ABROSEXUAL_MINI_FLAG = registerBlock("abrosexual_mini_flag",
             () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
@@ -349,6 +359,18 @@ public class ModBlocks {
                     .sound(SoundType.METAL)));
 
     public static final DeferredBlock<MiniFlag> TRANSGENDER_MINI_FLAG = registerBlock("transgender_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final DeferredBlock<MiniFlag> TRANSFEMININE_MINI_FLAG = registerBlock("transfeminine_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final DeferredBlock<MiniFlag> TRANSMASCULINE_MINI_FLAG = registerBlock("transmasculine_mini_flag",
             () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
                     .requiresCorrectToolForDrops()
                     .strength(0.5f)
@@ -523,6 +545,18 @@ public class ModBlocks {
                     .strength(0.5f)
                     .sound(SoundType.METAL)));
 
+    public static final DeferredBlock<WallFlag> TRANSFEMININE_WALL_FLAG = registerBlock("transfeminine_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final DeferredBlock<WallFlag> TRANSMASCULINE_WALL_FLAG = registerBlock("transmasculine_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
     //Flag Carpets
     public static final DeferredBlock<FlagCarpet> ABROSEXUAL_FLAG_CARPET = registerBlock("abrosexual_flag_carpet",
             () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
@@ -660,6 +694,16 @@ public class ModBlocks {
                     .sound(SoundType.WOOL)));
 
     public static final DeferredBlock<FlagCarpet> TRANSGENDER_FLAG_CARPET = registerBlock("transgender_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final DeferredBlock<FlagCarpet> TRANSFEMININE_FLAG_CARPET = registerBlock("transfeminine_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final DeferredBlock<FlagCarpet> TRANSMASCULINE_FLAG_CARPET = registerBlock("transmasculine_flag_carpet",
             () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
                     .strength(0.2f)
                     .sound(SoundType.WOOL)));

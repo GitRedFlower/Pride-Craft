@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:corrupted_flag_block_from_blasting_unknown_material_block"
+        "recipe": "pridecraft:corrupted_flag_block_from_blasting_unknown_material_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:corrupted_flag_block_from_blasting_unknown_material_block"
+      "pridecraft:corrupted_flag_block_from_blasting_unknown_material_block"
     ]
   }
 }

@@ -1,4 +1,4 @@
-// 1.21.1	2025-09-08T22:43:10.7192648	Registries
+// 1.21.1	2025-12-06T21:30:40.01551482	Registries
 d4e8ccc0b74ed87fc13a1f219080713826664efa data/pridecraft/neoforge/biome_modifier/add_unknown_ore.json
 b8b60080af27feced3dcff928493094e350e5a50 data/pridecraft/trim_material/abrosexual.json
 fa463fa652e3b5e3636c9ff3f34aac1f8c5501e1 data/pridecraft/trim_material/agender.json
@@ -27,6 +27,8 @@ edcb2638f86a000c7fa1bb9b1a14ad49d62205aa data/pridecraft/trim_material/pansexual
 e32e7a5ce96a1008670be4a3f2c48bd08a827f24 data/pridecraft/trim_material/progress_pride.json
 8939017e29b48507fa8ef2c6def79a9fb96f582a data/pridecraft/trim_material/queer.json
 e0eaa4d4c1cdbdf2b7fc4593468fe215f05be226 data/pridecraft/trim_material/rainbow.json
+c6b7c78af4ba586b14f55ce2267d332c59238f47 data/pridecraft/trim_material/transfeminine.json
 d09d61a4cfb3a877b3b94aa57fb2bbc8ac034452 data/pridecraft/trim_material/transgender.json
+f1b38b42e3e8255d7fb0e42813ff647c9ebd004b data/pridecraft/trim_material/transmasculine.json
 ae108149c58810080e660e633c701ffd23c63a95 data/pridecraft/worldgen/configured_feature/unknown_ore.json
 92f9e67dc8ec452c1ddf02db9cdac188ce78db8b data/pridecraft/worldgen/placed_feature/unknown_ore_placed.json
