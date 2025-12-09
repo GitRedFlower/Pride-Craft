@@ -2,7 +2,7 @@ package net.redflower.pridecraft;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
@@ -156,7 +156,7 @@ public class ModCreativeModTabs {
     public static final Supplier<CreativeModeTab> PRIDE_CRAFT_ITEMS_TAB = CREATIVE_MODE_TAB.register("pride_craft_items_tab",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModItems.PROGRESS_PRIDE_MATERIAL.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID, "pride_craft_blocks_tab"))
+                    .withTabsBefore(Identifier.fromNamespaceAndPath(PrideCraft.MODID, "pride_craft_blocks_tab"))
                     .title(Component.translatable("creativetab.pridecraft.items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         //Other Things
