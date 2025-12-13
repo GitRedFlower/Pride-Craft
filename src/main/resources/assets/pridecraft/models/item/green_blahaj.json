@@ -2,9 +2,9 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "pridecraft:item/blahaj/golden_blahaj_body",
-		"1": "pridecraft:item/blahaj/golden_blahaj_fins",
-		"particle": "pridecraft:item/blahaj/golden_blahaj_body"
+		"0": "pridecraft:item/blahaj/green_blahaj_body",
+		"1": "pridecraft:item/blahaj/green_blahaj_fins",
+		"particle": "pridecraft:item/blahaj/blue_blahaj_body"
 	},
 	"elements": [
 		{

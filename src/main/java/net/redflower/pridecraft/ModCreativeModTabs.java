@@ -203,7 +203,12 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                         output.accept(ModItems.TRANSMASCULINE_MATERIAL);
 
                         output.accept(ModItems.BLAHAJ);
+                        output.accept(ModItems.BLUE_BLAHAJ);
                         output.accept(ModItems.GOLDEN_BLAHAJ);
+                        output.accept(ModItems.GREEN_BLAHAJ);
+                        output.accept(ModItems.ORANGE_BLAHAJ);
+                        output.accept(ModItems.PURPLE_BLAHAJ);
+                        output.accept(ModItems.RED_BLAHAJ);
                     })
                     .build());
 

@@ -1,5 +1,6 @@
 package net.redflower.pridecraft.item;
 
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
@@ -7,7 +8,6 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.redflower.pridecraft.PrideCraft;
 import net.redflower.pridecraft.item.custom.BlahajItem;
-import net.redflower.pridecraft.item.custom.GoldenBlahajItem;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PrideCraft.MODID);
@@ -111,10 +111,26 @@ public class ModItems {
 
     //Other Items
     public static final DeferredItem<Item> BLAHAJ = ITEMS.register("blahaj",
-            () -> new BlahajItem(new Item.Properties().rarity(Rarity.RARE)));
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.RARE).stacksTo(1), MobEffects.DAMAGE_RESISTANCE, 0));
 
     public static final DeferredItem<Item> GOLDEN_BLAHAJ = ITEMS.register("golden_blahaj",
-            () -> new GoldenBlahajItem(new Item.Properties().rarity(Rarity.EPIC)));
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1), MobEffects.DAMAGE_RESISTANCE, 1));
+
+    public static final DeferredItem<Item> ORANGE_BLAHAJ = ITEMS.register("orange_blahaj",
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1), MobEffects.FIRE_RESISTANCE, 0));
+
+    public static final DeferredItem<Item> BLUE_BLAHAJ = ITEMS.register("blue_blahaj",
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1), MobEffects.WATER_BREATHING, 0));
+
+    public static final DeferredItem<Item> RED_BLAHAJ = ITEMS.register("red_blahaj",
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1), MobEffects.HEALTH_BOOST, 0));
+
+    public static final DeferredItem<Item> GREEN_BLAHAJ = ITEMS.register("green_blahaj",
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1), MobEffects.MOVEMENT_SPEED, 0));
+
+    public static final DeferredItem<Item> PURPLE_BLAHAJ = ITEMS.register("purple_blahaj",
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1), MobEffects.DIG_SPEED, 0));
+
 
     //Registers The Items. DO NOT TOUCH!!!
     public static void register(IEventBus eventBus) {

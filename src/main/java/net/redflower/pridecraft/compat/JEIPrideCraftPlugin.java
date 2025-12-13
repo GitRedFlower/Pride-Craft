@@ -24,5 +24,10 @@ public class JEIPrideCraftPlugin implements IModPlugin {
     public void registerRecipes(IRecipeRegistration registration) {
         registration.addIngredientInfo(new ItemStack(ModItems.BLAHAJ.get()), VanillaTypes.ITEM_STACK, ModTextInfo.getInformation("jei.info.blahaj"));
         registration.addIngredientInfo(new ItemStack(ModItems.GOLDEN_BLAHAJ.get()), VanillaTypes.ITEM_STACK, ModTextInfo.getInformation("jei.info.golden_blahaj"));
+        registration.addIngredientInfo(new ItemStack(ModItems.ORANGE_BLAHAJ.get()), VanillaTypes.ITEM_STACK, ModTextInfo.getInformation("jei.info.orange_blahaj"));
+        registration.addIngredientInfo(new ItemStack(ModItems.BLUE_BLAHAJ.get()), VanillaTypes.ITEM_STACK, ModTextInfo.getInformation("jei.info.blue_blahaj"));
+        registration.addIngredientInfo(new ItemStack(ModItems.RED_BLAHAJ.get()), VanillaTypes.ITEM_STACK, ModTextInfo.getInformation("jei.info.red_blahaj"));
+        registration.addIngredientInfo(new ItemStack(ModItems.GREEN_BLAHAJ.get()), VanillaTypes.ITEM_STACK, ModTextInfo.getInformation("jei.info.green_blahaj"));
+        registration.addIngredientInfo(new ItemStack(ModItems.PURPLE_BLAHAJ.get()), VanillaTypes.ITEM_STACK, ModTextInfo.getInformation("jei.info.purple_blahaj"));
     }
 }

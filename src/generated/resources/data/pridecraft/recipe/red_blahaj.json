@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "pridecraft:blahaj"
+    },
+    "B": {
+      "item": "minecraft:ghast_tear"
+    },
+    "C": {
+      "item": "minecraft:nether_wart_block"
+    }
+  },
+  "pattern": [
+    "CBC",
+    "BAB",
+    "CBC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pridecraft:red_blahaj"
+  }
+}

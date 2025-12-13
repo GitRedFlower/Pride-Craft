@@ -4,7 +4,7 @@
 	"textures": {
 		"0": "pridecraft:item/blahaj/blahaj_body",
 		"1": "pridecraft:item/blahaj/blahaj_fins",
-		"particle": "blahaj_body"
+		"particle": "pridecraft:item/blahaj/blahaj_body"
 	},
 	"elements": [
 		{
@@ -204,10 +204,12 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 8, 5.25]
+			"rotation": [100, 0, 0],
+			"translation": [0, 0.5, 6]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 8, 5.25]
+			"rotation": [100, 0, 0],
+			"translation": [0, 0.5, 6]
 		},
 		"firstperson_righthand": {
 			"translation": [0, 8, 0]

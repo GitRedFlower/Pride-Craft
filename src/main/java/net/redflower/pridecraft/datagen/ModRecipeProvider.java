@@ -1069,6 +1069,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_corrupted_flag_material", has(ModItems.CORRUPTED_FLAG_MATERIAL))
                 .save(recipeOutput);
 
+        //Other Items
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GOLDEN_BLAHAJ.get())
                 .pattern("CBC")
                 .pattern("BAB")
@@ -1076,6 +1077,56 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.BLAHAJ.get())
                 .define('B', Items.GOLD_BLOCK)
                 .define('C', Items.GOLD_INGOT)
+                .unlockedBy("has_blahaj", has(ModItems.BLAHAJ))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ORANGE_BLAHAJ.get())
+                .pattern("CBC")
+                .pattern("BAB")
+                .pattern("CBC")
+                .define('A', ModItems.BLAHAJ.get())
+                .define('B', Items.MAGMA_BLOCK)
+                .define('C', Items.MAGMA_CREAM)
+                .unlockedBy("has_blahaj", has(ModItems.BLAHAJ))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BLUE_BLAHAJ.get())
+                .pattern("CBC")
+                .pattern("BAB")
+                .pattern("CBC")
+                .define('A', ModItems.BLAHAJ.get())
+                .define('B', Items.NAUTILUS_SHELL)
+                .define('C', Items.SPONGE)
+                .unlockedBy("has_blahaj", has(ModItems.BLAHAJ))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RED_BLAHAJ.get())
+                .pattern("CBC")
+                .pattern("BAB")
+                .pattern("CBC")
+                .define('A', ModItems.BLAHAJ.get())
+                .define('B', Items.GHAST_TEAR)
+                .define('C', Items.NETHER_WART_BLOCK)
+                .unlockedBy("has_blahaj", has(ModItems.BLAHAJ))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GREEN_BLAHAJ.get())
+                .pattern("CBC")
+                .pattern("BAB")
+                .pattern("CBC")
+                .define('A', ModItems.BLAHAJ.get())
+                .define('B', Items.SUGAR)
+                .define('C', Items.EMERALD_BLOCK)
+                .unlockedBy("has_blahaj", has(ModItems.BLAHAJ))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PURPLE_BLAHAJ.get())
+                .pattern("CBC")
+                .pattern("BAB")
+                .pattern("CBC")
+                .define('A', ModItems.BLAHAJ.get())
+                .define('B', Items.AMETHYST_CLUSTER)
+                .define('C', Items.AMETHYST_BLOCK)
                 .unlockedBy("has_blahaj", has(ModItems.BLAHAJ))
                 .save(recipeOutput);
 
