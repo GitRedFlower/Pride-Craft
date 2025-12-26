@@ -46,7 +46,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.TRANSGENDER_FLAG_BLOCK.get())
                 .add(ModBlocks.DEMINONBINARY_FLAG_BLOCK.get())
                 .add(ModBlocks.GRAYROMANTIC_FLAG_BLOCK.get())
-                .add(ModBlocks.POLYSEXUAL_FLAG_BLOCK.get());
+                .add(ModBlocks.POLYSEXUAL_FLAG_BLOCK.get())
+                .add(ModBlocks.TRANSMASCULINE_FLAG_BLOCK.get())
+                .add(ModBlocks.TRANSMASCULINE_FLAG_BLOCK.get());
 
         //Needs Pickaxe
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
@@ -81,7 +83,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.PROGRESS_PRIDE_MINI_FLAG.get())
                 .add(ModBlocks.QUEER_MINI_FLAG.get())
                 .add(ModBlocks.RAINBOW_MINI_FLAG.get())
+                .add(ModBlocks.TRANSFEMININE_MINI_FLAG.get())
                 .add(ModBlocks.TRANSGENDER_MINI_FLAG.get())
+                .add(ModBlocks.TRANSMASCULINE_MINI_FLAG.get())
                 .add(ModBlocks.ABROSEXUAL_WALL_FLAG.get())
                 .add(ModBlocks.AGENDER_WALL_FLAG.get())
                 .add(ModBlocks.AROACE_WALL_FLAG.get())
@@ -109,7 +113,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.PROGRESS_PRIDE_WALL_FLAG.get())
                 .add(ModBlocks.QUEER_WALL_FLAG.get())
                 .add(ModBlocks.RAINBOW_WALL_FLAG.get())
-                .add(ModBlocks.TRANSGENDER_WALL_FLAG.get());
+                .add(ModBlocks.TRANSFEMININE_WALL_FLAG.get())
+                .add(ModBlocks.TRANSGENDER_WALL_FLAG.get())
+                .add(ModBlocks.TRANSMASCULINE_WALL_FLAG.get());
 
 
         //Stone Level
@@ -148,7 +154,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.PROGRESS_PRIDE_MINI_FLAG.get())
                 .add(ModBlocks.QUEER_MINI_FLAG.get())
                 .add(ModBlocks.RAINBOW_MINI_FLAG.get())
+                .add(ModBlocks.TRANSFEMININE_MINI_FLAG.get())
                 .add(ModBlocks.TRANSGENDER_MINI_FLAG.get())
+                .add(ModBlocks.TRANSMASCULINE_MINI_FLAG.get())
                 .add(ModBlocks.ABROSEXUAL_WALL_FLAG.get())
                 .add(ModBlocks.AGENDER_WALL_FLAG.get())
                 .add(ModBlocks.AROACE_WALL_FLAG.get())
@@ -176,7 +184,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.PROGRESS_PRIDE_WALL_FLAG.get())
                 .add(ModBlocks.QUEER_WALL_FLAG.get())
                 .add(ModBlocks.RAINBOW_WALL_FLAG.get())
-                .add(ModBlocks.TRANSGENDER_WALL_FLAG.get());
+                .add(ModBlocks.TRANSFEMININE_WALL_FLAG.get())
+                .add(ModBlocks.TRANSGENDER_WALL_FLAG.get())
+                .add(ModBlocks.TRANSMASCULINE_WALL_FLAG.get());
     }
 
 }

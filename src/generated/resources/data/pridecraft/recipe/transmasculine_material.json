@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "pridecraft:transmasculine_flag_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "pridecraft:transmasculine_material"
+  }
+}

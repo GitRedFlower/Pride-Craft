@@ -31,7 +31,9 @@
     "pridecraft:progress_pride_mini_flag",
     "pridecraft:queer_mini_flag",
     "pridecraft:rainbow_mini_flag",
+    "pridecraft:transfeminine_mini_flag",
     "pridecraft:transgender_mini_flag",
+    "pridecraft:transmasculine_mini_flag",
     "pridecraft:abrosexual_wall_flag",
     "pridecraft:agender_wall_flag",
     "pridecraft:aroace_wall_flag",
@@ -59,6 +61,8 @@
     "pridecraft:progress_pride_wall_flag",
     "pridecraft:queer_wall_flag",
     "pridecraft:rainbow_wall_flag",
-    "pridecraft:transgender_wall_flag"
+    "pridecraft:transfeminine_wall_flag",
+    "pridecraft:transgender_wall_flag",
+    "pridecraft:transmasculine_wall_flag"
   ]
 }

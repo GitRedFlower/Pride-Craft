@@ -3,11 +3,14 @@ package net.redflower.pridecraft.item;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.redflower.pridecraft.PrideCraft;
+import net.redflower.pridecraft.item.custom.BlahajItem;
 
 public class ModItems {
 
@@ -134,6 +137,50 @@ public class ModItems {
     public static final DeferredItem<Item> POLYSEXUAL_MATERIAL = ITEMS.register("polysexual_material",
             () -> new Item(new Item.Properties()
                     .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "polysexual_material")))));
+
+    public static final DeferredItem<Item> TRANSFEMININE_MATERIAL = ITEMS.register("transfeminine_material",
+            () -> new Item(new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "transfeminine_material")))));
+
+    public static final DeferredItem<Item> TRANSMASCULINE_MATERIAL = ITEMS.register("transmasculine_material",
+            () -> new Item(new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "transmasculine_material")))));
+
+    //Other Items
+    public static final DeferredItem<Item> BLAHAJ = ITEMS.register("blahaj",
+            () -> new BlahajItem(new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "blahaj")))
+                    .rarity(Rarity.RARE).stacksTo(1), MobEffects.RESISTANCE, 0));
+
+    public static final DeferredItem<Item> GOLDEN_BLAHAJ = ITEMS.register("golden_blahaj",
+            () -> new BlahajItem(new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "golden_blahaj")))
+                    .rarity(Rarity.EPIC).stacksTo(1), MobEffects.RESISTANCE, 1));
+
+    public static final DeferredItem<Item> ORANGE_BLAHAJ = ITEMS.register("orange_blahaj",
+            () -> new BlahajItem(new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "orange_blahaj")))
+                    .rarity(Rarity.EPIC).stacksTo(1), MobEffects.FIRE_RESISTANCE, 0));
+
+    public static final DeferredItem<Item> BLUE_BLAHAJ = ITEMS.register("blue_blahaj",
+            () -> new BlahajItem(new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "blue_blahaj")))
+                    .rarity(Rarity.EPIC).stacksTo(1), MobEffects.WATER_BREATHING, 0));
+
+    public static final DeferredItem<Item> RED_BLAHAJ = ITEMS.register("red_blahaj",
+            () -> new BlahajItem(new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "red_blahaj")))
+                    .rarity(Rarity.EPIC).stacksTo(1), MobEffects.HEALTH_BOOST, 0));
+
+    public static final DeferredItem<Item> GREEN_BLAHAJ = ITEMS.register("green_blahaj",
+            () -> new BlahajItem(new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "green_blahaj")))
+                    .rarity(Rarity.EPIC).stacksTo(1), MobEffects.SPEED, 0));
+
+    public static final DeferredItem<Item> PURPLE_BLAHAJ = ITEMS.register("purple_blahaj",
+            () -> new BlahajItem(new Item.Properties()
+                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "purple_blahaj")))
+                    .rarity(Rarity.EPIC).stacksTo(1), MobEffects.HASTE, 0));
 
 
     //Registers The Items. DO NOT TOUCH!!!

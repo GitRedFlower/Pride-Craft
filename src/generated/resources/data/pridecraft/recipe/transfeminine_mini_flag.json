@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "pridecraft:transfeminine_material",
+    "B": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "BAA",
+    "B  ",
+    "B  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "pridecraft:transfeminine_mini_flag"
+  }
+}

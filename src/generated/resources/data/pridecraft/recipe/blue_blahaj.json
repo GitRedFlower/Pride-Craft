@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "pridecraft:blahaj",
+    "B": "minecraft:nautilus_shell",
+    "C": "minecraft:sponge"
+  },
+  "pattern": [
+    "CBC",
+    "BAB",
+    "CBC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pridecraft:blue_blahaj"
+  }
+}

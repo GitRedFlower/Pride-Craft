@@ -46,6 +46,8 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.PROGRESS_PRIDE_MATERIAL.get())
                 .add(ModItems.QUEER_MATERIAL.get())
                 .add(ModItems.RAINBOW_MATERIAL.get())
-                .add(ModItems.TRANSGENDER_MATERIAL.get());
+                .add(ModItems.TRANSFEMININE_MATERIAL.get())
+                .add(ModItems.TRANSGENDER_MATERIAL.get())
+                .add(ModItems.TRANSMASCULINE_MATERIAL.get());
     }
 }

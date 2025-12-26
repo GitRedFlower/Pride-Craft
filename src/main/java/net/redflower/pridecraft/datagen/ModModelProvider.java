@@ -59,6 +59,8 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(ModItems.RAINBOW_MATERIAL.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.TRANSGENDER_MATERIAL.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.DEMINONBINARY_MATERIAL.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.TRANSFEMININE_MATERIAL.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.TRANSMASCULINE_MATERIAL.get(), ModelTemplates.FLAT_ITEM);
 
         //Blocks
         //Unknown Ores
@@ -98,6 +100,8 @@ public class ModModelProvider extends ModelProvider {
         blockModels.createTrivialCube(ModBlocks.QUEER_FLAG_BLOCK.get());
         blockModels.createTrivialCube(ModBlocks.RAINBOW_FLAG_BLOCK.get());
         blockModels.createTrivialCube(ModBlocks.TRANSGENDER_FLAG_BLOCK.get());
+        blockModels.createTrivialCube(ModBlocks.TRANSFEMININE_FLAG_BLOCK.get());
+        blockModels.createTrivialCube(ModBlocks.TRANSMASCULINE_FLAG_BLOCK.get());
 
     }
 
@@ -133,6 +137,8 @@ public class ModModelProvider extends ModelProvider {
                 .filter(x -> !x.is(ModBlocks.QUEER_MINI_FLAG))
                 .filter(x -> !x.is(ModBlocks.RAINBOW_MINI_FLAG))
                 .filter(x -> !x.is(ModBlocks.TRANSGENDER_MINI_FLAG))
+                .filter(x -> !x.is(ModBlocks.TRANSFEMININE_MINI_FLAG))
+                .filter(x -> !x.is(ModBlocks.TRANSMASCULINE_MINI_FLAG))
                 .filter(x -> !x.is(ModBlocks.ABROSEXUAL_WALL_FLAG))
                 .filter(x -> !x.is(ModBlocks.AGENDER_WALL_FLAG))
                 .filter(x -> !x.is(ModBlocks.AROACE_WALL_FLAG))
@@ -161,6 +167,8 @@ public class ModModelProvider extends ModelProvider {
                 .filter(x -> !x.is(ModBlocks.QUEER_WALL_FLAG))
                 .filter(x -> !x.is(ModBlocks.RAINBOW_WALL_FLAG))
                 .filter(x -> !x.is(ModBlocks.TRANSGENDER_WALL_FLAG))
+                .filter(x -> !x.is(ModBlocks.TRANSFEMININE_WALL_FLAG))
+                .filter(x -> !x.is(ModBlocks.TRANSMASCULINE_WALL_FLAG))
                 .filter(x -> !x.is(ModBlocks.ABROSEXUAL_FLAG_CARPET))
                 .filter(x -> !x.is(ModBlocks.AGENDER_FLAG_CARPET))
                 .filter(x -> !x.is(ModBlocks.AROACE_FLAG_CARPET))
@@ -188,7 +196,9 @@ public class ModModelProvider extends ModelProvider {
                 .filter(x -> !x.is(ModBlocks.PROGRESS_PRIDE_FLAG_CARPET))
                 .filter(x -> !x.is(ModBlocks.QUEER_FLAG_CARPET))
                 .filter(x -> !x.is(ModBlocks.RAINBOW_FLAG_CARPET))
-                .filter(x -> !x.is(ModBlocks.TRANSGENDER_FLAG_CARPET));
+                .filter(x -> !x.is(ModBlocks.TRANSGENDER_FLAG_CARPET))
+                .filter(x -> !x.is(ModBlocks.TRANSFEMININE_FLAG_CARPET))
+                .filter(x -> !x.is(ModBlocks.TRANSMASCULINE_FLAG_CARPET));
     }
 
     //Figure out how to check for the Mini Flags/ any custom-made blockstates or stuff
@@ -223,6 +233,8 @@ public class ModModelProvider extends ModelProvider {
                 .filter(x -> x.get() != ModBlocks.QUEER_MINI_FLAG.asItem())
                 .filter(x -> x.get() != ModBlocks.RAINBOW_MINI_FLAG.asItem())
                 .filter(x -> x.get() != ModBlocks.TRANSGENDER_MINI_FLAG.asItem())
+                .filter(x -> x.get() != ModBlocks.TRANSFEMININE_MINI_FLAG.asItem())
+                .filter(x -> x.get() != ModBlocks.TRANSMASCULINE_MINI_FLAG.asItem())
                 .filter(x -> x.get() != ModBlocks.ABROSEXUAL_WALL_FLAG.asItem())
                 .filter(x -> x.get() != ModBlocks.AGENDER_WALL_FLAG.asItem())
                 .filter(x -> x.get() != ModBlocks.AROACE_WALL_FLAG.asItem())
@@ -251,6 +263,8 @@ public class ModModelProvider extends ModelProvider {
                 .filter(x -> x.get() != ModBlocks.QUEER_WALL_FLAG.asItem())
                 .filter(x -> x.get() != ModBlocks.RAINBOW_WALL_FLAG.asItem())
                 .filter(x -> x.get() != ModBlocks.TRANSGENDER_WALL_FLAG.asItem())
+                .filter(x -> x.get() != ModBlocks.TRANSFEMININE_WALL_FLAG.asItem())
+                .filter(x -> x.get() != ModBlocks.TRANSMASCULINE_WALL_FLAG.asItem())
                 .filter(x -> x.get() != ModBlocks.ABROSEXUAL_FLAG_CARPET.asItem())
                 .filter(x -> x.get() != ModBlocks.AGENDER_FLAG_CARPET.asItem())
                 .filter(x -> x.get() != ModBlocks.AROACE_FLAG_CARPET.asItem())
@@ -278,6 +292,15 @@ public class ModModelProvider extends ModelProvider {
                 .filter(x -> x.get() != ModBlocks.PROGRESS_PRIDE_FLAG_CARPET.asItem())
                 .filter(x -> x.get() != ModBlocks.QUEER_FLAG_CARPET.asItem())
                 .filter(x -> x.get() != ModBlocks.RAINBOW_FLAG_CARPET.asItem())
-                .filter(x -> x.get() != ModBlocks.TRANSGENDER_FLAG_CARPET.asItem());
+                .filter(x -> x.get() != ModBlocks.TRANSGENDER_FLAG_CARPET.asItem())
+                .filter(x -> x.get() != ModBlocks.TRANSFEMININE_FLAG_CARPET.asItem())
+                .filter(x -> x.get() != ModBlocks.TRANSMASCULINE_FLAG_CARPET.asItem())
+                .filter(x -> x.get() != ModItems.BLAHAJ.asItem())
+                .filter(x -> x.get() != ModItems.BLUE_BLAHAJ.asItem())
+                .filter(x -> x.get() != ModItems.GOLDEN_BLAHAJ.asItem())
+                .filter(x -> x.get() != ModItems.GREEN_BLAHAJ.asItem())
+                .filter(x -> x.get() != ModItems.ORANGE_BLAHAJ.asItem())
+                .filter(x -> x.get() != ModItems.PURPLE_BLAHAJ.asItem())
+                .filter(x -> x.get() != ModItems.RED_BLAHAJ.asItem());
     }
 }
