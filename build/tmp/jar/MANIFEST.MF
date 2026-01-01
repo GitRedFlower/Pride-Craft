@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: pridecraft
+Specification-Vendor: Red_Flower
+Specification-Version: 1
+Implementation-Title: Pride-Craft
+Implementation-Version: 2.3.0
+Implementation-Vendor: Red_Flower
+Implementation-Timestamp: 2026-01-01T14:57:10-0500
+
