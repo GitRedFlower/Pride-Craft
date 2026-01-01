@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "pridecraft:block/demiromantic_flag_block"
-  }
-}

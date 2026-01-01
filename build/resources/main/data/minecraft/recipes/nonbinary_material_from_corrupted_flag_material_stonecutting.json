@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 8,
   "ingredient": {
-    "item": "pridecraft:corrupted_flag_material"
+    "item": "pride_craft:corrupted_flag_material"
   },
-  "result": "pridecraft:nonbinary_material"
+  "result": "pride_craft:nonbinary_material"
 }

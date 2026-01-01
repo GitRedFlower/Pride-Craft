@@ -11,11 +11,5 @@
     },
     "done": false
   },
-  "pridecraft:recipes/misc/demigirl_flag_block": {
-    "criteria": {
-      "has_demigirl_material": "2026-01-01 16:22:14 -0500"
-    },
-    "done": true
-  },
   "DataVersion": 3465
 }

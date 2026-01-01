@@ -1,0 +1,84 @@
+package net.redflower.pride_craft.datagen;
+
+import net.minecraft.data.loot.BlockLootSubProvider;
+import net.minecraft.world.flag.FeatureFlags;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.enchantment.Enchantments;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.storage.loot.LootTable;
+import net.minecraft.world.level.storage.loot.entries.LootItem;
+import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
+import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
+import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
+import net.minecraftforge.registries.RegistryObject;
+import net.redflower.pride_craft.block.ModBlocks;
+import net.redflower.pride_craft.item.ModItems;
+
+import java.util.Set;
+
+public class ModBlockLootTables extends BlockLootSubProvider {
+    public ModBlockLootTables() {
+        super(Set.of(), FeatureFlags.REGISTRY.allFlags());
+    }
+
+    @Override
+    protected void generate() {
+        //Flag Blocks
+        dropSelf(ModBlocks.ABROSEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.AGENDER_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.AROACE_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.AROMANTIC_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.ASEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.BIGENDER_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.BISEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.DEMIBOY_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.DEMIGIRL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.DEMIROMANTIC_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.DEMISEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.GAY_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.GENDERFLUID_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.GENDERFLUX_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.GENDERQUEER_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.GRAYSEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.INTERSEX_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.LESBIAN_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.NONBINARY_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.OMNISEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.PANSEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.PROGRESS_PRIDE_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.QUEER_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.RAINBOW_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.TRANSGENDER_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.DEMINONBINARY_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.GRAYROMANTIC_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.POLYSEXUAL_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.TRANSFEMININE_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.TRANSMASCULINE_FLAG_BLOCK.get());
+
+        //Other Blocks
+        //Ores
+        add(ModBlocks.UNKNOWN_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,8));
+        add(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,8));
+
+        //Storage Blocks
+        dropSelf(ModBlocks.UNKNOWN_MATERIAL_BLOCK.get());
+        dropSelf(ModBlocks.CORRUPTED_FLAG_BLOCK.get());
+    }
+
+    protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
+        return createSilkTouchDispatchTable(pBlock,
+                this.applyExplosionDecay(pBlock,
+                        LootItem.lootTableItem(item)
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(minDrops, maxDrops)))
+                                .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))));
+    }
+
+
+
+    @Override
+    protected Iterable<Block> getKnownBlocks() {
+        return ModBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
+    }
+}

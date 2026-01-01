@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "rainbow",
+  "ingredient": {
+    "item": "pride_craft:unknown_ore"
+  },
+  "result": "pride_craft:corrupted_flag_material"
+}

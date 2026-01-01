@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pride_craft:corrupted_flag_block_from_smelting_unknown_material_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_unknown_material_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pride_craft:unknown_material_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_unknown_material_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pride_craft:corrupted_flag_block_from_smelting_unknown_material_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

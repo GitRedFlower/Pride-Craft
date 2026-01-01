@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pride_craft:block/grayromantic_flag_block"
+  }
+}
