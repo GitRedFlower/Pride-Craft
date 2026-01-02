@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.redflower.pride_craft.PrideCraft;
+import net.redflower.pride_craft.block.custom.FlagCarpet;
 import net.redflower.pride_craft.item.ModItems;
 
 import java.util.function.Supplier;
@@ -193,7 +194,159 @@ public class ModBlocks {
                     .strength(0.4f)
                     .sound(SoundType.WOOL)));
 
+    //Flag Carpets
+    public static final RegistryObject<FlagCarpet> ABROSEXUAL_FLAG_CARPET = registerBlock("abrosexual_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
 
+    public static final RegistryObject<FlagCarpet> AGENDER_FLAG_CARPET = registerBlock("agender_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> AROACE_FLAG_CARPET = registerBlock("aroace_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> AROMANTIC_FLAG_CARPET = registerBlock("aromantic_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> ASEXUAL_FLAG_CARPET = registerBlock("asexual_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> BIGENDER_FLAG_CARPET = registerBlock("bigender_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> BISEXUAL_FLAG_CARPET = registerBlock("bisexual_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> DEMIBOY_FLAG_CARPET = registerBlock("demiboy_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> DEMIGIRL_FLAG_CARPET = registerBlock("demigirl_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> DEMINONBINARY_FLAG_CARPET = registerBlock("deminonbinary_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> DEMIROMANTIC_FLAG_CARPET = registerBlock("demiromantic_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> DEMISEXUAL_FLAG_CARPET = registerBlock("demisexual_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> GAY_FLAG_CARPET = registerBlock("gay_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> GENDERFLUID_FLAG_CARPET = registerBlock("genderfluid_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> GENDERFLUX_FLAG_CARPET = registerBlock("genderflux_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> GENDERQUEER_FLAG_CARPET = registerBlock("genderqueer_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> GRAYROMANTIC_FLAG_CARPET = registerBlock("grayromantic_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> GRAYSEXUAL_FLAG_CARPET = registerBlock("graysexual_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> INTERSEX_FLAG_CARPET = registerBlock("intersex_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> LESBIAN_FLAG_CARPET = registerBlock("lesbian_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> NONBINARY_FLAG_CARPET = registerBlock("nonbinary_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> OMNISEXUAL_FLAG_CARPET = registerBlock("omnisexual_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> PANSEXUAL_FLAG_CARPET = registerBlock("pansexual_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> POLYSEXUAL_FLAG_CARPET = registerBlock("polysexual_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> PROGRESS_PRIDE_FLAG_CARPET = registerBlock("progress_pride_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> QUEER_FLAG_CARPET = registerBlock("queer_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> RAINBOW_FLAG_CARPET = registerBlock("rainbow_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> TRANSGENDER_FLAG_CARPET = registerBlock("transgender_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> TRANSFEMININE_FLAG_CARPET = registerBlock("transfeminine_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<FlagCarpet> TRANSMASCULINE_FLAG_CARPET = registerBlock("transmasculine_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
+
+    //Extra Stuff
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
