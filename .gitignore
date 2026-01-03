@@ -5,6 +5,6 @@
 /httpRequests/
 /.gradle
 /.idea
-./run
-./run-data
-./build
+/run
+/run-data
+/build
