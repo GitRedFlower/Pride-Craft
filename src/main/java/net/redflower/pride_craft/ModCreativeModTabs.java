@@ -90,6 +90,38 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.TRANSFEMININE_FLAG_CARPET.get());
                         output.accept(ModBlocks.TRANSGENDER_FLAG_CARPET.get());
                         output.accept(ModBlocks.TRANSMASCULINE_FLAG_CARPET.get());
+
+                        //Wall Flags
+                        output.accept(ModBlocks.ABROSEXUAL_WALL_FLAG.get());
+                        output.accept(ModBlocks.AGENDER_WALL_FLAG.get());
+                        output.accept(ModBlocks.AROACE_WALL_FLAG.get());
+                        output.accept(ModBlocks.AROMANTIC_WALL_FLAG.get());
+                        output.accept(ModBlocks.ASEXUAL_WALL_FLAG.get());
+                        output.accept(ModBlocks.BIGENDER_WALL_FLAG.get());
+                        output.accept(ModBlocks.BISEXUAL_WALL_FLAG.get());
+                        output.accept(ModBlocks.DEMIBOY_WALL_FLAG.get());
+                        output.accept(ModBlocks.DEMIGIRL_WALL_FLAG.get());
+                        output.accept(ModBlocks.DEMINONBINARY_WALL_FLAG.get());
+                        output.accept(ModBlocks.DEMIROMANTIC_WALL_FLAG.get());
+                        output.accept(ModBlocks.DEMISEXUAL_WALL_FLAG.get());
+                        output.accept(ModBlocks.GAY_WALL_FLAG.get());
+                        output.accept(ModBlocks.GENDERFLUID_WALL_FLAG.get());
+                        output.accept(ModBlocks.GENDERFLUX_WALL_FLAG.get());
+                        output.accept(ModBlocks.GENDERQUEER_WALL_FLAG.get());
+                        output.accept(ModBlocks.GRAYROMANTIC_WALL_FLAG.get());
+                        output.accept(ModBlocks.GRAYSEXUAL_WALL_FLAG.get());
+                        output.accept(ModBlocks.INTERSEX_WALL_FLAG.get());
+                        output.accept(ModBlocks.LESBIAN_WALL_FLAG.get());
+                        output.accept(ModBlocks.NONBINARY_WALL_FLAG.get());
+                        output.accept(ModBlocks.OMNISEXUAL_WALL_FLAG.get());
+                        output.accept(ModBlocks.PANSEXUAL_WALL_FLAG.get());
+                        output.accept(ModBlocks.POLYSEXUAL_WALL_FLAG.get());
+                        output.accept(ModBlocks.PROGRESS_PRIDE_WALL_FLAG.get());
+                        output.accept(ModBlocks.QUEER_WALL_FLAG.get());
+                        output.accept(ModBlocks.RAINBOW_WALL_FLAG.get());
+                        output.accept(ModBlocks.TRANSFEMININE_WALL_FLAG.get());
+                        output.accept(ModBlocks.TRANSGENDER_WALL_FLAG.get());
+                        output.accept(ModBlocks.TRANSMASCULINE_WALL_FLAG.get());
                     })
                     .build());
 

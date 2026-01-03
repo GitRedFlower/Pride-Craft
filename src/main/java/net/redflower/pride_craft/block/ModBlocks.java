@@ -11,6 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.redflower.pride_craft.PrideCraft;
 import net.redflower.pride_craft.block.custom.FlagCarpet;
+import net.redflower.pride_craft.block.custom.WallFlag;
 import net.redflower.pride_craft.item.ModItems;
 
 import java.util.function.Supplier;
@@ -193,6 +194,187 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(0.4f)
                     .sound(SoundType.WOOL)));
+
+    //Wall Flags
+    public static final RegistryObject<WallFlag> ABROSEXUAL_WALL_FLAG = registerBlock("abrosexual_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> AGENDER_WALL_FLAG = registerBlock("agender_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> AROACE_WALL_FLAG = registerBlock("aroace_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> AROMANTIC_WALL_FLAG = registerBlock("aromantic_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> ASEXUAL_WALL_FLAG = registerBlock("asexual_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> BIGENDER_WALL_FLAG = registerBlock("bigender_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> BISEXUAL_WALL_FLAG = registerBlock("bisexual_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> DEMIBOY_WALL_FLAG = registerBlock("demiboy_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> DEMIGIRL_WALL_FLAG = registerBlock("demigirl_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> DEMINONBINARY_WALL_FLAG = registerBlock("deminonbinary_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> DEMIROMANTIC_WALL_FLAG = registerBlock("demiromantic_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> DEMISEXUAL_WALL_FLAG = registerBlock("demisexual_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> GAY_WALL_FLAG = registerBlock("gay_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> GENDERFLUID_WALL_FLAG = registerBlock("genderfluid_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> GENDERFLUX_WALL_FLAG = registerBlock("genderflux_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> GENDERQUEER_WALL_FLAG = registerBlock("genderqueer_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> GRAYROMANTIC_WALL_FLAG = registerBlock("grayromantic_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> GRAYSEXUAL_WALL_FLAG = registerBlock("graysexual_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> INTERSEX_WALL_FLAG = registerBlock("intersex_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> LESBIAN_WALL_FLAG = registerBlock("lesbian_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> NONBINARY_WALL_FLAG = registerBlock("nonbinary_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> OMNISEXUAL_WALL_FLAG = registerBlock("omnisexual_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> PANSEXUAL_WALL_FLAG = registerBlock("pansexual_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> POLYSEXUAL_WALL_FLAG = registerBlock("polysexual_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> PROGRESS_PRIDE_WALL_FLAG = registerBlock("progress_pride_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> QUEER_WALL_FLAG = registerBlock("queer_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> RAINBOW_WALL_FLAG = registerBlock("rainbow_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> TRANSGENDER_WALL_FLAG = registerBlock("transgender_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> TRANSFEMININE_WALL_FLAG = registerBlock("transfeminine_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<WallFlag> TRANSMASCULINE_WALL_FLAG = registerBlock("transmasculine_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
 
     //Flag Carpets
     public static final RegistryObject<FlagCarpet> ABROSEXUAL_FLAG_CARPET = registerBlock("abrosexual_flag_carpet",
