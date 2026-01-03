@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pride_craft:block/bigender_flag_carpet",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "pride_craft:block/bigender_flag_carpet"
+    },
+    "facing=east": {
+      "model": "pride_craft:block/bigender_flag_carpet",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "pride_craft:block/bigender_flag_carpet",
+      "y": 90
+    }
+  }
+}
