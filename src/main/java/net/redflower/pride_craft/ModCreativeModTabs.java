@@ -91,6 +91,38 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.TRANSGENDER_FLAG_CARPET.get());
                         output.accept(ModBlocks.TRANSMASCULINE_FLAG_CARPET.get());
 
+                        //Mini Flags
+                        output.accept(ModBlocks.ABROSEXUAL_MINI_FLAG.get());
+                        output.accept(ModBlocks.AGENDER_MINI_FLAG.get());
+                        output.accept(ModBlocks.AROACE_MINI_FLAG.get());
+                        output.accept(ModBlocks.AROMANTIC_MINI_FLAG.get());
+                        output.accept(ModBlocks.ASEXUAL_MINI_FLAG.get());
+                        output.accept(ModBlocks.BIGENDER_MINI_FLAG.get());
+                        output.accept(ModBlocks.BISEXUAL_MINI_FLAG.get());
+                        output.accept(ModBlocks.DEMIBOY_MINI_FLAG.get());
+                        output.accept(ModBlocks.DEMIGIRL_MINI_FLAG.get());
+                        output.accept(ModBlocks.DEMINONBINARY_MINI_FLAG.get());
+                        output.accept(ModBlocks.DEMIROMANTIC_MINI_FLAG.get());
+                        output.accept(ModBlocks.DEMISEXUAL_MINI_FLAG.get());
+                        output.accept(ModBlocks.GAY_MINI_FLAG.get());
+                        output.accept(ModBlocks.GENDERFLUID_MINI_FLAG.get());
+                        output.accept(ModBlocks.GENDERFLUX_MINI_FLAG.get());
+                        output.accept(ModBlocks.GENDERQUEER_MINI_FLAG.get());
+                        output.accept(ModBlocks.GRAYROMANTIC_MINI_FLAG.get());
+                        output.accept(ModBlocks.GRAYSEXUAL_MINI_FLAG.get());
+                        output.accept(ModBlocks.INTERSEX_MINI_FLAG.get());
+                        output.accept(ModBlocks.LESBIAN_MINI_FLAG.get());
+                        output.accept(ModBlocks.NONBINARY_MINI_FLAG.get());
+                        output.accept(ModBlocks.OMNISEXUAL_MINI_FLAG.get());
+                        output.accept(ModBlocks.PANSEXUAL_MINI_FLAG.get());
+                        output.accept(ModBlocks.POLYSEXUAL_MINI_FLAG.get());
+                        output.accept(ModBlocks.PROGRESS_PRIDE_MINI_FLAG.get());
+                        output.accept(ModBlocks.QUEER_MINI_FLAG.get());
+                        output.accept(ModBlocks.RAINBOW_MINI_FLAG.get());
+                        output.accept(ModBlocks.TRANSFEMININE_MINI_FLAG.get());
+                        output.accept(ModBlocks.TRANSGENDER_MINI_FLAG.get());
+                        output.accept(ModBlocks.TRANSMASCULINE_MINI_FLAG.get());
+
                         //Wall Flags
                         output.accept(ModBlocks.ABROSEXUAL_WALL_FLAG.get());
                         output.accept(ModBlocks.AGENDER_WALL_FLAG.get());

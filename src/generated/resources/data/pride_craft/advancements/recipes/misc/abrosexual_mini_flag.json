@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_abrosexual_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pride_craft:abrosexual_material"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pride_craft:abrosexual_mini_flag"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_abrosexual_material",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pride_craft:abrosexual_mini_flag"
+    ]
+  },
+  "sends_telemetry_event": false
+}

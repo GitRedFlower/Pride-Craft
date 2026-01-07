@@ -12,6 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.redflower.pride_craft.PrideCraft;
 import net.redflower.pride_craft.block.custom.FlagCarpet;
 import net.redflower.pride_craft.block.custom.WallFlag;
+import net.redflower.pride_craft.block.custom.MiniFlag;
 import net.redflower.pride_craft.item.ModItems;
 
 import java.util.function.Supplier;
@@ -194,6 +195,187 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(0.4f)
                     .sound(SoundType.WOOL)));
+
+    //Mini Flags
+    public static final RegistryObject<MiniFlag> ABROSEXUAL_MINI_FLAG = registerBlock("abrosexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> AGENDER_MINI_FLAG = registerBlock("agender_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> AROACE_MINI_FLAG = registerBlock("aroace_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> AROMANTIC_MINI_FLAG = registerBlock("aromantic_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> ASEXUAL_MINI_FLAG = registerBlock("asexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> BIGENDER_MINI_FLAG = registerBlock("bigender_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> BISEXUAL_MINI_FLAG = registerBlock("bisexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> DEMIBOY_MINI_FLAG = registerBlock("demiboy_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> DEMIGIRL_MINI_FLAG = registerBlock("demigirl_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> DEMINONBINARY_MINI_FLAG = registerBlock("deminonbinary_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> DEMIROMANTIC_MINI_FLAG = registerBlock("demiromantic_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> DEMISEXUAL_MINI_FLAG = registerBlock("demisexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> GAY_MINI_FLAG = registerBlock("gay_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> GENDERFLUID_MINI_FLAG = registerBlock("genderfluid_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> GENDERFLUX_MINI_FLAG = registerBlock("genderflux_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> GENDERQUEER_MINI_FLAG = registerBlock("genderqueer_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> GRAYROMANTIC_MINI_FLAG = registerBlock("grayromantic_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> GRAYSEXUAL_MINI_FLAG = registerBlock("graysexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> INTERSEX_MINI_FLAG = registerBlock("intersex_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> LESBIAN_MINI_FLAG = registerBlock("lesbian_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> NONBINARY_MINI_FLAG = registerBlock("nonbinary_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> OMNISEXUAL_MINI_FLAG = registerBlock("omnisexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> PANSEXUAL_MINI_FLAG = registerBlock("pansexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> POLYSEXUAL_MINI_FLAG = registerBlock("polysexual_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> PROGRESS_PRIDE_MINI_FLAG = registerBlock("progress_pride_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> QUEER_MINI_FLAG = registerBlock("queer_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag>RAINBOW_MINI_FLAG = registerBlock("rainbow_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> TRANSGENDER_MINI_FLAG = registerBlock("transgender_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> TRANSFEMININE_MINI_FLAG = registerBlock("transfeminine_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final RegistryObject<MiniFlag> TRANSMASCULINE_MINI_FLAG = registerBlock("transmasculine_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
 
     //Wall Flags
     public static final RegistryObject<WallFlag> ABROSEXUAL_WALL_FLAG = registerBlock("abrosexual_wall_flag",
