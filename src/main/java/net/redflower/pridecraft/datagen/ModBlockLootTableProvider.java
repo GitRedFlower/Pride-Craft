@@ -159,9 +159,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         //Other Blocks
         //Ores
         add(ModBlocks.UNKNOWN_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,8));
+                block -> createMultipleOreDrops(ModBlocks.UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),3,6));
         add(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,8));
+                block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),3,6));
 
         //Storage Blocks
         dropSelf(ModBlocks.UNKNOWN_MATERIAL_BLOCK.get());

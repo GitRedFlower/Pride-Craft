@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5092915e-5f53-4867-8a3d-268d80def25b" name="Changes" comment="Fixed 2" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Pride-Craft" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Pride-Craft" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1.21.1-NeoForge" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GitRedFlower&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GitRedFlower/Pride-Craft.git&quot;,
+    &quot;accountId&quot;: &quot;68d0fce8-d57e-4517-9335-0c42f21235c6&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="37Xs2cp3tmHxOPWyspDc3NkVliG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.Pride-Craft [:net.neoforged.devlaunch.Main.main()].executor": "Run",
+    "Gradle.Pride-Craft [build].executor": "Run",
+    "Gradle.Pride-Craft [runClient].executor": "Run",
+    "Gradle.Pride-Craft [runData].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "1.20.1-Forge",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/red_flower/IdeaProjects/Pride-Craft",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/pride_craft/models/item" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/pride_craft/textures/block" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/pride_craft" />
+      <recent name="$PROJECT_DIR$/src/main/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Pride-Craft [runClient]">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <option name="PROGRAM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/clientRunVmArgs.txt -Dfml.modFolders=pridecraft%%$PROJECT_DIR$/build/classes/java/main:pridecraft%%$PROJECT_DIR$/build/resources/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Data" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <option name="PROGRAM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/dataRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/dataRunVmArgs.txt -Dfml.modFolders=pridecraft%%$PROJECT_DIR$/build/classes/java/main:pridecraft%%$PROJECT_DIR$/build/resources/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTestServer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <option name="PROGRAM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/gameTestServerRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/gameTestServerRunVmArgs.txt -Dfml.modFolders=pridecraft%%$PROJECT_DIR$/build/classes/java/main:pridecraft%%$PROJECT_DIR$/build/resources/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <option name="PROGRAM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/serverRunVmArgs.txt -Dfml.modFolders=pridecraft%%$PROJECT_DIR$/build/classes/java/main:pridecraft%%$PROJECT_DIR$/build/resources/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pride-Craft [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Pride-Craft [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Pride-Craft [runData]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runData" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Pride-Craft [runClient]" />
+        <item itemvalue="Gradle.Pride-Craft [runData]" />
+        <item itemvalue="Gradle.Pride-Craft [build]" />
+        <item itemvalue="Gradle.Pride-Craft [runData]" />
+        <item itemvalue="Gradle.Pride-Craft [runClient]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5092915e-5f53-4867-8a3d-268d80def25b" name="Changes" comment="" />
+      <created>1767060543874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767060543874</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Created Branch for 1.20.1 Forge">
+      <option name="closed" value="true" />
+      <created>1767062676997</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1767062676997</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Basic Items + Minor Datagen Added">
+      <option name="closed" value="true" />
+      <created>1767297345414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767297345414</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added JEI + Some Crafting Recipes">
+      <option name="closed" value="true" />
+      <created>1767299965222</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767299965222</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Flag Blocks">
+      <option name="closed" value="true" />
+      <created>1767302766978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1767302766978</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed Name Space to Match Older Pride Craft Versions">
+      <option name="closed" value="true" />
+      <created>1767309536674</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1767309536674</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed Name Space to Match Older Pride Craft Versions">
+      <option name="closed" value="true" />
+      <created>1767309570347</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1767309570347</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed Version Number">
+      <option name="closed" value="true" />
+      <created>1767309770955</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767309770955</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added Basics of Flag Carpet">
+      <option name="closed" value="true" />
+      <created>1767367579211</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1767367579211</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added Flag Carpets">
+      <option name="closed" value="true" />
+      <created>1767409732198</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1767409732198</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added Wall Flags">
+      <option name="closed" value="true" />
+      <created>1767412340653</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767412340653</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Minor">
+      <option name="closed" value="true" />
+      <created>1767412643975</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1767412643975</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fixed">
+      <option name="closed" value="true" />
+      <created>1767412954178</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1767412954178</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Removed">
+      <option name="closed" value="true" />
+      <created>1767413043197</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1767413043197</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated gitignore">
+      <option name="closed" value="true" />
+      <created>1767413128901</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1767413128901</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fixed 2">
+      <option name="closed" value="true" />
+      <created>1767413371337</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1767413371337</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.spongepowered:mixin" />
+    <option featureType="dependencySupport" implementationName="java:net.minecraftforge:forge" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Branch for 1.20.1 Forge" />
+    <MESSAGE value="Basic Items + Minor Datagen Added" />
+    <MESSAGE value="Added JEI + Some Crafting Recipes" />
+    <MESSAGE value="Added Flag Blocks" />
+    <MESSAGE value="Fixed Name Space to Match Older Pride Craft Versions" />
+    <MESSAGE value="Fixed Version Number" />
+    <MESSAGE value="Added Basics of Flag Carpet" />
+    <MESSAGE value="Added Flag Carpets" />
+    <MESSAGE value="Added Wall Flags" />
+    <MESSAGE value="Minor" />
+    <MESSAGE value="Fixed" />
+    <MESSAGE value="Removed" />
+    <MESSAGE value="Updated gitignore" />
+    <MESSAGE value="Fixed 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed 2" />
+  </component>
+</project>

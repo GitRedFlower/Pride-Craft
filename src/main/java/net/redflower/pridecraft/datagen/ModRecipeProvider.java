@@ -274,7 +274,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.ABROSEXUAL_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_abrosexual_material", has(ModItems.ABROSEXUAL_MATERIAL))
                 .save(recipeOutput);
 
@@ -283,7 +283,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.AGENDER_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_agender_material", has(ModItems.AGENDER_MATERIAL))
                 .save(recipeOutput);
 
@@ -292,7 +292,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.AROACE_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_aroace_material", has(ModItems.AROACE_MATERIAL))
                 .save(recipeOutput);
 
@@ -301,7 +301,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.AROMANTIC_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_aromantic_material", has(ModItems.AROMANTIC_MATERIAL))
                 .save(recipeOutput);
 
@@ -310,7 +310,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.ASEXUAL_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_asexual_material", has(ModItems.ASEXUAL_MATERIAL))
                 .save(recipeOutput);
 
@@ -319,7 +319,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.BIGENDER_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_bigender_material", has(ModItems.BIGENDER_MATERIAL))
                 .save(recipeOutput);
 
@@ -328,7 +328,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.BISEXUAL_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_bisexual_material", has(ModItems.BISEXUAL_MATERIAL))
                 .save(recipeOutput);
 
@@ -337,7 +337,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.DEMIBOY_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_demiboy_material", has(ModItems.DEMIBOY_MATERIAL))
                 .save(recipeOutput);
 
@@ -346,7 +346,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.DEMIGIRL_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_demigirl_material", has(ModItems.DEMIGIRL_MATERIAL))
                 .save(recipeOutput);
 
@@ -355,7 +355,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.DEMINONBINARY_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_deminonbinary_material", has(ModItems.DEMINONBINARY_MATERIAL))
                 .save(recipeOutput);
 
@@ -364,7 +364,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.DEMIROMANTIC_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_demiromatic_material", has(ModItems.DEMIROMANTIC_MATERIAL))
                 .save(recipeOutput);
 
@@ -373,7 +373,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.DEMISEXUAL_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_demisexual_material", has(ModItems.DEMISEXUAL_MATERIAL))
                 .save(recipeOutput);
 
@@ -382,7 +382,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.GAY_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_gay_material", has(ModItems.GAY_MATERIAL))
                 .save(recipeOutput);
 
@@ -391,7 +391,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.GENDERFLUID_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_genderfluid_material", has(ModItems.GENDERFLUID_MATERIAL))
                 .save(recipeOutput);
 
@@ -400,7 +400,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.GENDERFLUX_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_genderflux_material", has(ModItems.GENDERFLUX_MATERIAL))
                 .save(recipeOutput);
 
@@ -409,7 +409,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.GENDERQUEER_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_genderqueer_material", has(ModItems.GENDERQUEER_MATERIAL))
                 .save(recipeOutput);
 
@@ -418,7 +418,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.GRAYROMANTIC_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_grayromantic_material", has(ModItems.GRAYROMANTIC_MATERIAL))
                 .save(recipeOutput);
 
@@ -427,7 +427,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.GRAYSEXUAL_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_graysexual_material", has(ModItems.GRAYSEXUAL_MATERIAL))
                 .save(recipeOutput);
 
@@ -436,7 +436,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.INTERSEX_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_intersex_material", has(ModItems.INTERSEX_MATERIAL))
                 .save(recipeOutput);
 
@@ -445,7 +445,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.LESBIAN_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_lesbian_material", has(ModItems.LESBIAN_MATERIAL))
                 .save(recipeOutput);
 
@@ -454,7 +454,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.NONBINARY_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_nonbinary_material", has(ModItems.NONBINARY_MATERIAL))
                 .save(recipeOutput);
 
@@ -463,7 +463,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.OMNISEXUAL_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_nonbinary_material", has(ModItems.OMNISEXUAL_MATERIAL))
                 .save(recipeOutput);
 
@@ -472,7 +472,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.PANSEXUAL_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_pansexual_material", has(ModItems.PANSEXUAL_MATERIAL))
                 .save(recipeOutput);
 
@@ -481,7 +481,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.POLYSEXUAL_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_polysexual_material", has(ModItems.POLYSEXUAL_MATERIAL))
                 .save(recipeOutput);
 
@@ -490,7 +490,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.PROGRESS_PRIDE_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_progress_pride_material", has(ModItems.PROGRESS_PRIDE_MATERIAL))
                 .save(recipeOutput);
 
@@ -499,7 +499,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.QUEER_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_queer_material", has(ModItems.QUEER_MATERIAL))
                 .save(recipeOutput);
 
@@ -508,7 +508,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.RAINBOW_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_rainbow_material", has(ModItems.RAINBOW_MATERIAL))
                 .save(recipeOutput);
 
@@ -517,7 +517,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.TRANSGENDER_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_transgender_material", has(ModItems.TRANSGENDER_MATERIAL))
                 .save(recipeOutput);
 
@@ -526,7 +526,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.TRANSFEMININE_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_transfeminine_material", has(ModItems.TRANSFEMININE_MATERIAL))
                 .save(recipeOutput);
 
@@ -535,7 +535,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("B  ")
                 .pattern("B  ")
                 .define('A', ModItems.TRANSMASCULINE_MATERIAL.get())
-                .define('B', Items.IRON_INGOT)
+                .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_transmasculine_material", has(ModItems.TRANSMASCULINE_MATERIAL))
                 .save(recipeOutput);
 

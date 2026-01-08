@@ -24,9 +24,7 @@ public class BlahajItem extends Item {
     @Override
     public void inventoryTick(ItemStack stack, Level level, Entity entity, int slotId, boolean isSelected) {
         if (entity instanceof LivingEntity living) {
-            if ((slotId >= 0 && slotId <= 8) || slotId == Inventory.SLOT_OFFHAND) {
-                living.addEffect(new MobEffectInstance(Effect, 40, amplifier, false, false, false));
-            }
+            living.addEffect(new MobEffectInstance(Effect, 40, amplifier, false, false, false));
         }
     }
 }
