@@ -1,0 +1,4 @@
+// 1.20.1	2026-01-09T15:03:35.224186002	Registries
+086de7363f585a3a46402837d11f53520c53d9fc data/pride_craft/forge/biome_modifier/add_unknown_ore.json
+06cf3e7cd7009f56f633cd040c5be313d271b720 data/pride_craft/worldgen/configured_feature/unknown_ore.json
+a31441b2660d91c86b2574581c74f0723d4832f2 data/pride_craft/worldgen/placed_feature/unknown_ore_placed.json
