@@ -1,0 +1,9 @@
+{
+  "asset_name": "rainbow",
+  "description": {
+    "color": "#E50204",
+    "translate": "trim_material.pride_craft.rainbow"
+  },
+  "ingredient": "pride_craft:rainbow_material",
+  "item_model_index": 0.7
+}

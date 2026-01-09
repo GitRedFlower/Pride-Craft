@@ -1,0 +1,9 @@
+{
+  "asset_name": "asexual",
+  "description": {
+    "color": "#8D0085",
+    "translate": "trim_material.pride_craft.asexual"
+  },
+  "ingredient": "pride_craft:asexual_material",
+  "item_model_index": 0.7
+}

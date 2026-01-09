@@ -1,0 +1,9 @@
+{
+  "asset_name": "pansexual",
+  "description": {
+    "color": "#FF218D",
+    "translate": "trim_material.pride_craft.pansexual"
+  },
+  "ingredient": "pride_craft:pansexual_material",
+  "item_model_index": 0.7
+}

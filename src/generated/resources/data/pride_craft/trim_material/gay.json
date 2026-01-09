@@ -1,0 +1,9 @@
+{
+  "asset_name": "gay",
+  "description": {
+    "color": "#088D71",
+    "translate": "trim_material.pride_craft.gay"
+  },
+  "ingredient": "pride_craft:gay_material",
+  "item_model_index": 0.7
+}

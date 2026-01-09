@@ -1,0 +1,9 @@
+{
+  "asset_name": "demigirl",
+  "description": {
+    "color": "#FFAEC9",
+    "translate": "trim_material.pride_craft.demigirl"
+  },
+  "ingredient": "pride_craft:demigirl_material",
+  "item_model_index": 0.7
+}

@@ -1,0 +1,9 @@
+{
+  "asset_name": "deminonbinary",
+  "description": {
+    "color": "#FBFF74",
+    "translate": "trim_material.pride_craft.deminonbinary"
+  },
+  "ingredient": "pride_craft:deminonbinary_material",
+  "item_model_index": 0.7
+}

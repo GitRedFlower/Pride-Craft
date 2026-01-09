@@ -1,0 +1,9 @@
+{
+  "asset_name": "genderqueer",
+  "description": {
+    "color": "#B899DD",
+    "translate": "trim_material.pride_craft.genderqueer"
+  },
+  "ingredient": "pride_craft:genderqueer_material",
+  "item_model_index": 0.7
+}
