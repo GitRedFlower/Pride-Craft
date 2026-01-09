@@ -196,6 +196,14 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.TRANSFEMININE_MATERIAL.get());
                         output.accept(ModItems.TRANSGENDER_MATERIAL.get());
                         output.accept(ModItems.TRANSMASCULINE_MATERIAL.get());
+
+                        output.accept(ModItems.BLAHAJ.get());
+                        output.accept(ModItems.BLUE_BLAHAJ.get());
+                        output.accept(ModItems.GOLDEN_BLAHAJ.get());
+                        output.accept(ModItems.GREEN_BLAHAJ.get());
+                        output.accept(ModItems.ORANGE_BLAHAJ.get());
+                        output.accept(ModItems.PURPLE_BLAHAJ.get());
+                        output.accept(ModItems.RED_BLAHAJ.get());
                     })
                     .build());
 

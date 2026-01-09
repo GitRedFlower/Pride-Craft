@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "pride_craft:blahaj"
+    },
+    "B": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "pattern": [
+    "CBC",
+    "BAB",
+    "CBC"
+  ],
+  "result": {
+    "item": "pride_craft:green_blahaj"
+  },
+  "show_notification": true
+}

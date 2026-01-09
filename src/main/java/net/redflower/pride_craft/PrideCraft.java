@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.redflower.pride_craft.block.ModBlocks;
 import net.redflower.pride_craft.item.ModItems;
+import net.redflower.pride_craft.loot.ModLootModifiers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -37,6 +38,8 @@ public class PrideCraft {
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

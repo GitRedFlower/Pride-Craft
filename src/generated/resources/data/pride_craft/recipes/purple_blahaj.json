@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "pride_craft:blahaj"
+    },
+    "B": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "C": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "pattern": [
+    "CBC",
+    "BAB",
+    "CBC"
+  ],
+  "result": {
+    "item": "pride_craft:purple_blahaj"
+  },
+  "show_notification": true
+}

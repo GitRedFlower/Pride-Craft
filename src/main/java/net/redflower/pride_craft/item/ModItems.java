@@ -1,11 +1,16 @@
 package net.redflower.pride_craft.item;
 
+import net.minecraft.core.Holder;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.redflower.pride_craft.PrideCraft;
+import net.redflower.pride_craft.item.custom.BlahajItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, PrideCraft.MODID);
@@ -106,6 +111,28 @@ public class ModItems {
 
     public static final RegistryObject<Item> TRANSMASCULINE_MATERIAL = ITEMS.register("transmasculine_material",
             () -> new Item(new Item.Properties()));
+
+    //Other Items
+    public static final RegistryObject<Item> BLAHAJ = ITEMS.register("blahaj",
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.RARE).stacksTo(1), MobEffects.DAMAGE_RESISTANCE, 0));
+
+    public static final RegistryObject<Item> GOLDEN_BLAHAJ = ITEMS.register("golden_blahaj",
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1), MobEffects.DAMAGE_RESISTANCE, 1));
+
+    public static final RegistryObject<Item> ORANGE_BLAHAJ = ITEMS.register("orange_blahaj",
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1), MobEffects.FIRE_RESISTANCE, 0));
+
+    public static final RegistryObject<Item> BLUE_BLAHAJ = ITEMS.register("blue_blahaj",
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1), MobEffects.WATER_BREATHING, 0));
+
+    public static final RegistryObject<Item> RED_BLAHAJ = ITEMS.register("red_blahaj",
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1), MobEffects.HEALTH_BOOST, 0));
+
+    public static final RegistryObject<Item> GREEN_BLAHAJ = ITEMS.register("green_blahaj",
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1), MobEffects.MOVEMENT_SPEED, 0));
+
+    public static final RegistryObject<Item> PURPLE_BLAHAJ = ITEMS.register("purple_blahaj",
+            () -> new BlahajItem(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1), MobEffects.DIG_SPEED, 0));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
