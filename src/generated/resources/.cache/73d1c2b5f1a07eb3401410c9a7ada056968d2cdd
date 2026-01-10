@@ -1,5 +1,5 @@
-// 1.20.1	2026-01-07T17:15:44.902161554	Tags for minecraft:block mod id pride_craft
+// 1.20.1	2026-01-09T16:51:26.52363559	Tags for minecraft:block mod id pride_craft
 12dbed9641c39070dbd9e326569c9122487fa392 data/minecraft/tags/blocks/mineable/hoe.json
-42b6fcf4915ec45b43428add6bee2e859428a229 data/minecraft/tags/blocks/mineable/pickaxe.json
-b0317675334b08e9737f7705f8de53cd10d2e781 data/minecraft/tags/blocks/needs_iron_tool.json
+1d6cccf3d3d66ff44f80a39bee83907f394cb53f data/minecraft/tags/blocks/mineable/pickaxe.json
+4cfd829456859f5fbb26e22c71cbe8ef56d92bab data/minecraft/tags/blocks/needs_iron_tool.json
 91d17c0e9f831d26cf8679afb6ea2a964bc9fb58 data/minecraft/tags/blocks/needs_stone_tool.json

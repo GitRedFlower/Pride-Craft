@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "pride_craft:pansexual_material"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "BB ",
+    "AA ",
+    "   "
+  ],
+  "result": {
+    "item": "pride_craft:wall_pansexual_flag"
+  },
+  "show_notification": true
+}

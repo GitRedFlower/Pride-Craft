@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "pride_craft:transgender_material"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "BB ",
+    "AA ",
+    "   "
+  ],
+  "result": {
+    "item": "pride_craft:wall_transgender_flag"
+  },
+  "show_notification": true
+}

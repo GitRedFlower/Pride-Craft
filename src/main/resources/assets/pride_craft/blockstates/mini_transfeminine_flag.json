@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pride_craft:block/mini_transfeminine_flag"
+    },
+    "facing=south": {
+      "model": "pride_craft:block/mini_transfeminine_flag",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "pride_craft:block/mini_transfeminine_flag",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "pride_craft:block/mini_transfeminine_flag",
+      "y": 270
+    }
+  }
+}
