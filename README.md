@@ -8,7 +8,7 @@ Adds a bunch of LGBT+ related items, blocks and more to Minecraft
 
 ## Official Mod Versions:
 
-*   1.20.1 (2.3.0/Currently Being Updated to This Version)
+*   1.20.1 (Long Term Support)
 *   1.20.4 (Last Supported Version 1.2.0)*
 *   1.20.6 (Last Supported Version 1.3.0)*
 *   1.21.1 (Long Term Support)
