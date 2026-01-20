@@ -205,11 +205,11 @@
   "trim_material.pridecraft.transfeminine": "Transfeminine Material",
   "trim_material.pridecraft.transmasculine": "Transmasculine Material",
 
-  "pridecraft.jei.info.blahaj" : "Cute little friend.\nFound in Ancient Cities chests, with a chance of 15%.\nGives effect Resistence I.\nWhen In Hotbar",
-  "pridecraft.jei.info.golden_blahaj" : "Golden Cute little friend.\nCrafted from a Blahaj.\nGives effect Resistance II.\nWhen In Hotbar",
-  "pridecraft.jei.info.orange_blahaj" : "Orange Cute little friend.\nCrafted from a Blahaj.\nGives effect Fire Resistance.\nWhen In Hotbar",
-  "pridecraft.jei.info.blue_blahaj" : "Blue Cute little friend.\nCrafted from a Blahaj.\nGives effect Water Breathing.\nWhen In Hotbar",
-  "pridecraft.jei.info.red_blahaj" : "Red Cute little friend.\nCrafted from a Blahaj.\nGives effect Health Boost I.\nWhen In Hotbar",
-  "pridecraft.jei.info.green_blahaj" : "Green Cute little friend.\nCrafted from a Blahaj.\nGives effect Speed I.\nWhen In Hotbar",
-  "pridecraft.jei.info.purple_blahaj" : "Purple Cute little friend.\nCrafted from a Blahaj.\nGives effect Haste I.\nWhen In Hotbar"
+  "pridecraft.jei.info.blahaj" : "Cute little friend.\nFound in Ancient Cities chests, with a chance of 20%.\nGives effect Resistence I.",
+  "pridecraft.jei.info.golden_blahaj" : "Golden Cute little friend.\nCrafted from a Blahaj.\nGives effect Resistance II.",
+  "pridecraft.jei.info.orange_blahaj" : "Orange Cute little friend.\nCrafted from a Blahaj.\nGives effect Fire Resistance.",
+  "pridecraft.jei.info.blue_blahaj" : "Blue Cute little friend.\nCrafted from a Blahaj.\nGives effect Water Breathing.",
+  "pridecraft.jei.info.red_blahaj" : "Red Cute little friend.\nCrafted from a Blahaj.\nGives effect Health Boost I.",
+  "pridecraft.jei.info.green_blahaj" : "Green Cute little friend.\nCrafted from a Blahaj.\nGives effect Speed I.",
+  "pridecraft.jei.info.purple_blahaj" : "Purple Cute little friend.\nCrafted from a Blahaj.\nGives effect Haste I."
 }

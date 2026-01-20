@@ -31,11 +31,10 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(stoneReplaceables, ModBlocks.UNKNOWN_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_UNKNOWN_ORE.get().defaultBlockState()));
 
-        register(context, UNKNOWN_ORE_KEY, Feature.ORE, new OreConfiguration(unknownOres, 8));
+        register(context, UNKNOWN_ORE_KEY, Feature.ORE, new OreConfiguration(unknownOres, 6));
 
     }
 
-    //Created by Kaupenjoe
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey (String name) {
         return ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID, name));
     }
