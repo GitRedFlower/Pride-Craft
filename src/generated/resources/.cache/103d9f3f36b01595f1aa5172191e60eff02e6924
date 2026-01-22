@@ -1,4 +1,4 @@
-// 1.20.1	2026-01-09T15:10:20.024415024	Registries
+// 1.20.1	2026-01-21T20:59:56.116270369	Registries
 086de7363f585a3a46402837d11f53520c53d9fc data/pride_craft/forge/biome_modifier/add_unknown_ore.json
 3b68314444a3cec4ecc673b8f1a0b2b3a4c3c792 data/pride_craft/trim_material/abrosexual.json
 9c7036adbc881cb481fe95ba5b1e81b865339e27 data/pride_craft/trim_material/agender.json
@@ -30,5 +30,5 @@ ebb3650486a91c9225cc24cacd755d0cc639b893 data/pride_craft/trim_material/rainbow.
 858dfd33853b6fc49b02ae452131c715d8ad042b data/pride_craft/trim_material/transfeminine.json
 5a2041e51f6033903319329f1a983b37cbbd383f data/pride_craft/trim_material/transgender.json
 3b412068ade9d5754e4bac7f8085d2aa25e249ed data/pride_craft/trim_material/transmasculine.json
-06cf3e7cd7009f56f633cd040c5be313d271b720 data/pride_craft/worldgen/configured_feature/unknown_ore.json
-a31441b2660d91c86b2574581c74f0723d4832f2 data/pride_craft/worldgen/placed_feature/unknown_ore_placed.json
+26895c854c30c9a1193b0d596fed5013aa11a75b data/pride_craft/worldgen/configured_feature/unknown_ore.json
+49d011f62b16d534e27996124b86b07861ba1337 data/pride_craft/worldgen/placed_feature/unknown_ore_placed.json
