@@ -22,11 +22,10 @@ public class ModPlacedFeatures {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, UNKNOWN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.UNKNOWN_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(10, HeightRangePlacement.triangle(VerticalAnchor.absolute(-25), VerticalAnchor.absolute(100))));
+                ModOrePlacement.commonOrePlacement(8, HeightRangePlacement.triangle(VerticalAnchor.absolute(-15), VerticalAnchor.absolute(95))));
 
     }
 
-    //Created by Kaupenjoe
     private static ResourceKey<PlacedFeature> registerKey(String name) {
         return ResourceKey.create(Registries.PLACED_FEATURE, Identifier.fromNamespaceAndPath(PrideCraft.MODID, name));
     }

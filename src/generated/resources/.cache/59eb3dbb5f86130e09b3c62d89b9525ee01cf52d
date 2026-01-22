@@ -1,4 +1,4 @@
-// 1.21.11	2025-12-22T23:25:03.066255416	Loot Tables
+// 1.21.11	2026-01-21T21:04:25.995104799	Loot Tables
 1c5f13175bc427d1d041219e36a21fc4b6e0aa79 data/pridecraft/loot_table/blocks/abrosexual_flag_block.json
 c90eae1931e6b247edfc7fa6fbb022d033bd0434 data/pridecraft/loot_table/blocks/abrosexual_flag_carpet.json
 cc4cb716cfcc5b67652469009d6a31a970e750a5 data/pridecraft/loot_table/blocks/abrosexual_mini_flag.json
@@ -27,7 +27,7 @@ f21bf4e4d46596b8b8d391228a535726b96ecdf1 data/pridecraft/loot_table/blocks/bisex
 1e9eaa53c805c8453e73355970fdd7aff7f88d61 data/pridecraft/loot_table/blocks/bisexual_mini_flag.json
 1fb672abad99c3df14c8be74f37effd2c452a89f data/pridecraft/loot_table/blocks/bisexual_wall_flag.json
 eaaf708e6eb16bb234593ae96d6e0c9c889e79f8 data/pridecraft/loot_table/blocks/corrupted_flag_block.json
-abcbbefbe1a37909f21e4df20ced60bca3c6b613 data/pridecraft/loot_table/blocks/deepslate_unknown_ore.json
+ff14e2b0c77daf6dcab004b3d9d74918f5615538 data/pridecraft/loot_table/blocks/deepslate_unknown_ore.json
 63b1890cedcde5eb857a54b06542744e4a16cd72 data/pridecraft/loot_table/blocks/demiboy_flag_block.json
 c16ded0e574a6f141d4992d955cb9247311e639a data/pridecraft/loot_table/blocks/demiboy_flag_carpet.json
 34f0501f33983fc2e87a548f179afb0b467f66ab data/pridecraft/loot_table/blocks/demiboy_mini_flag.json
@@ -121,4 +121,4 @@ e6e97ebc4e9dd23bdba7a9b6978c083d2b7a94ca data/pridecraft/loot_table/blocks/trans
 cc0f520c875760518563194368eb49020920559e data/pridecraft/loot_table/blocks/transmasculine_mini_flag.json
 0e007cf11b61b705da99e59ff30a4cd925fefab7 data/pridecraft/loot_table/blocks/transmasculine_wall_flag.json
 a657877cedccc52b646e481bee73158ae0762e76 data/pridecraft/loot_table/blocks/unknown_material_block.json
-08f130e3f1d389e8d927c568dff0db8caa1e1d64 data/pridecraft/loot_table/blocks/unknown_ore.json
+947e7c65ca6e88a313d4d5f4cc1514ebf3854d00 data/pridecraft/loot_table/blocks/unknown_ore.json

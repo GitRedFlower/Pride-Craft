@@ -158,16 +158,15 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         //Other Blocks
         //Ores
         add(ModBlocks.UNKNOWN_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,8));
+                block -> createMultipleOreDrops(ModBlocks.UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),3,6));
         add(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),6,8));
+                block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get(), ModItems.UNKNOWN_MATERIAL.get(),3,6));
 
         //Storage Blocks
         dropSelf(ModBlocks.UNKNOWN_MATERIAL_BLOCK.get());
         dropSelf(ModBlocks.CORRUPTED_FLAG_BLOCK.get());
     }
 
-    //Creates Multiple Ore Drops. Created By Modding by Kaupenjoe. DO NOT TOUCH!!!!
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
         HolderLookup.RegistryLookup<Enchantment> registryLookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);
         return this.createSilkTouchDispatchTable(pBlock,
