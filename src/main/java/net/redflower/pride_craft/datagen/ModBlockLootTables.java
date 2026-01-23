@@ -1,6 +1,8 @@
 package net.redflower.pride_craft.datagen;
 
+import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.BlockLootSubProvider;
+import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantments;
@@ -9,11 +11,13 @@ import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParamSet;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
 import net.redflower.pride_craft.block.ModBlocks;
 import net.redflower.pride_craft.item.ModItems;
 
+import java.util.List;
 import java.util.Set;
 
 public class ModBlockLootTables extends BlockLootSubProvider {
