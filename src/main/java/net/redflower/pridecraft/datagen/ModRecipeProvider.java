@@ -1315,12 +1315,12 @@ public class ModRecipeProvider extends RecipeProvider {
 
 
         //Smelting
-        oreSmelting(UNKNOWN_SMELTABLES, RecipeCategory.MISC, ModItems.CORRUPTED_FLAG_MATERIAL, 0.25f, 200, "rainbow");
-        oreSmelting(UNKNOWN_BLOCK_SMELTABLES, RecipeCategory.MISC, ModBlocks.CORRUPTED_FLAG_BLOCK, 0.25f, 200, "rainbow");
+        oreSmelting(UNKNOWN_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, ModItems.CORRUPTED_FLAG_MATERIAL, 0.25f, 200, "rainbow");
+        oreSmelting(UNKNOWN_BLOCK_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, ModBlocks.CORRUPTED_FLAG_BLOCK, 0.25f, 200, "rainbow");
 
         //Blasting
-        oreBlasting(UNKNOWN_SMELTABLES, RecipeCategory.MISC, ModItems.CORRUPTED_FLAG_MATERIAL, 0.25f, 100, "rainbow");
-        oreBlasting(UNKNOWN_BLOCK_SMELTABLES, RecipeCategory.MISC, ModBlocks.CORRUPTED_FLAG_BLOCK, 0.25f, 100, "rainbow");
+        oreBlasting(UNKNOWN_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, ModItems.CORRUPTED_FLAG_MATERIAL, 0.25f, 100, "rainbow");
+        oreBlasting(UNKNOWN_BLOCK_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, ModBlocks.CORRUPTED_FLAG_BLOCK, 0.25f, 100, "rainbow");
 
         //Stone Cutting
         stonecutterResultFromBase(RecipeCategory.MISC, ModItems.ABROSEXUAL_MATERIAL.get(), ModItems.CORRUPTED_FLAG_MATERIAL, 8);
