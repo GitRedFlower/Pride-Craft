@@ -6,7 +6,6 @@
   "group": "rainbow",
   "ingredient": "pridecraft:deepslate_unknown_ore",
   "result": {
-    "count": 1,
     "id": "pridecraft:corrupted_flag_material"
   }
 }

@@ -6,7 +6,6 @@
   "group": "rainbow",
   "ingredient": "pridecraft:unknown_material",
   "result": {
-    "count": 1,
     "id": "pridecraft:corrupted_flag_material"
   }
 }
