@@ -17,7 +17,8 @@ Adds a bunch of LGBT+ related items, blocks and more to Minecraft
 *   1.21.5 (Last Support Version 2.2.2)
 *   1.21.8 (Last Support Version 2.2.2)
 *   1.21.10 (Last Supported Version 2.2.2)
-*   1.21.11 (Short Term Support)
+*   1.21.11 (Last Supported Version 2.3.1)
+*   26.1 (Long Term Support)
 
 Short Term: Supported till next drop is released  
 Long Term: Supported till newest main modding version is decided on
