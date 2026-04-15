@@ -25,6 +25,8 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                     //Ores
                     output.accept(ModBlocks.UNKNOWN_ORE);
                     output.accept(ModBlocks.DEEPSLATE_UNKNOWN_ORE);
+                    output.accept(ModBlocks.PRIDE_ORE);
+                    output.accept(ModBlocks.DEEPSLATE_PRIDE_ORE);
                     //Storage Blocks
                     output.accept(ModBlocks.UNKNOWN_MATERIAL_BLOCK);
                     output.accept(ModBlocks.CORRUPTED_FLAG_BLOCK);

@@ -166,6 +166,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         //Storage Blocks
         dropSelf(ModBlocks.UNKNOWN_MATERIAL_BLOCK.get());
         dropSelf(ModBlocks.CORRUPTED_FLAG_BLOCK.get());
+        dropSelf(ModBlocks.PRIDE_ORE.get());
+        dropSelf(ModBlocks.DEEPSLATE_PRIDE_ORE.get());
     }
 
     //Creates Multiple Ore Drops. Created By Modding by Kaupenjoe. DO NOT TOUCH!!!!

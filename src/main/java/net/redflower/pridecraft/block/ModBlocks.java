@@ -44,6 +44,18 @@ public class ModBlocks {
                     .strength(4.5f)
                     .sound(SoundType.STONE)));
 
+    public static final DeferredBlock<Block> PRIDE_ORE = registerBlock("pride_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .requiresCorrectToolForDrops()
+                    .strength(3f)
+                    .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> DEEPSLATE_PRIDE_ORE = registerBlock("deepslate_pride_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .requiresCorrectToolForDrops()
+                    .strength(4.5f)
+                    .sound(SoundType.DEEPSLATE)));
+
     //Flag Blocks
     public static final DeferredBlock<Block> ABROSEXUAL_FLAG_BLOCK = registerBlock("abrosexual_flag_block",
             () -> new Block(BlockBehaviour.Properties.of()

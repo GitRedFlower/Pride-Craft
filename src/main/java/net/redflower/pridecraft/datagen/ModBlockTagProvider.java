@@ -56,6 +56,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.UNKNOWN_ORE.get())
                 .add(ModBlocks.DEEPSLATE_UNKNOWN_ORE.get())
+                .add(ModBlocks.PRIDE_ORE.get())
+                .add(ModBlocks.DEEPSLATE_PRIDE_ORE.get())
                 .add(ModBlocks.UNKNOWN_MATERIAL_BLOCK.get())
                 .add(ModBlocks.CORRUPTED_FLAG_BLOCK.get())
                 .add(ModBlocks.ABROSEXUAL_MINI_FLAG.get())
@@ -125,6 +127,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         
         //Iron Level
         tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.PRIDE_ORE.get())
+                .add(ModBlocks.DEEPSLATE_PRIDE_ORE.get())
                 .add(ModBlocks.ABROSEXUAL_MINI_FLAG.get())
                 .add(ModBlocks.AGENDER_MINI_FLAG.get())
                 .add(ModBlocks.AROACE_MINI_FLAG.get())

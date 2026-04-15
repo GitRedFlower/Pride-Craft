@@ -154,6 +154,8 @@ public class ModBlockModelProvider extends BlockStateProvider {
         //Ore Blocks
         blockWIthItem(ModBlocks.UNKNOWN_ORE);
         blockWIthItem(ModBlocks.DEEPSLATE_UNKNOWN_ORE);
+        blockWIthItem(ModBlocks.PRIDE_ORE);
+        blockWIthItem(ModBlocks.DEEPSLATE_PRIDE_ORE);
 
         //Storage Blocks
         blockWIthItem(ModBlocks.UNKNOWN_MATERIAL_BLOCK);
