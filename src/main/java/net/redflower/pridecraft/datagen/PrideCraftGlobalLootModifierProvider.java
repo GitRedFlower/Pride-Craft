@@ -8,14 +8,14 @@ import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCon
 import net.neoforged.neoforge.common.data.GlobalLootModifierProvider;
 import net.neoforged.neoforge.common.loot.LootTableIdCondition;
 import net.redflower.pridecraft.PrideCraft;
-import net.redflower.pridecraft.item.ModItems;
+import net.redflower.pridecraft.item.PrideCraftItems;
 import net.redflower.pridecraft.loot.AddItemModifier;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
+public class PrideCraftGlobalLootModifierProvider extends GlobalLootModifierProvider {
 
-    public ModGlobalLootModifierProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
+    public PrideCraftGlobalLootModifierProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
         super(output, registries, PrideCraft.MODID);
     }
 
@@ -25,6 +25,6 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
                 new AddItemModifier(new LootItemCondition[]{
                         new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("chests/ancient_city")).build(),
                         LootItemRandomChanceCondition.randomChance(0.20f).build()
-                }, ModItems.BLAHAJ.get()));
+                }, PrideCraftItems.BLAHAJ.get()));
     }
 }

@@ -12,11 +12,11 @@ import net.redflower.pridecraft.PrideCraft;
 import net.redflower.pridecraft.block.custom.FlagCarpet;
 import net.redflower.pridecraft.block.custom.MiniFlag;
 import net.redflower.pridecraft.block.custom.WallFlag;
-import net.redflower.pridecraft.item.ModItems;
+import net.redflower.pridecraft.item.PrideCraftItems;
 
 import java.util.function.Supplier;
 
-public class ModBlocks {
+public class PrideCraftBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(PrideCraft.MODID);
 
     //Other Blocks
@@ -731,7 +731,7 @@ public class ModBlocks {
     }
 
     private static <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block) {
-        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        PrideCraftItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
     public static void register(IEventBus eventBus) {

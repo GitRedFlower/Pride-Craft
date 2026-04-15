@@ -1,8 +1,8 @@
 package net.redflower.pridecraft;
 
-import net.redflower.pridecraft.block.ModBlocks;
-import net.redflower.pridecraft.item.ModItems;
-import net.redflower.pridecraft.loot.ModLootModifiers;
+import net.redflower.pridecraft.block.PrideCraftBlocks;
+import net.redflower.pridecraft.item.PrideCraftItems;
+import net.redflower.pridecraft.loot.PrideCraftLootModifiers;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -38,10 +38,10 @@ public class PrideCraft {
 
         ModCreativeModTabs.register(modEventBus);
 
-        ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
+        PrideCraftItems.register(modEventBus);
+        PrideCraftBlocks.register(modEventBus);
 
-        ModLootModifiers.register(modEventBus);
+        PrideCraftLootModifiers.register(modEventBus);
 
 
 

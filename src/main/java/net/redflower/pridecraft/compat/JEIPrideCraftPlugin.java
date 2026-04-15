@@ -7,8 +7,8 @@ import mezz.jei.api.registration.IRecipeRegistration;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.redflower.pridecraft.PrideCraft;
-import net.redflower.pridecraft.item.ModItems;
-import net.redflower.pridecraft.util.ModTextInfo;
+import net.redflower.pridecraft.item.PrideCraftItems;
+import net.redflower.pridecraft.util.PrideCraftTextInfo;
 
 @JeiPlugin
 public class JEIPrideCraftPlugin implements IModPlugin {
@@ -22,12 +22,12 @@ public class JEIPrideCraftPlugin implements IModPlugin {
 
     @Override
     public void registerRecipes(IRecipeRegistration registration) {
-        registration.addIngredientInfo(new ItemStack(ModItems.BLAHAJ.get()), VanillaTypes.ITEM_STACK, ModTextInfo.getInformation("jei.info.blahaj"));
-        registration.addIngredientInfo(new ItemStack(ModItems.GOLDEN_BLAHAJ.get()), VanillaTypes.ITEM_STACK, ModTextInfo.getInformation("jei.info.golden_blahaj"));
-        registration.addIngredientInfo(new ItemStack(ModItems.ORANGE_BLAHAJ.get()), VanillaTypes.ITEM_STACK, ModTextInfo.getInformation("jei.info.orange_blahaj"));
-        registration.addIngredientInfo(new ItemStack(ModItems.BLUE_BLAHAJ.get()), VanillaTypes.ITEM_STACK, ModTextInfo.getInformation("jei.info.blue_blahaj"));
-        registration.addIngredientInfo(new ItemStack(ModItems.RED_BLAHAJ.get()), VanillaTypes.ITEM_STACK, ModTextInfo.getInformation("jei.info.red_blahaj"));
-        registration.addIngredientInfo(new ItemStack(ModItems.GREEN_BLAHAJ.get()), VanillaTypes.ITEM_STACK, ModTextInfo.getInformation("jei.info.green_blahaj"));
-        registration.addIngredientInfo(new ItemStack(ModItems.PURPLE_BLAHAJ.get()), VanillaTypes.ITEM_STACK, ModTextInfo.getInformation("jei.info.purple_blahaj"));
+        registration.addIngredientInfo(new ItemStack(PrideCraftItems.BLAHAJ.get()), VanillaTypes.ITEM_STACK, PrideCraftTextInfo.getInformation("jei.info.blahaj"));
+        registration.addIngredientInfo(new ItemStack(PrideCraftItems.GOLDEN_BLAHAJ.get()), VanillaTypes.ITEM_STACK, PrideCraftTextInfo.getInformation("jei.info.golden_blahaj"));
+        registration.addIngredientInfo(new ItemStack(PrideCraftItems.ORANGE_BLAHAJ.get()), VanillaTypes.ITEM_STACK, PrideCraftTextInfo.getInformation("jei.info.orange_blahaj"));
+        registration.addIngredientInfo(new ItemStack(PrideCraftItems.BLUE_BLAHAJ.get()), VanillaTypes.ITEM_STACK, PrideCraftTextInfo.getInformation("jei.info.blue_blahaj"));
+        registration.addIngredientInfo(new ItemStack(PrideCraftItems.RED_BLAHAJ.get()), VanillaTypes.ITEM_STACK, PrideCraftTextInfo.getInformation("jei.info.red_blahaj"));
+        registration.addIngredientInfo(new ItemStack(PrideCraftItems.GREEN_BLAHAJ.get()), VanillaTypes.ITEM_STACK, PrideCraftTextInfo.getInformation("jei.info.green_blahaj"));
+        registration.addIngredientInfo(new ItemStack(PrideCraftItems.PURPLE_BLAHAJ.get()), VanillaTypes.ITEM_STACK, PrideCraftTextInfo.getInformation("jei.info.purple_blahaj"));
     }
 }

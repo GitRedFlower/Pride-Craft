@@ -12,11 +12,11 @@ import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguratio
 import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 import net.redflower.pridecraft.PrideCraft;
-import net.redflower.pridecraft.block.ModBlocks;
+import net.redflower.pridecraft.block.PrideCraftBlocks;
 
 import java.util.List;
 
-public class ModConfiguredFeatures {
+public class PrideCraftConfiguredFeatures {
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> UNKNOWN_ORE_KEY = registerKey("unknown_ore");
 
@@ -28,8 +28,8 @@ public class ModConfiguredFeatures {
 
         //Stone + Deepslate Setup
         List<OreConfiguration.TargetBlockState> unknownOres = List.of(
-                OreConfiguration.target(stoneReplaceables, ModBlocks.UNKNOWN_ORE.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_UNKNOWN_ORE.get().defaultBlockState()));
+                OreConfiguration.target(stoneReplaceables, PrideCraftBlocks.UNKNOWN_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, PrideCraftBlocks.DEEPSLATE_UNKNOWN_ORE.get().defaultBlockState()));
 
         register(context, UNKNOWN_ORE_KEY, Feature.ORE, new OreConfiguration(unknownOres, 6));
 

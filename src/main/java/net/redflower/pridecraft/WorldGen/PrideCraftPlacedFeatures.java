@@ -14,15 +14,15 @@ import net.redflower.pridecraft.PrideCraft;
 
 import java.util.List;
 
-public class ModPlacedFeatures {
+public class PrideCraftPlacedFeatures {
 
     public static final ResourceKey<PlacedFeature> UNKNOWN_ORE_PLACED_KEY = registerKey("unknown_ore_placed");
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
-        register(context, UNKNOWN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.UNKNOWN_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(8, HeightRangePlacement.triangle(VerticalAnchor.absolute(-15), VerticalAnchor.absolute(95))));
+        register(context, UNKNOWN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(PrideCraftConfiguredFeatures.UNKNOWN_ORE_KEY),
+                PrideCraftOrePlacement.commonOrePlacement(8, HeightRangePlacement.triangle(VerticalAnchor.absolute(-15), VerticalAnchor.absolute(95))));
 
     }
 

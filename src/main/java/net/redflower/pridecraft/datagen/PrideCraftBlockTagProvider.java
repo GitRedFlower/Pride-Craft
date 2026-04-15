@@ -1,0 +1,191 @@
+package net.redflower.pridecraft.datagen;
+
+import net.minecraft.core.HolderLookup;
+import net.minecraft.data.PackOutput;
+import net.minecraft.tags.BlockTags;
+import net.neoforged.neoforge.common.data.BlockTagsProvider;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.redflower.pridecraft.PrideCraft;
+import net.redflower.pridecraft.block.PrideCraftBlocks;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.concurrent.CompletableFuture;
+
+public class PrideCraftBlockTagProvider extends BlockTagsProvider {
+
+    public PrideCraftBlockTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
+        super(output, lookupProvider, PrideCraft.MODID, existingFileHelper);
+    }
+
+    @Override
+    protected void addTags(HolderLookup.Provider provider) {
+        //Needs Hoe
+        tag(BlockTags.MINEABLE_WITH_HOE)
+                .add(PrideCraftBlocks.ABROSEXUAL_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.AGENDER_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.AROACE_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.AROMANTIC_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.ASEXUAL_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.BIGENDER_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.BISEXUAL_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.DEMIBOY_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.DEMIGIRL_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.DEMIROMANTIC_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.DEMISEXUAL_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.GAY_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.GENDERFLUID_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.GENDERFLUX_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.GENDERQUEER_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.GRAYSEXUAL_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.INTERSEX_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.LESBIAN_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.NONBINARY_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.OMNISEXUAL_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.PANSEXUAL_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.PROGRESS_PRIDE_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.QUEER_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.RAINBOW_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.TRANSFEMININE_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.TRANSGENDER_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.TRANSMASCULINE_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.DEMINONBINARY_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.GRAYROMANTIC_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.POLYSEXUAL_FLAG_BLOCK.get());
+
+        //Needs Pickaxe
+        tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(PrideCraftBlocks.UNKNOWN_ORE.get())
+                .add(PrideCraftBlocks.DEEPSLATE_UNKNOWN_ORE.get())
+                .add(PrideCraftBlocks.PRIDE_ORE.get())
+                .add(PrideCraftBlocks.DEEPSLATE_PRIDE_ORE.get())
+                .add(PrideCraftBlocks.UNKNOWN_MATERIAL_BLOCK.get())
+                .add(PrideCraftBlocks.CORRUPTED_FLAG_BLOCK.get())
+                .add(PrideCraftBlocks.ABROSEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.AGENDER_MINI_FLAG.get())
+                .add(PrideCraftBlocks.AROACE_MINI_FLAG.get())
+                .add(PrideCraftBlocks.AROMANTIC_MINI_FLAG.get())
+                .add(PrideCraftBlocks.ASEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.BIGENDER_MINI_FLAG.get())
+                .add(PrideCraftBlocks.BISEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.DEMIBOY_MINI_FLAG.get())
+                .add(PrideCraftBlocks.DEMIGIRL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.DEMINONBINARY_MINI_FLAG.get())
+                .add(PrideCraftBlocks.DEMIROMANTIC_MINI_FLAG.get())
+                .add(PrideCraftBlocks.DEMISEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.GAY_MINI_FLAG.get())
+                .add(PrideCraftBlocks.GENDERFLUID_MINI_FLAG.get())
+                .add(PrideCraftBlocks.GENDERFLUX_MINI_FLAG.get())
+                .add(PrideCraftBlocks.GENDERQUEER_MINI_FLAG.get())
+                .add(PrideCraftBlocks.GRAYROMANTIC_MINI_FLAG.get())
+                .add(PrideCraftBlocks.GRAYSEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.INTERSEX_MINI_FLAG.get())
+                .add(PrideCraftBlocks.LESBIAN_MINI_FLAG.get())
+                .add(PrideCraftBlocks.NONBINARY_MINI_FLAG.get())
+                .add(PrideCraftBlocks.OMNISEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.PANSEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.POLYSEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.PROGRESS_PRIDE_MINI_FLAG.get())
+                .add(PrideCraftBlocks.QUEER_MINI_FLAG.get())
+                .add(PrideCraftBlocks.RAINBOW_MINI_FLAG.get())
+                .add(PrideCraftBlocks.TRANSGENDER_MINI_FLAG.get())
+                .add(PrideCraftBlocks.ABROSEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.AGENDER_WALL_FLAG.get())
+                .add(PrideCraftBlocks.AROACE_WALL_FLAG.get())
+                .add(PrideCraftBlocks.AROMANTIC_WALL_FLAG.get())
+                .add(PrideCraftBlocks.ASEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.BIGENDER_WALL_FLAG.get())
+                .add(PrideCraftBlocks.BISEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.DEMIBOY_WALL_FLAG.get())
+                .add(PrideCraftBlocks.DEMIGIRL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.DEMINONBINARY_WALL_FLAG.get())
+                .add(PrideCraftBlocks.DEMIROMANTIC_WALL_FLAG.get())
+                .add(PrideCraftBlocks.DEMISEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.GAY_WALL_FLAG.get())
+                .add(PrideCraftBlocks.GENDERFLUID_WALL_FLAG.get())
+                .add(PrideCraftBlocks.GENDERFLUX_WALL_FLAG.get())
+                .add(PrideCraftBlocks.GENDERQUEER_WALL_FLAG.get())
+                .add(PrideCraftBlocks.GRAYROMANTIC_WALL_FLAG.get())
+                .add(PrideCraftBlocks.GRAYSEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.INTERSEX_WALL_FLAG.get())
+                .add(PrideCraftBlocks.LESBIAN_WALL_FLAG.get())
+                .add(PrideCraftBlocks.NONBINARY_WALL_FLAG.get())
+                .add(PrideCraftBlocks.OMNISEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.PANSEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.POLYSEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.PROGRESS_PRIDE_WALL_FLAG.get())
+                .add(PrideCraftBlocks.QUEER_WALL_FLAG.get())
+                .add(PrideCraftBlocks.RAINBOW_WALL_FLAG.get())
+                .add(PrideCraftBlocks.TRANSGENDER_WALL_FLAG.get());
+
+
+        //Stone Level
+        tag(BlockTags.NEEDS_STONE_TOOL)
+                .add(PrideCraftBlocks.UNKNOWN_ORE.get())
+                .add(PrideCraftBlocks.DEEPSLATE_UNKNOWN_ORE.get())
+                .add(PrideCraftBlocks.UNKNOWN_MATERIAL_BLOCK.get())
+                .add(PrideCraftBlocks.CORRUPTED_FLAG_BLOCK.get());
+        
+        //Iron Level
+        tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(PrideCraftBlocks.PRIDE_ORE.get())
+                .add(PrideCraftBlocks.DEEPSLATE_PRIDE_ORE.get())
+                .add(PrideCraftBlocks.ABROSEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.AGENDER_MINI_FLAG.get())
+                .add(PrideCraftBlocks.AROACE_MINI_FLAG.get())
+                .add(PrideCraftBlocks.AROMANTIC_MINI_FLAG.get())
+                .add(PrideCraftBlocks.ASEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.BIGENDER_MINI_FLAG.get())
+                .add(PrideCraftBlocks.BISEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.DEMIBOY_MINI_FLAG.get())
+                .add(PrideCraftBlocks.DEMIGIRL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.DEMINONBINARY_MINI_FLAG.get())
+                .add(PrideCraftBlocks.DEMIROMANTIC_MINI_FLAG.get())
+                .add(PrideCraftBlocks.DEMISEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.GAY_MINI_FLAG.get())
+                .add(PrideCraftBlocks.GENDERFLUID_MINI_FLAG.get())
+                .add(PrideCraftBlocks.GENDERFLUX_MINI_FLAG.get())
+                .add(PrideCraftBlocks.GENDERQUEER_MINI_FLAG.get())
+                .add(PrideCraftBlocks.GRAYROMANTIC_MINI_FLAG.get())
+                .add(PrideCraftBlocks.GRAYSEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.INTERSEX_MINI_FLAG.get())
+                .add(PrideCraftBlocks.LESBIAN_MINI_FLAG.get())
+                .add(PrideCraftBlocks.NONBINARY_MINI_FLAG.get())
+                .add(PrideCraftBlocks.OMNISEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.PANSEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.POLYSEXUAL_MINI_FLAG.get())
+                .add(PrideCraftBlocks.PROGRESS_PRIDE_MINI_FLAG.get())
+                .add(PrideCraftBlocks.QUEER_MINI_FLAG.get())
+                .add(PrideCraftBlocks.RAINBOW_MINI_FLAG.get())
+                .add(PrideCraftBlocks.TRANSGENDER_MINI_FLAG.get())
+                .add(PrideCraftBlocks.ABROSEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.AGENDER_WALL_FLAG.get())
+                .add(PrideCraftBlocks.AROACE_WALL_FLAG.get())
+                .add(PrideCraftBlocks.AROMANTIC_WALL_FLAG.get())
+                .add(PrideCraftBlocks.ASEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.BIGENDER_WALL_FLAG.get())
+                .add(PrideCraftBlocks.BISEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.DEMIBOY_WALL_FLAG.get())
+                .add(PrideCraftBlocks.DEMIGIRL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.DEMINONBINARY_WALL_FLAG.get())
+                .add(PrideCraftBlocks.DEMIROMANTIC_WALL_FLAG.get())
+                .add(PrideCraftBlocks.DEMISEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.GAY_WALL_FLAG.get())
+                .add(PrideCraftBlocks.GENDERFLUID_WALL_FLAG.get())
+                .add(PrideCraftBlocks.GENDERFLUX_WALL_FLAG.get())
+                .add(PrideCraftBlocks.GENDERQUEER_WALL_FLAG.get())
+                .add(PrideCraftBlocks.GRAYROMANTIC_WALL_FLAG.get())
+                .add(PrideCraftBlocks.GRAYSEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.INTERSEX_WALL_FLAG.get())
+                .add(PrideCraftBlocks.LESBIAN_WALL_FLAG.get())
+                .add(PrideCraftBlocks.NONBINARY_WALL_FLAG.get())
+                .add(PrideCraftBlocks.OMNISEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.PANSEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.POLYSEXUAL_WALL_FLAG.get())
+                .add(PrideCraftBlocks.PROGRESS_PRIDE_WALL_FLAG.get())
+                .add(PrideCraftBlocks.QUEER_WALL_FLAG.get())
+                .add(PrideCraftBlocks.RAINBOW_WALL_FLAG.get())
+                .add(PrideCraftBlocks.TRANSGENDER_WALL_FLAG.get());
+
+    }
+
+}

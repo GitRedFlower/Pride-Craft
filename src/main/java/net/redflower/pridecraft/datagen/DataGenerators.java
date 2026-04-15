@@ -27,18 +27,18 @@ public class DataGenerators {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
         generator.addProvider(event.includeServer(),new LootTableProvider(packOutput, Collections.emptySet(),
-                List.of(new LootTableProvider.SubProviderEntry(ModBlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
+                List.of(new LootTableProvider.SubProviderEntry(PrideCraftBlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
 
-        generator.addProvider(event.includeServer(), new ModRecipeProvider(packOutput, lookupProvider));
+        generator.addProvider(event.includeServer(), new PrideCraftRecipeProvider(packOutput, lookupProvider));
 
-        BlockTagsProvider blockTagsProvider = new ModBlockTagProvider(packOutput, lookupProvider, existingFileHelper);
+        BlockTagsProvider blockTagsProvider = new PrideCraftBlockTagProvider(packOutput, lookupProvider, existingFileHelper);
         generator.addProvider(event.includeServer(), blockTagsProvider);
-        generator.addProvider(event.includeServer(), new ModItemTagProvider(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+        generator.addProvider(event.includeServer(), new PrideCraftItemTagProvider(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
 
-        generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
-        generator.addProvider(event.includeClient(), new ModBlockModelProvider(packOutput,existingFileHelper));
+        generator.addProvider(event.includeClient(), new PrideCraftItemModelProvider(packOutput, existingFileHelper));
+        generator.addProvider(event.includeClient(), new PrideCraftBlockModelProvider(packOutput,existingFileHelper));
 
-        generator.addProvider(event.includeServer(), new ModDataPackProvider(packOutput, lookupProvider));
-        generator.addProvider(event.includeServer(), new ModGlobalLootModifierProvider(packOutput, lookupProvider));
+        generator.addProvider(event.includeServer(), new PrideCraftDataPackProvider(packOutput, lookupProvider));
+        generator.addProvider(event.includeServer(), new PrideCraftGlobalLootModifierProvider(packOutput, lookupProvider));
     }
 }

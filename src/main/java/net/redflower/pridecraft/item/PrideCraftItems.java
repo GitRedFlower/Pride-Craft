@@ -9,7 +9,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.redflower.pridecraft.PrideCraft;
 import net.redflower.pridecraft.item.custom.BlahajItem;
 
-public class ModItems {
+public class PrideCraftItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PrideCraft.MODID);
 
     public static final DeferredItem<Item> UNKNOWN_MATERIAL = ITEMS.register("unknown_material",
