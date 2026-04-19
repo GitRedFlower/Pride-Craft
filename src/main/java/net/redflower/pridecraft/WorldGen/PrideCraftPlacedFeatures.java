@@ -17,6 +17,7 @@ import java.util.List;
 public class PrideCraftPlacedFeatures {
 
     public static final ResourceKey<PlacedFeature> UNKNOWN_ORE_PLACED_KEY = registerKey("unknown_ore_placed");
+    public static final ResourceKey<PlacedFeature> PRIDE_ORE_PLACED_KEY = registerKey("pride_ore_placed");
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -24,6 +25,8 @@ public class PrideCraftPlacedFeatures {
         register(context, UNKNOWN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(PrideCraftConfiguredFeatures.UNKNOWN_ORE_KEY),
                 PrideCraftOrePlacement.commonOrePlacement(8, HeightRangePlacement.triangle(VerticalAnchor.absolute(-15), VerticalAnchor.absolute(95))));
 
+        register(context, PRIDE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(PrideCraftConfiguredFeatures.PRIDE_ORE_KEY),
+                PrideCraftOrePlacement.commonOrePlacement(8, HeightRangePlacement.triangle(VerticalAnchor.absolute(-50), VerticalAnchor.absolute(16))));
     }
 
     private static ResourceKey<PlacedFeature> registerKey(String name) {

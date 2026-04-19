@@ -25,6 +25,7 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
         //Lists
         List<ItemLike> UNKNOWN_SMELTABLES = List.of(PrideCraftItems.UNKNOWN_MATERIAL, PrideCraftBlocks.UNKNOWN_ORE, PrideCraftBlocks.DEEPSLATE_UNKNOWN_ORE);
         List<ItemLike> UNKNOWN_BLOCK_SMELTABLES = List.of(PrideCraftBlocks.UNKNOWN_MATERIAL_BLOCK);
+        List<ItemLike> PRIDE_SMELTABLES = List.of(PrideCraftBlocks.PRIDE_ORE, PrideCraftBlocks.DEEPSLATE_PRIDE_ORE);
 
         //Shaped
         //Flag Blocks
@@ -1286,6 +1287,11 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
                 .unlockedBy("has_transmasculine_flag_block", has(PrideCraftBlocks.TRANSMASCULINE_FLAG_BLOCK))
                 .save(recipeOutput);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.CORRUPTED_FLAG_BLOCK.get(), 8)
+                .requires(PrideCraftItems.PRIDE_INGOT)
+                .unlockedBy("has_pride_ingot", has(PrideCraftItems.PRIDE_INGOT))
+                .save(recipeOutput);
+
         //Other Blocks
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftItems.UNKNOWN_MATERIAL.get(), 9)
                 .requires(PrideCraftBlocks.UNKNOWN_MATERIAL_BLOCK)
@@ -1301,10 +1307,12 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
         //Smelting
         oreSmelting(recipeOutput, UNKNOWN_SMELTABLES, RecipeCategory.MISC, PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 0.25f, 200, "rainbow");
         oreSmelting(recipeOutput, UNKNOWN_BLOCK_SMELTABLES, RecipeCategory.MISC, PrideCraftBlocks.CORRUPTED_FLAG_BLOCK, 0.25f, 200, "rainbow");
+        oreSmelting(recipeOutput, PRIDE_SMELTABLES, RecipeCategory.MISC, PrideCraftItems.PRIDE_INGOT, 0.25f, 200, "rainbow");
 
         //Blasting
         oreBlasting(recipeOutput, UNKNOWN_SMELTABLES, RecipeCategory.MISC, PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 0.25f, 100, "rainbow");
         oreBlasting(recipeOutput, UNKNOWN_BLOCK_SMELTABLES, RecipeCategory.MISC, PrideCraftBlocks.CORRUPTED_FLAG_BLOCK, 0.25f, 100, "rainbow");
+        oreBlasting(recipeOutput, PRIDE_SMELTABLES, RecipeCategory.MISC, PrideCraftItems.PRIDE_INGOT, 0.25f, 100, "rainbow");
 
         //Stone Cutting
         //Flag Materials

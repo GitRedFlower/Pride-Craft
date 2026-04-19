@@ -1,4 +1,4 @@
-// 1.21.1	2025-12-06T21:30:40.015810008	Item Models: pridecraft
+// 1.21.1	2026-04-15T15:48:09.026411773	Item Models: pridecraft
 400cdb3bcd79d8f99b6bf177d40f8e788fe4ece3 assets/pridecraft/models/item/abrosexual_material.json
 fe85026549dc41257942282a657d8c6a12de4a18 assets/pridecraft/models/item/agender_material.json
 45d8258b2398c107ca1702ce11df7cbe75f9bf30 assets/pridecraft/models/item/aroace_material.json
@@ -24,6 +24,7 @@ f5dd6ac8367f6aef48e114e5a53332feeb2f96a2 assets/pridecraft/models/item/lesbian_m
 1a967d99ac91b79afd616789f2a8088a80a1788b assets/pridecraft/models/item/omnisexual_material.json
 7459c2c83cf36ee8f2c1703566b9f2963d84e25b assets/pridecraft/models/item/pansexual_material.json
 6991a614802ef0342d6f25b797651ba33e8185a3 assets/pridecraft/models/item/polysexual_material.json
+1b80db9474b1d52d098480cc863f50ec0b4ce361 assets/pridecraft/models/item/pride_ingot.json
 14cbf51376e695c9dafd5bbcaa3cd008fc7136ba assets/pridecraft/models/item/progress_pride_material.json
 349abbe47ed1b7ab672323bedcb3dc3d9e786c34 assets/pridecraft/models/item/queer_material.json
 35b48749424370f87f73d581bd872b74072f24a8 assets/pridecraft/models/item/rainbow_material.json

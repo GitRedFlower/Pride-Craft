@@ -2,6 +2,7 @@ Added:
     
     - Pride Ore
     - Deepslate Pride Ore
+    - Pride Ingot
 
 Changes:
 

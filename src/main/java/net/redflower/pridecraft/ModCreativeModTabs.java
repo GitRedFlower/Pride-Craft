@@ -27,6 +27,7 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                     output.accept(PrideCraftBlocks.DEEPSLATE_UNKNOWN_ORE);
                     output.accept(PrideCraftBlocks.PRIDE_ORE);
                     output.accept(PrideCraftBlocks.DEEPSLATE_PRIDE_ORE);
+
                     //Storage Blocks
                     output.accept(PrideCraftBlocks.UNKNOWN_MATERIAL_BLOCK);
                     output.accept(PrideCraftBlocks.CORRUPTED_FLAG_BLOCK);
@@ -171,6 +172,7 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                         //Other Things
                         output.accept(PrideCraftItems.UNKNOWN_MATERIAL);
                         output.accept(PrideCraftItems.CORRUPTED_FLAG_MATERIAL);
+                        output.accept(PrideCraftItems.PRIDE_INGOT);
 
                         //Flag Materials
                         output.accept(PrideCraftItems.ABROSEXUAL_MATERIAL);

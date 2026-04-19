@@ -155,6 +155,8 @@ public class PrideCraftBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(PrideCraftBlocks.TRANSFEMININE_FLAG_CARPET.get());
         dropSelf(PrideCraftBlocks.TRANSMASCULINE_FLAG_CARPET.get());
 
+        //Flowers
+
 
         //Other Blocks
         //Ores

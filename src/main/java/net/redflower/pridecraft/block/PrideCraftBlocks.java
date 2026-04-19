@@ -3,14 +3,17 @@ package net.redflower.pridecraft.block;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.redflower.pridecraft.PrideCraft;
 import net.redflower.pridecraft.block.custom.FlagCarpet;
 import net.redflower.pridecraft.block.custom.MiniFlag;
+import net.redflower.pridecraft.block.custom.PrideFlower;
 import net.redflower.pridecraft.block.custom.WallFlag;
 import net.redflower.pridecraft.item.PrideCraftItems;
 
@@ -720,6 +723,15 @@ public class PrideCraftBlocks {
                     .strength(0.2f)
                     .sound(SoundType.WOOL)));
 
+    //Flowers
+    public static final DeferredBlock<Block> FLOWER_TEST = registerBlock("flower_test",
+            () -> new PrideFlower(6f, BlockBehaviour.Properties.of().noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .instabreak()
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+                    .pushReaction(PushReaction.DESTROY)
+            ));
 
 
 

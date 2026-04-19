@@ -19,6 +19,7 @@ import java.util.List;
 public class PrideCraftConfiguredFeatures {
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> UNKNOWN_ORE_KEY = registerKey("unknown_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> PRIDE_ORE_KEY = registerKey("pride_ore");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
 
@@ -31,8 +32,12 @@ public class PrideCraftConfiguredFeatures {
                 OreConfiguration.target(stoneReplaceables, PrideCraftBlocks.UNKNOWN_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, PrideCraftBlocks.DEEPSLATE_UNKNOWN_ORE.get().defaultBlockState()));
 
-        register(context, UNKNOWN_ORE_KEY, Feature.ORE, new OreConfiguration(unknownOres, 6));
+        List<OreConfiguration.TargetBlockState> prideOres = List.of(
+                OreConfiguration.target(stoneReplaceables, PrideCraftBlocks.PRIDE_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, PrideCraftBlocks.DEEPSLATE_PRIDE_ORE.get().defaultBlockState()));
 
+        register(context, UNKNOWN_ORE_KEY, Feature.ORE, new OreConfiguration(unknownOres, 6));
+        register(context, PRIDE_ORE_KEY, Feature.ORE, new OreConfiguration(prideOres, 4));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey (String name) {

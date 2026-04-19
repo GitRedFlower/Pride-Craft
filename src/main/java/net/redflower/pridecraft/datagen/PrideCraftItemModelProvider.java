@@ -49,5 +49,6 @@ public class PrideCraftItemModelProvider extends ItemModelProvider {
         //Other Items
         basicItem(PrideCraftItems.UNKNOWN_MATERIAL.get());
         basicItem(PrideCraftItems.CORRUPTED_FLAG_MATERIAL.get());
+        basicItem(PrideCraftItems.PRIDE_INGOT.get());
     }
 }
