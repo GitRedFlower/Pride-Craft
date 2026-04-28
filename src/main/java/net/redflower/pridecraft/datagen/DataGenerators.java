@@ -37,6 +37,7 @@ public class DataGenerators {
         generator.addProvider(true, new ModModelProvider(packOutput));
 
         generator.addProvider(true, new ModDataPackProvider(packOutput, lookupProvider));
+        event.createProvider(ModAtlasProvider::new);
     }
 
     //Data Gen for Server
@@ -58,5 +59,6 @@ public class DataGenerators {
         generator.addProvider(true, new ModModelProvider(packOutput));
 
         generator.addProvider(true, new ModDataPackProvider(packOutput, lookupProvider));
+        event.createProvider(ModAtlasProvider::new);
     }
 }

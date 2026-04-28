@@ -1,8 +1,0 @@
-{
-  "asset_name": "agender",
-  "description": {
-    "color": "#B8F483",
-    "translate": "trim_material.pridecraft.agender"
-  },
-  "ingredient": "pridecraft:agender_material"
-}
