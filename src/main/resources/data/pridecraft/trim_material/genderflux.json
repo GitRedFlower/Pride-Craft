@@ -1,8 +1,0 @@
-{
-  "asset_name": "genderflux",
-  "description": {
-    "color": "#F47694",
-    "translate": "trim_material.pridecraft.genderflux"
-  },
-  "ingredient": "pridecraft:genderflux_material"
-}

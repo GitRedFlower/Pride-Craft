@@ -6,11 +6,14 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.equipment.trim.TrimMaterial;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.redflower.pridecraft.PrideCraft;
 import net.redflower.pridecraft.item.custom.BlahajItem;
+import net.redflower.pridecraft.trim.ModTrimMaterials;
 
 public class ModItems {
 
@@ -26,125 +29,65 @@ public class ModItems {
                     .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "corrupted_flag_material")))));
 
     //Flag Materials
-    public static final DeferredItem<Item> ABROSEXUAL_MATERIAL = ITEMS.register("abrosexual_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "abrosexual_material")))));
+    public static final DeferredItem<Item> ABROSEXUAL_MATERIAL = registerTrimMaterial("abrosexual_material", ModTrimMaterials.ABROSEXUAL);
 
-    public static final DeferredItem<Item> AGENDER_MATERIAL = ITEMS.register("agender_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "agender_material")))));
+    public static final DeferredItem<Item> AGENDER_MATERIAL = registerTrimMaterial("agender_material", ModTrimMaterials.AGENDER);
 
-    public static final DeferredItem<Item> AROACE_MATERIAL = ITEMS.register("aroace_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "aroace_material")))));
+    public static final DeferredItem<Item> AROACE_MATERIAL = registerTrimMaterial("aroace_material", ModTrimMaterials.AROACE);
 
-    public static final DeferredItem<Item> AROMANTIC_MATERIAL = ITEMS.register("aromantic_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "aromantic_material")))));
+    public static final DeferredItem<Item> AROMANTIC_MATERIAL = registerTrimMaterial("aromantic_material", ModTrimMaterials.AROMANTIC);
 
-    public static final DeferredItem<Item> ASEXUAL_MATERIAL = ITEMS.register("asexual_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "asexual_material")))));
+    public static final DeferredItem<Item> ASEXUAL_MATERIAL = registerTrimMaterial("asexual_material", ModTrimMaterials.ASEXUAL);
 
-    public static final DeferredItem<Item> BIGENDER_MATERIAL = ITEMS.register("bigender_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "bigender_material")))));
+    public static final DeferredItem<Item> BIGENDER_MATERIAL = registerTrimMaterial("bigender_material",ModTrimMaterials.BIGENDER);
 
-    public static final DeferredItem<Item> BISEXUAL_MATERIAL = ITEMS.register("bisexual_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "bisexual_material")))));
+    public static final DeferredItem<Item> BISEXUAL_MATERIAL = registerTrimMaterial("bisexual_material", ModTrimMaterials.BISEXUAL);
 
-    public static final DeferredItem<Item> DEMIBOY_MATERIAL = ITEMS.register("demiboy_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "demiboy_material")))));
+    public static final DeferredItem<Item> DEMIBOY_MATERIAL = registerTrimMaterial("demiboy_material", ModTrimMaterials.DEMIBOY);
 
-    public static final DeferredItem<Item> DEMIGIRL_MATERIAL = ITEMS.register("demigirl_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "demigirl_material")))));
+    public static final DeferredItem<Item> DEMIGIRL_MATERIAL = registerTrimMaterial("demigirl_material", ModTrimMaterials.DEMIGIRL);
 
-    public static final DeferredItem<Item> DEMIROMANTIC_MATERIAL = ITEMS.register("demiromantic_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "demiromantic_material")))));
+    public static final DeferredItem<Item> DEMINONBINARY_MATERIAL = registerTrimMaterial("deminonbinary_material", ModTrimMaterials.DEMINONBINARY);
 
-    public static final DeferredItem<Item> DEMISEXUAL_MATERIAL = ITEMS.register("demisexual_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "demisexual_material")))));
+    public static final DeferredItem<Item> DEMIROMANTIC_MATERIAL = registerTrimMaterial("demiromantic_material", ModTrimMaterials.DEMIROMANTIC);
 
-    public static final DeferredItem<Item> GAY_MATERIAL = ITEMS.register("gay_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "gay_material")))));
+    public static final DeferredItem<Item> DEMISEXUAL_MATERIAL = registerTrimMaterial("demisexual_material", ModTrimMaterials.DEMISEXUAL);
 
-    public static final DeferredItem<Item> GENDERFLUID_MATERIAL = ITEMS.register("genderfluid_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "genderfluid_material")))));
+    public static final DeferredItem<Item> GAY_MATERIAL = registerTrimMaterial("gay_material", ModTrimMaterials.GAY);
 
-    public static final DeferredItem<Item> GENDERFLUX_MATERIAL = ITEMS.register("genderflux_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "genderflux_material")))));
+    public static final DeferredItem<Item> GENDERFLUID_MATERIAL = registerTrimMaterial("genderfluid_material", ModTrimMaterials.GENDERFLUID);
 
-    public static final DeferredItem<Item> GENDERQUEER_MATERIAL = ITEMS.register("genderqueer_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "genderqueer_material")))));
+    public static final DeferredItem<Item> GENDERFLUX_MATERIAL = registerTrimMaterial("genderflux_material", ModTrimMaterials.GENDERFLUX);
 
-    public static final DeferredItem<Item> GRAYSEXUAL_MATERIAL = ITEMS.register("graysexual_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "graysexual_material")))));
+    public static final DeferredItem<Item> GENDERQUEER_MATERIAL = registerTrimMaterial("genderqueer_material", ModTrimMaterials.GENDERQUEER);
 
-    public static final DeferredItem<Item> INTERSEX_MATERIAL = ITEMS.register("intersex_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "intersex_material")))));
+    public static final DeferredItem<Item> GRAYSEXUAL_MATERIAL = registerTrimMaterial("graysexual_material", ModTrimMaterials.GRAYSEXUAL);
 
-    public static final DeferredItem<Item> LESBIAN_MATERIAL = ITEMS.register("lesbian_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "lesbian_material")))));
+    public static final DeferredItem<Item> INTERSEX_MATERIAL = registerTrimMaterial("intersex_material", ModTrimMaterials.INTERSEX);
 
-    public static final DeferredItem<Item> NONBINARY_MATERIAL = ITEMS.register("nonbinary_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "nonbinary_material")))));
+    public static final DeferredItem<Item> LESBIAN_MATERIAL = registerTrimMaterial("lesbian_material", ModTrimMaterials.LESBIAN);
 
-    public static final DeferredItem<Item> OMNISEXUAL_MATERIAL = ITEMS.register("omnisexual_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "omnisexual_material")))));
+    public static final DeferredItem<Item> NONBINARY_MATERIAL = registerTrimMaterial("nonbinary_material", ModTrimMaterials.NONBINARY);
 
-    public static final DeferredItem<Item> PANSEXUAL_MATERIAL = ITEMS.register("pansexual_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "pansexual_material")))));
+    public static final DeferredItem<Item> OMNISEXUAL_MATERIAL = registerTrimMaterial("omnisexual_material", ModTrimMaterials.OMNISEXUAL);
 
-    public static final DeferredItem<Item> PROGRESS_PRIDE_MATERIAL = ITEMS.register("progress_pride_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "progress_pride_material")))));
+    public static final DeferredItem<Item> PANSEXUAL_MATERIAL = registerTrimMaterial("pansexual_material", ModTrimMaterials.PANSEXUAL);
 
-    public static final DeferredItem<Item> QUEER_MATERIAL = ITEMS.register("queer_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "queer_material")))));
+    public static final DeferredItem<Item> PROGRESS_PRIDE_MATERIAL = registerTrimMaterial("progress_pride_material", ModTrimMaterials.PROGRESS_PRIDE);
 
-    public static final DeferredItem<Item> RAINBOW_MATERIAL = ITEMS.register("rainbow_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "rainbow_material")))));
+    public static final DeferredItem<Item> QUEER_MATERIAL = registerTrimMaterial("queer_material", ModTrimMaterials.QUEER);
 
-    public static final DeferredItem<Item> TRANSGENDER_MATERIAL = ITEMS.register("transgender_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "transgender_material")))));
+    public static final DeferredItem<Item> RAINBOW_MATERIAL = registerTrimMaterial("rainbow_material", ModTrimMaterials.RAINBOW);
 
-    public static final DeferredItem<Item> DEMINONBINARY_MATERIAL = ITEMS.register("deminonbinary_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "deminonbinary_material")))));
+    public static final DeferredItem<Item> TRANSGENDER_MATERIAL = registerTrimMaterial("transgender_material", ModTrimMaterials.TRANSGENDER);
 
-    public static final DeferredItem<Item> GRAYROMANTIC_MATERIAL = ITEMS.register("grayromantic_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "grayromantic_material")))));
+    public static final DeferredItem<Item> GRAYROMANTIC_MATERIAL = registerTrimMaterial("grayromantic_material", ModTrimMaterials.GRAYROMANTIC);
 
-    public static final DeferredItem<Item> POLYSEXUAL_MATERIAL = ITEMS.register("polysexual_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "polysexual_material")))));
+    public static final DeferredItem<Item> POLYSEXUAL_MATERIAL = registerTrimMaterial("polysexual_material", ModTrimMaterials.POLYSEXUAL);
 
-    public static final DeferredItem<Item> TRANSFEMININE_MATERIAL = ITEMS.register("transfeminine_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "transfeminine_material")))));
+    public static final DeferredItem<Item> TRANSFEMININE_MATERIAL = registerTrimMaterial("transfeminine_material", ModTrimMaterials.TRANSFEMININE);
 
-    public static final DeferredItem<Item> TRANSMASCULINE_MATERIAL = ITEMS.register("transmasculine_material",
-            () -> new Item(new Item.Properties()
-                    .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, "transmasculine_material")))));
+    public static final DeferredItem<Item> TRANSMASCULINE_MATERIAL = registerTrimMaterial("transmasculine_material", ModTrimMaterials.TRANSMASCULINE);
 
     //Other Items
     public static final DeferredItem<Item> BLAHAJ = ITEMS.register("blahaj",
@@ -186,5 +129,12 @@ public class ModItems {
     //Registers The Items. DO NOT TOUCH!!!
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
+    }
+
+    public static DeferredItem<Item> registerTrimMaterial(String id, ResourceKey<TrimMaterial> trim) {
+        return ITEMS.register(id,
+                () -> new Item(new Item.Properties()
+                        .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PrideCraft.MODID, id)))
+                        .trimMaterial(trim)));
     }
 }
