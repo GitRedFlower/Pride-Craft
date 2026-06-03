@@ -1,19 +1,16 @@
 package net.redflower.pridecraft.block;
 
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.FlowerBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.redflower.pridecraft.PrideCraft;
 import net.redflower.pridecraft.block.custom.FlagCarpet;
 import net.redflower.pridecraft.block.custom.MiniFlag;
-import net.redflower.pridecraft.block.custom.PrideFlower;
 import net.redflower.pridecraft.block.custom.WallFlag;
 import net.redflower.pridecraft.item.PrideCraftItems;
 
@@ -724,13 +721,426 @@ public class PrideCraftBlocks {
                     .sound(SoundType.WOOL)));
 
     //Flowers
-    public static final DeferredBlock<Block> FLOWER_TEST = registerBlock("flower_test",
-            () -> new PrideFlower(6f, BlockBehaviour.Properties.of().noOcclusion()
+    public static final DeferredBlock<Block> ABROSEXUAL_PRIDE_FLOWER = registerBlock("abrosexual_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
                     .noCollission()
                     .sound(SoundType.GRASS)
-                    .instabreak()
                     .offsetType(BlockBehaviour.OffsetType.XZ)
-                    .pushReaction(PushReaction.DESTROY)
+            ));
+
+    public static final DeferredBlock<Block> AGENDER_PRIDE_FLOWER = registerBlock("agender_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> AROACE_PRIDE_FLOWER = registerBlock("aroace_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> AROMANTIC_PRIDE_FLOWER = registerBlock("aromantic_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> ASEXUAL_PRIDE_FLOWER = registerBlock("asexual_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> BIGENDER_PRIDE_FLOWER = registerBlock("bigender_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> BISEXUAL_PRIDE_FLOWER = registerBlock("bisexual_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> DEMIBOY_PRIDE_FLOWER = registerBlock("demiboy_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> DEMIGIRL_PRIDE_FLOWER = registerBlock("demigirl_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> DEMINONBINARY_PRIDE_FLOWER = registerBlock("deminonbinary_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> DEMIROMANTIC_PRIDE_FLOWER = registerBlock("demiromantic_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> DEMISEXUAL_PRIDE_FLOWER = registerBlock("demisexual_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> GAY_PRIDE_FLOWER = registerBlock("gay_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> GENDERFLUID_PRIDE_FLOWER = registerBlock("genderfluid_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> GENDERFLUX_PRIDE_FLOWER = registerBlock("genderflux_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> GENDERQUEER_PRIDE_FLOWER = registerBlock("genderqueer_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> GRAYROMANTIC_PRIDE_FLOWER = registerBlock("grayromantic_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> GRAYSEXUAL_PRIDE_FLOWER = registerBlock("graysexual_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> INTERSEX_PRIDE_FLOWER = registerBlock("intersex_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> LESBIAN_PRIDE_FLOWER = registerBlock("lesbian_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> NONBINARY_PRIDE_FLOWER = registerBlock("nonbinary_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> OMNISEXUAL_PRIDE_FLOWER = registerBlock("omnisexual_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> PANSEXUAL_PRIDE_FLOWER = registerBlock("pansexual_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> POLYSEXUAL_PRIDE_FLOWER = registerBlock("polysexual_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> PROGRESS_PRIDE_FLOWER = registerBlock("progress_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> QUEER_PRIDE_FLOWER = registerBlock("queer_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> RAINBOW_PRIDE_FLOWER = registerBlock("rainbow_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> TRANSFEMININE_PRIDE_FLOWER = registerBlock("transfeminine_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> TRANSGENDER_PRIDE_FLOWER = registerBlock("transgender_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> TRANSMASCULINE_PRIDE_FLOWER = registerBlock("transmasculine_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+
+    //Potted Flowers
+    public static final DeferredBlock<Block> POTTED_ABROSEXUAL_PRIDE_FLOWER = registerBlock("potted_abrosexual_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.ABROSEXUAL_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_AGENDER_PRIDE_FLOWER = registerBlock("potted_agender_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.AGENDER_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_AROACE_PRIDE_FLOWER = registerBlock("potted_aroace_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.AROACE_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_AROMANTIC_PRIDE_FLOWER = registerBlock("potted_aromantic_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.AROMANTIC_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_ASEXUAL_PRIDE_FLOWER = registerBlock("potted_asexual_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.ASEXUAL_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_BIGENDER_PRIDE_FLOWER = registerBlock("potted_bigender_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.BIGENDER_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_BISEXUAL_PRIDE_FLOWER = registerBlock("potted_bisexual_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.BISEXUAL_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_DEMIBOY_PRIDE_FLOWER = registerBlock("potted_demiboy_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.DEMIBOY_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_DEMIGIRL_PRIDE_FLOWER = registerBlock("potted_demigirl_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.DEMIGIRL_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_DEMINONBINARY_PRIDE_FLOWER = registerBlock("potted_deminonbinary_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.DEMINONBINARY_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_DEMIROMANTIC_PRIDE_FLOWER = registerBlock("potted_demiromantic_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.DEMIROMANTIC_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_DEMISEXUAL_PRIDE_FLOWER = registerBlock("potted_demisexual_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.DEMISEXUAL_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_GAY_PRIDE_FLOWER = registerBlock("potted_gay_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.GAY_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_GENDERFLUID_PRIDE_FLOWER = registerBlock("potted_genderfluid_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.GENDERFLUID_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_GENDERFLUX_PRIDE_FLOWER = registerBlock("potted_genderflux_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.GENDERFLUX_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_GENDERQUEER_PRIDE_FLOWER = registerBlock("potted_genderqueer_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.GENDERQUEER_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_GRAYROMANTIC_PRIDE_FLOWER = registerBlock("potted_grayromantic_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.GRAYROMANTIC_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_GRAYSEXUAL_PRIDE_FLOWER = registerBlock("potted_graysexual_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.DEMISEXUAL_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_INTERSEX_PRIDE_FLOWER = registerBlock("potted_intersex_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.INTERSEX_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_LESBIAN_PRIDE_FLOWER = registerBlock("potted_lesbian_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.LESBIAN_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_NONBINARY_PRIDE_FLOWER = registerBlock("potted_nonbinary_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.NONBINARY_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_OMNISEXUAL_PRIDE_FLOWER = registerBlock("potted_omnisexual_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.OMNISEXUAL_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_PANSEXUAL_PRIDE_FLOWER = registerBlock("potted_pansexual_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.PANSEXUAL_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_POLYSEXUAL_PRIDE_FLOWER = registerBlock("potted_polysexual_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.POLYSEXUAL_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_PROGRESS_PRIDE_FLOWER = registerBlock("potted_progress_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.PROGRESS_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_QUEER_PRIDE_FLOWER = registerBlock("potted_queer_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.QUEER_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_RAINBOW_PRIDE_FLOWER = registerBlock("potted_rainbow_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.RAINBOW_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_TRANSFEMININE_PRIDE_FLOWER = registerBlock("potted_transfeminine_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.TRANSFEMININE_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_TRANSGENDER_PRIDE_FLOWER = registerBlock("potted_transgender_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.TRANSGENDER_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_TRANSMASCULINE_PRIDE_FLOWER = registerBlock("potted_transmasculine_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.TRANSMASCULINE_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
             ));
 
 

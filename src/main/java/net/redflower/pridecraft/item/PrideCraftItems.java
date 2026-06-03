@@ -7,9 +7,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.redflower.pridecraft.PrideCraft;
-import net.redflower.pridecraft.block.PrideCraftBlocks;
 import net.redflower.pridecraft.item.custom.BlahajItem;
-import net.redflower.pridecraft.item.custom.PrideFlowerItem;
 
 public class PrideCraftItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PrideCraft.MODID);
@@ -135,10 +133,6 @@ public class PrideCraftItems {
 
     public static final DeferredItem<Item> PURPLE_BLAHAJ = ITEMS.register("purple_blahaj",
             () -> new BlahajItem(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1), MobEffects.DIG_SPEED, 0));
-
-    //Flower Items
-    public static final DeferredItem<Item> FLOWER_TEST = ITEMS.register("flower_test",
-            () -> new PrideFlowerItem(PrideCraftBlocks.FLOWER_TEST.get(), new Item.Properties()));
 
 
     //Registers The Items. DO NOT TOUCH!!!

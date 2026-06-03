@@ -156,7 +156,68 @@ public class PrideCraftBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(PrideCraftBlocks.TRANSMASCULINE_FLAG_CARPET.get());
 
         //Flowers
+        dropSelf(PrideCraftBlocks.ABROSEXUAL_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.AGENDER_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.AROACE_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.AROMANTIC_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.ASEXUAL_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.BIGENDER_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.BISEXUAL_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.DEMIBOY_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.DEMIGIRL_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.DEMINONBINARY_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.DEMIROMANTIC_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.DEMISEXUAL_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.GAY_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.GENDERFLUID_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.GENDERFLUX_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.GENDERQUEER_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.GRAYROMANTIC_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.GRAYSEXUAL_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.INTERSEX_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.LESBIAN_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.NONBINARY_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.OMNISEXUAL_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.PANSEXUAL_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.POLYSEXUAL_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.PROGRESS_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.QUEER_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.RAINBOW_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.TRANSFEMININE_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.TRANSGENDER_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.TRANSMASCULINE_PRIDE_FLOWER.get());
 
+        //Potted Flowers
+        add(PrideCraftBlocks.POTTED_ABROSEXUAL_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.ABROSEXUAL_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_AGENDER_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.AGENDER_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_AROACE_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.AROACE_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_AROMANTIC_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.AROMANTIC_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_ASEXUAL_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.ASEXUAL_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_BIGENDER_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.BIGENDER_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_BISEXUAL_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.BISEXUAL_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_DEMIBOY_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.DEMIBOY_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_DEMIGIRL_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.DEMIGIRL_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_DEMINONBINARY_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.DEMINONBINARY_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_DEMIROMANTIC_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.DEMIROMANTIC_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_DEMISEXUAL_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.DEMISEXUAL_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_GAY_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.GAY_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_GENDERFLUID_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.GENDERFLUID_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_GENDERFLUX_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.GENDERFLUX_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_GENDERQUEER_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.GENDERQUEER_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_GRAYROMANTIC_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.GRAYROMANTIC_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_GRAYSEXUAL_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.GRAYSEXUAL_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_INTERSEX_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.INTERSEX_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_LESBIAN_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.LESBIAN_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_NONBINARY_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.NONBINARY_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_OMNISEXUAL_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.OMNISEXUAL_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_PANSEXUAL_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.PANSEXUAL_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_POLYSEXUAL_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.POLYSEXUAL_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_PROGRESS_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.PROGRESS_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_QUEER_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.QUEER_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_RAINBOW_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.RAINBOW_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_TRANSFEMININE_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.TRANSFEMININE_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_TRANSGENDER_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.TRANSGENDER_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_TRANSMASCULINE_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.TRANSMASCULINE_PRIDE_FLOWER.get()));
 
         //Other Blocks
         //Ores
@@ -172,7 +233,6 @@ public class PrideCraftBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(PrideCraftBlocks.DEEPSLATE_PRIDE_ORE.get());
     }
 
-    //Creates Multiple Ore Drops. Created By Modding by Kaupenjoe. DO NOT TOUCH!!!!
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
         HolderLookup.RegistryLookup<Enchantment> registryLookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);
         return this.createSilkTouchDispatchTable(pBlock,

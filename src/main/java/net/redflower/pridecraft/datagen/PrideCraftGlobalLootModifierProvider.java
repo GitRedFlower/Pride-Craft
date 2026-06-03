@@ -24,7 +24,7 @@ public class PrideCraftGlobalLootModifierProvider extends GlobalLootModifierProv
         this.add("blahaj_from_ancient_city",
                 new AddItemModifier(new LootItemCondition[]{
                         new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("chests/ancient_city")).build(),
-                        LootItemRandomChanceCondition.randomChance(0.20f).build()
+                        LootItemRandomChanceCondition.randomChance(0.35f).build()
                 }, PrideCraftItems.BLAHAJ.get()));
     }
 }

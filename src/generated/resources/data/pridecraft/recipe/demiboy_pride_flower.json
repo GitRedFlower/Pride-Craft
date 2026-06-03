@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "item": "pridecraft:demiboy_material"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pridecraft:demiboy_pride_flower"
+  }
+}

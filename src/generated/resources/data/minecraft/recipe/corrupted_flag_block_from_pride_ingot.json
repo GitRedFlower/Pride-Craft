@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "pridecraft:pride_ingot"
+    }
+  },
+  "pattern": [
+    "AA ",
+    "AA ",
+    "   "
+  ],
+  "result": {
+    "count": 32,
+    "id": "pridecraft:corrupted_flag_block"
+  }
+}

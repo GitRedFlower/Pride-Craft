@@ -160,6 +160,37 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                     output.accept(PrideCraftBlocks.TRANSGENDER_WALL_FLAG);
                     output.accept(PrideCraftBlocks.TRANSMASCULINE_WALL_FLAG);
 
+                    //Flowers
+                    output.accept(PrideCraftBlocks.ABROSEXUAL_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.AGENDER_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.AROACE_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.AROMANTIC_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.ASEXUAL_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.BIGENDER_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.BISEXUAL_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.DEMIBOY_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.DEMIGIRL_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.DEMINONBINARY_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.DEMIROMANTIC_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.DEMISEXUAL_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.GAY_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.GENDERFLUID_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.GENDERFLUX_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.GENDERQUEER_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.GRAYROMANTIC_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.GRAYSEXUAL_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.INTERSEX_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.LESBIAN_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.NONBINARY_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.OMNISEXUAL_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.PANSEXUAL_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.POLYSEXUAL_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.PROGRESS_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.QUEER_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.RAINBOW_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.TRANSFEMININE_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.TRANSGENDER_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.TRANSMASCULINE_PRIDE_FLOWER);
                 })
                 .build());
 

@@ -3,6 +3,7 @@ package net.redflower.pridecraft.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
@@ -10,6 +11,7 @@ import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.redflower.pridecraft.PrideCraft;
 import net.redflower.pridecraft.block.PrideCraftBlocks;
 import net.redflower.pridecraft.item.PrideCraftItems;
+import net.redflower.pridecraft.util.PrideCraftTags;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -1131,6 +1133,14 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
                 .unlockedBy("has_blahaj", has(PrideCraftItems.BLAHAJ))
                 .save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftBlocks.CORRUPTED_FLAG_BLOCK.get(), 32)
+                .pattern("AA ")
+                .pattern("AA ")
+                .pattern("   ")
+                .define('A', PrideCraftItems.PRIDE_INGOT.get())
+                .unlockedBy("has_pride_ingot", has(PrideCraftItems.PRIDE_INGOT))
+                .save(recipeOutput, "corrupted_flag_block_from_pride_ingot");
+
         //Shapeless
         //Flag Blocks
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftItems.ABROSEXUAL_MATERIAL.get(), 9)
@@ -1287,9 +1297,185 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
                 .unlockedBy("has_transmasculine_flag_block", has(PrideCraftBlocks.TRANSMASCULINE_FLAG_BLOCK))
                 .save(recipeOutput);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.CORRUPTED_FLAG_BLOCK.get(), 8)
-                .requires(PrideCraftItems.PRIDE_INGOT)
-                .unlockedBy("has_pride_ingot", has(PrideCraftItems.PRIDE_INGOT))
+        //Pride Flowers
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.ABROSEXUAL_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.ABROSEXUAL_MATERIAL)
+                .unlockedBy("has_abrosexual_material", has(PrideCraftItems.ABROSEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.AGENDER_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.AGENDER_MATERIAL)
+                .unlockedBy("has_agender_material", has(PrideCraftItems.AGENDER_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.AROACE_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.AROACE_MATERIAL)
+                .unlockedBy("has_aroace_material", has(PrideCraftItems.AROACE_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.AROMANTIC_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.AROMANTIC_MATERIAL)
+                .unlockedBy("has_aromantic_material", has(PrideCraftItems.AROMANTIC_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.ASEXUAL_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.ASEXUAL_MATERIAL)
+                .unlockedBy("has_asexual_material", has(PrideCraftItems.ASEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.BIGENDER_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.BIGENDER_MATERIAL)
+                .unlockedBy("has_bigender_material", has(PrideCraftItems.BIGENDER_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.BISEXUAL_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.BISEXUAL_MATERIAL)
+                .unlockedBy("has_bisexual_material", has(PrideCraftItems.BISEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.DEMIBOY_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.DEMIBOY_MATERIAL)
+                .unlockedBy("has_demiboy_material", has(PrideCraftItems.DEMIBOY_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.DEMIGIRL_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.DEMIGIRL_MATERIAL)
+                .unlockedBy("has_demigirl_material", has(PrideCraftItems.DEMIGIRL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.DEMINONBINARY_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.DEMINONBINARY_MATERIAL)
+                .unlockedBy("has_deminonbinary_material", has(PrideCraftItems.DEMINONBINARY_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.DEMIROMANTIC_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.DEMIROMANTIC_MATERIAL)
+                .unlockedBy("has_demiromantic_material", has(PrideCraftItems.DEMIROMANTIC_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.DEMISEXUAL_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.DEMISEXUAL_MATERIAL)
+                .unlockedBy("has_demisexual_material", has(PrideCraftItems.DEMISEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.GAY_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.GAY_MATERIAL)
+                .unlockedBy("has_gay_material", has(PrideCraftItems.GAY_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.GENDERFLUID_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.GENDERFLUID_MATERIAL)
+                .unlockedBy("has_genderfluid_material", has(PrideCraftItems.GENDERFLUID_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.GENDERFLUX_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.GENDERFLUX_MATERIAL)
+                .unlockedBy("has_genderflux_material", has(PrideCraftItems.GENDERFLUX_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.GENDERQUEER_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.GENDERQUEER_MATERIAL)
+                .unlockedBy("has_genderqueer_material", has(PrideCraftItems.GENDERQUEER_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.GRAYROMANTIC_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.GRAYROMANTIC_MATERIAL)
+                .unlockedBy("has_grayromantic_material", has(PrideCraftItems.GRAYROMANTIC_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.GRAYSEXUAL_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.GRAYSEXUAL_MATERIAL)
+                .unlockedBy("has_graysexual_material", has(PrideCraftItems.GRAYSEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.INTERSEX_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.INTERSEX_MATERIAL)
+                .unlockedBy("has_intersex_material", has(PrideCraftItems.INTERSEX_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.LESBIAN_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.LESBIAN_MATERIAL)
+                .unlockedBy("has_lesbian_material", has(PrideCraftItems.LESBIAN_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.NONBINARY_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.NONBINARY_MATERIAL)
+                .unlockedBy("has_nonbinary_material", has(PrideCraftItems.NONBINARY_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.OMNISEXUAL_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.OMNISEXUAL_MATERIAL)
+                .unlockedBy("has_omnisexual_material", has(PrideCraftItems.OMNISEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.PANSEXUAL_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.PANSEXUAL_MATERIAL)
+                .unlockedBy("has_pansexual_material", has(PrideCraftItems.PANSEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.POLYSEXUAL_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.POLYSEXUAL_MATERIAL)
+                .unlockedBy("has_polysexual_material", has(PrideCraftItems.POLYSEXUAL_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.PROGRESS_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.PROGRESS_PRIDE_MATERIAL)
+                .unlockedBy("has_progress_pride_material", has(PrideCraftItems.PROGRESS_PRIDE_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.QUEER_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.QUEER_MATERIAL)
+                .unlockedBy("has_queer_material", has(PrideCraftItems.QUEER_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.RAINBOW_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.RAINBOW_MATERIAL)
+                .unlockedBy("has_rainbow_material", has(PrideCraftItems.RAINBOW_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.TRANSFEMININE_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.TRANSFEMININE_MATERIAL)
+                .unlockedBy("has_transfeminine_material", has(PrideCraftItems.TRANSFEMININE_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.TRANSGENDER_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.TRANSGENDER_MATERIAL)
+                .unlockedBy("has_transgender_material", has(PrideCraftItems.TRANSGENDER_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.TRANSMASCULINE_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.TRANSMASCULINE_MATERIAL)
+                .unlockedBy("has_transmasculine_material", has(PrideCraftItems.TRANSMASCULINE_MATERIAL))
                 .save(recipeOutput);
 
         //Other Blocks

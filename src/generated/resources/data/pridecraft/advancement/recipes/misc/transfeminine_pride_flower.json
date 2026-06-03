@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pridecraft:transfeminine_pride_flower"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_transfeminine_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pridecraft:transfeminine_material"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_transfeminine_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pridecraft:transfeminine_pride_flower"
+    ]
+  }
+}

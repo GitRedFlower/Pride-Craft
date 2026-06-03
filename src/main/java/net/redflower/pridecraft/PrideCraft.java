@@ -1,5 +1,7 @@
 package net.redflower.pridecraft;
 
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.redflower.pridecraft.block.PrideCraftBlocks;
 import net.redflower.pridecraft.item.PrideCraftItems;
 import net.redflower.pridecraft.loot.PrideCraftLootModifiers;
@@ -54,7 +56,38 @@ public class PrideCraft {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
-
+        event.enqueueWork(() -> {
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.ABROSEXUAL_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_ABROSEXUAL_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.AGENDER_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_AGENDER_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.AROACE_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_AROACE_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.AROMANTIC_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_AROMANTIC_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.ASEXUAL_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_ASEXUAL_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.BIGENDER_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_BIGENDER_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.BISEXUAL_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_BISEXUAL_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.DEMIBOY_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_DEMIBOY_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.DEMIGIRL_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_DEMIGIRL_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.DEMINONBINARY_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_DEMINONBINARY_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.DEMIROMANTIC_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_DEMIROMANTIC_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.DEMISEXUAL_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_DEMISEXUAL_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.GAY_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_GAY_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.GENDERFLUID_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_GENDERFLUID_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.GENDERFLUX_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_GENDERFLUX_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.GENDERQUEER_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_GENDERQUEER_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.GRAYROMANTIC_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_GRAYROMANTIC_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.GRAYSEXUAL_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_GRAYSEXUAL_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.INTERSEX_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_INTERSEX_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.LESBIAN_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_LESBIAN_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.NONBINARY_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_NONBINARY_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.OMNISEXUAL_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_OMNISEXUAL_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.PANSEXUAL_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_PANSEXUAL_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.POLYSEXUAL_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_POLYSEXUAL_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.PROGRESS_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_PROGRESS_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.QUEER_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_QUEER_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.RAINBOW_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_RAINBOW_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.TRANSFEMININE_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_TRANSFEMININE_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.TRANSGENDER_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_TRANSGENDER_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.TRANSMASCULINE_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_TRANSMASCULINE_PRIDE_FLOWER);
+        });
     }
 
 
