@@ -31,6 +31,7 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                     //Storage Blocks
                     output.accept(PrideCraftBlocks.UNKNOWN_MATERIAL_BLOCK);
                     output.accept(PrideCraftBlocks.CORRUPTED_FLAG_BLOCK);
+                    output.accept(PrideCraftBlocks.PRIDE_BLOCK);
 
                     //Flag Blocks
                     output.accept(PrideCraftBlocks.ABROSEXUAL_FLAG_BLOCK);

@@ -56,6 +56,12 @@ public class PrideCraftBlocks {
                     .strength(4.5f)
                     .sound(SoundType.DEEPSLATE)));
 
+    public static final DeferredBlock<Block> PRIDE_BLOCK = registerBlock("pride_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .requiresCorrectToolForDrops()
+                    .strength(3f)
+                    .sound(SoundType.METAL)));
+
     //Flag Blocks
     public static final DeferredBlock<Block> ABROSEXUAL_FLAG_BLOCK = registerBlock("abrosexual_flag_block",
             () -> new Block(BlockBehaviour.Properties.of()

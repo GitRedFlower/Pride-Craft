@@ -58,6 +58,105 @@ public class PrideCraftItemModelProvider extends ItemModelProvider {
         basicItem(PrideCraftItems.TRANSFEMININE_MATERIAL.get());
         basicItem(PrideCraftItems.TRANSMASCULINE_MATERIAL.get());
 
+        //Mini Flags
+        customBlock(PrideCraftBlocks.ABROSEXUAL_MINI_FLAG);
+        customBlock(PrideCraftBlocks.AGENDER_MINI_FLAG);
+        customBlock(PrideCraftBlocks.AROACE_MINI_FLAG);
+        customBlock(PrideCraftBlocks.AROMANTIC_MINI_FLAG);
+        customBlock(PrideCraftBlocks.ASEXUAL_MINI_FLAG);
+        customBlock(PrideCraftBlocks.BIGENDER_MINI_FLAG);
+        customBlock(PrideCraftBlocks.BISEXUAL_MINI_FLAG);
+        customBlock(PrideCraftBlocks.DEMIBOY_MINI_FLAG);
+        customBlock(PrideCraftBlocks.DEMIGIRL_MINI_FLAG);
+        customBlock(PrideCraftBlocks.DEMINONBINARY_MINI_FLAG);
+        customBlock(PrideCraftBlocks.DEMIROMANTIC_MINI_FLAG);
+        customBlock(PrideCraftBlocks.DEMISEXUAL_MINI_FLAG);
+        customBlock(PrideCraftBlocks.GAY_MINI_FLAG);
+        customBlock(PrideCraftBlocks.GENDERFLUID_MINI_FLAG);
+        customBlock(PrideCraftBlocks.GENDERFLUX_MINI_FLAG);
+        customBlock(PrideCraftBlocks.GENDERQUEER_MINI_FLAG);
+        customBlock(PrideCraftBlocks.GRAYROMANTIC_MINI_FLAG);
+        customBlock(PrideCraftBlocks.GRAYSEXUAL_MINI_FLAG);
+        customBlock(PrideCraftBlocks.INTERSEX_MINI_FLAG);
+        customBlock(PrideCraftBlocks.LESBIAN_MINI_FLAG);
+        customBlock(PrideCraftBlocks.NONBINARY_MINI_FLAG);
+        customBlock(PrideCraftBlocks.OMNISEXUAL_MINI_FLAG);
+        customBlock(PrideCraftBlocks.PANSEXUAL_MINI_FLAG);
+        customBlock(PrideCraftBlocks.POLYSEXUAL_MINI_FLAG);
+        customBlock(PrideCraftBlocks.PROGRESS_PRIDE_MINI_FLAG);
+        customBlock(PrideCraftBlocks.OMNISEXUAL_MINI_FLAG);
+        customBlock(PrideCraftBlocks.QUEER_MINI_FLAG);
+        customBlock(PrideCraftBlocks.RAINBOW_MINI_FLAG);
+        customBlock(PrideCraftBlocks.TRANSFEMININE_MINI_FLAG);
+        customBlock(PrideCraftBlocks.TRANSGENDER_MINI_FLAG);
+        customBlock(PrideCraftBlocks.TRANSMASCULINE_MINI_FLAG);
+
+        //Wall Flag
+        customBlock(PrideCraftBlocks.ABROSEXUAL_WALL_FLAG);
+        customBlock(PrideCraftBlocks.AGENDER_WALL_FLAG);
+        customBlock(PrideCraftBlocks.AROACE_WALL_FLAG);
+        customBlock(PrideCraftBlocks.AROMANTIC_WALL_FLAG);
+        customBlock(PrideCraftBlocks.ASEXUAL_WALL_FLAG);
+        customBlock(PrideCraftBlocks.BIGENDER_WALL_FLAG);
+        customBlock(PrideCraftBlocks.BISEXUAL_WALL_FLAG);
+        customBlock(PrideCraftBlocks.DEMIBOY_WALL_FLAG);
+        customBlock(PrideCraftBlocks.DEMIGIRL_WALL_FLAG);
+        customBlock(PrideCraftBlocks.DEMINONBINARY_WALL_FLAG);
+        customBlock(PrideCraftBlocks.DEMIROMANTIC_WALL_FLAG);
+        customBlock(PrideCraftBlocks.DEMISEXUAL_WALL_FLAG);
+        customBlock(PrideCraftBlocks.GAY_WALL_FLAG);
+        customBlock(PrideCraftBlocks.GENDERFLUID_WALL_FLAG);
+        customBlock(PrideCraftBlocks.GENDERFLUX_WALL_FLAG);
+        customBlock(PrideCraftBlocks.GENDERQUEER_WALL_FLAG);
+        customBlock(PrideCraftBlocks.GRAYROMANTIC_WALL_FLAG);
+        customBlock(PrideCraftBlocks.GRAYSEXUAL_WALL_FLAG);
+        customBlock(PrideCraftBlocks.INTERSEX_WALL_FLAG);
+        customBlock(PrideCraftBlocks.LESBIAN_WALL_FLAG);
+        customBlock(PrideCraftBlocks.NONBINARY_WALL_FLAG);
+        customBlock(PrideCraftBlocks.OMNISEXUAL_WALL_FLAG);
+        customBlock(PrideCraftBlocks.PANSEXUAL_WALL_FLAG);
+        customBlock(PrideCraftBlocks.POLYSEXUAL_WALL_FLAG);
+        customBlock(PrideCraftBlocks.PROGRESS_PRIDE_WALL_FLAG);
+        customBlock(PrideCraftBlocks.OMNISEXUAL_WALL_FLAG);
+        customBlock(PrideCraftBlocks.QUEER_WALL_FLAG);
+        customBlock(PrideCraftBlocks.RAINBOW_WALL_FLAG);
+        customBlock(PrideCraftBlocks.TRANSFEMININE_WALL_FLAG);
+        customBlock(PrideCraftBlocks.TRANSGENDER_WALL_FLAG);
+        customBlock(PrideCraftBlocks.TRANSMASCULINE_WALL_FLAG);
+
+        //Flag Carpet
+        customBlock(PrideCraftBlocks.ABROSEXUAL_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.AGENDER_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.AROACE_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.AROMANTIC_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.ASEXUAL_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.BIGENDER_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.BISEXUAL_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.DEMIBOY_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.DEMIGIRL_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.DEMINONBINARY_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.DEMIROMANTIC_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.DEMISEXUAL_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.GAY_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.GENDERFLUID_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.GENDERFLUX_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.GENDERQUEER_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.GRAYROMANTIC_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.GRAYSEXUAL_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.INTERSEX_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.LESBIAN_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.NONBINARY_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.OMNISEXUAL_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.PANSEXUAL_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.POLYSEXUAL_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.PROGRESS_PRIDE_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.OMNISEXUAL_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.QUEER_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.RAINBOW_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.TRANSFEMININE_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.TRANSGENDER_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.TRANSMASCULINE_FLAG_CARPET);
+
         //Other Items
         basicItem(PrideCraftItems.UNKNOWN_MATERIAL.get());
         basicItem(PrideCraftItems.CORRUPTED_FLAG_MATERIAL.get());
@@ -95,11 +194,15 @@ public class PrideCraftItemModelProvider extends ItemModelProvider {
         simpleBlockItemBlockTexture(PrideCraftBlocks.TRANSGENDER_PRIDE_FLOWER);
         simpleBlockItemBlockTexture(PrideCraftBlocks.TRANSMASCULINE_PRIDE_FLOWER);
     }
-
-    private ItemModelBuilder simpleBlockItemBlockTexture(DeferredBlock<?> item) {
-        return withExistingParent(item.getId().getPath(),
+    private ItemModelBuilder simpleBlockItemBlockTexture(DeferredBlock<?> block) {
+        return withExistingParent(block.getId().getPath(),
                 ResourceLocation.withDefaultNamespace("item/generated")).texture("layer0",
-                ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID,"block/" + item.getId().getPath())
+                ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID,"block/" + block.getId().getPath())
         );
+    }
+
+    private ItemModelBuilder customBlock(DeferredBlock<?> block) {
+        return withExistingParent(block.getId().getPath(),
+                ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID,"block/" + block.getId().getPath()));
     }
 }

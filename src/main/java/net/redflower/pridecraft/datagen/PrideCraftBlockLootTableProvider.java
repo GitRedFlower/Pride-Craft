@@ -226,11 +226,12 @@ public class PrideCraftBlockLootTableProvider extends BlockLootSubProvider {
         add(PrideCraftBlocks.DEEPSLATE_UNKNOWN_ORE.get(),
                 block -> createMultipleOreDrops(PrideCraftBlocks.DEEPSLATE_UNKNOWN_ORE.get(), PrideCraftItems.UNKNOWN_MATERIAL.get(),3,6));
 
-        //Storage Blocks
+        //Other
         dropSelf(PrideCraftBlocks.UNKNOWN_MATERIAL_BLOCK.get());
         dropSelf(PrideCraftBlocks.CORRUPTED_FLAG_BLOCK.get());
         dropSelf(PrideCraftBlocks.PRIDE_ORE.get());
         dropSelf(PrideCraftBlocks.DEEPSLATE_PRIDE_ORE.get());
+        dropSelf(PrideCraftBlocks.PRIDE_BLOCK.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

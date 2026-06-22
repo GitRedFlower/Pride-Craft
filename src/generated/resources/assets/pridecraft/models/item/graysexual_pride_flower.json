@@ -1,3 +1,6 @@
 {
-  "parent": "pridecraft:block/graysexual_pride_flower"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pridecraft:block/graysexual_pride_flower"
+  }
 }

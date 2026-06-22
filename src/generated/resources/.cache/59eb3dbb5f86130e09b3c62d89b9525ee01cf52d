@@ -1,4 +1,4 @@
-// 1.21.1	2026-05-22T12:20:58.99846946	Loot Tables
+// 1.21.1	2026-06-02T20:33:25.630574221	Loot Tables
 f1255e1cc763e9fe0f4fbf810cc9420b92d80c49 data/pridecraft/loot_table/blocks/abrosexual_flag_block.json
 c90eae1931e6b247edfc7fa6fbb022d033bd0434 data/pridecraft/loot_table/blocks/abrosexual_flag_carpet.json
 cc4cb716cfcc5b67652469009d6a31a970e750a5 data/pridecraft/loot_table/blocks/abrosexual_mini_flag.json
@@ -152,6 +152,7 @@ e4b1cbae7c856c57a826f3f50c4999a358d64471 data/pridecraft/loot_table/blocks/potte
 5098a5ff254678970c93e56ec08a1615730afee6 data/pridecraft/loot_table/blocks/potted_transfeminine_pride_flower.json
 bbef00d293418843fbabbab755a5c0fa07c5be5a data/pridecraft/loot_table/blocks/potted_transgender_pride_flower.json
 d9c414a275e2be4e4fa5dd1068912a3af14e5c64 data/pridecraft/loot_table/blocks/potted_transmasculine_pride_flower.json
+3231fe6e71e596422a6762ebb841df864da7ed30 data/pridecraft/loot_table/blocks/pride_block.json
 48301cfd9fc140d0bcce789aed893c45e8b727ea data/pridecraft/loot_table/blocks/pride_ore.json
 bf3a3430369b0ade5101cfccf549247044ea5ae4 data/pridecraft/loot_table/blocks/progress_pride_flag_block.json
 9e8daf596114bcfb894cd1be1ec6b2d5da8f2a0c data/pridecraft/loot_table/blocks/progress_pride_flag_carpet.json

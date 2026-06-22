@@ -1072,6 +1072,14 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
                 .unlockedBy("has_corrupted_flag_material", has(PrideCraftItems.CORRUPTED_FLAG_MATERIAL))
                 .save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftBlocks.PRIDE_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', PrideCraftItems.PRIDE_INGOT.get())
+                .unlockedBy("has_pride_ingot", has(PrideCraftItems.PRIDE_INGOT))
+                .save(recipeOutput);
+
         //Other Items
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftItems.GOLDEN_BLAHAJ.get())
                 .pattern("CBC")
@@ -1487,6 +1495,11 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftItems.CORRUPTED_FLAG_MATERIAL.get(), 9)
                 .requires(PrideCraftBlocks.CORRUPTED_FLAG_BLOCK)
                 .unlockedBy("has_corrupted_flag_block", has(PrideCraftBlocks.CORRUPTED_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftItems.PRIDE_INGOT.get(), 9)
+                .requires(PrideCraftBlocks.PRIDE_BLOCK)
+                .unlockedBy("has_pride_block", has(PrideCraftBlocks.PRIDE_BLOCK))
                 .save(recipeOutput);
 
 
