@@ -11,7 +11,6 @@ import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.redflower.pridecraft.PrideCraft;
 import net.redflower.pridecraft.block.PrideCraftBlocks;
 import net.redflower.pridecraft.item.PrideCraftItems;
-import net.redflower.pridecraft.util.PrideCraftTags;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -1515,36 +1514,36 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
 
         //Stone Cutting
         //Flag Materials
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.ABROSEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.AGENDER_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.AROACE_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.AROMANTIC_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.ASEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.BIGENDER_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.BISEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.DEMIBOY_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.DEMIGIRL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.DEMIROMANTIC_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.DEMISEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.GAY_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.GENDERFLUID_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.GENDERFLUX_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.GENDERQUEER_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.GRAYSEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.INTERSEX_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.LESBIAN_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.NONBINARY_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.OMNISEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.PANSEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.PROGRESS_PRIDE_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.QUEER_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.RAINBOW_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.TRANSGENDER_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.DEMINONBINARY_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.GRAYROMANTIC_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.POLYSEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.TRANSFEMININE_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
-        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.TRANSMASCULINE_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 8);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.ABROSEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.AGENDER_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.AROACE_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.AROMANTIC_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.ASEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.BIGENDER_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.BISEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.DEMIBOY_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.DEMIGIRL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.DEMIROMANTIC_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.DEMISEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.GAY_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.GENDERFLUID_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.GENDERFLUX_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.GENDERQUEER_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.GRAYSEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.INTERSEX_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.LESBIAN_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.NONBINARY_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.OMNISEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.PANSEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.PROGRESS_PRIDE_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.QUEER_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.RAINBOW_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.TRANSGENDER_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.DEMINONBINARY_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.GRAYROMANTIC_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.POLYSEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.TRANSFEMININE_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.TRANSMASCULINE_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
     }
 
     //Custom Recipe Changes and Name Space fixes

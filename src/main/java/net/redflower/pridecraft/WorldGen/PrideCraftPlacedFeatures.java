@@ -23,10 +23,10 @@ public class PrideCraftPlacedFeatures {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, UNKNOWN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(PrideCraftConfiguredFeatures.UNKNOWN_ORE_KEY),
-                PrideCraftOrePlacement.commonOrePlacement(8, HeightRangePlacement.triangle(VerticalAnchor.absolute(-15), VerticalAnchor.absolute(95))));
+                PrideCraftOrePlacement.commonOrePlacement(6, HeightRangePlacement.triangle(VerticalAnchor.absolute(-15), VerticalAnchor.absolute(95))));
 
         register(context, PRIDE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(PrideCraftConfiguredFeatures.PRIDE_ORE_KEY),
-                PrideCraftOrePlacement.commonOrePlacement(8, HeightRangePlacement.triangle(VerticalAnchor.absolute(-50), VerticalAnchor.absolute(16))));
+                PrideCraftOrePlacement.commonOrePlacement(6, HeightRangePlacement.triangle(VerticalAnchor.absolute(-50), VerticalAnchor.absolute(16))));
     }
 
     private static ResourceKey<PlacedFeature> registerKey(String name) {

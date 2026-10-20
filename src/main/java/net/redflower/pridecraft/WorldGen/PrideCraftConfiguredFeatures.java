@@ -36,7 +36,7 @@ public class PrideCraftConfiguredFeatures {
                 OreConfiguration.target(stoneReplaceables, PrideCraftBlocks.PRIDE_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, PrideCraftBlocks.DEEPSLATE_PRIDE_ORE.get().defaultBlockState()));
 
-        register(context, UNKNOWN_ORE_KEY, Feature.ORE, new OreConfiguration(unknownOres, 6));
+        register(context, UNKNOWN_ORE_KEY, Feature.ORE, new OreConfiguration(unknownOres, 4));
         register(context, PRIDE_ORE_KEY, Feature.ORE, new OreConfiguration(prideOres, 4));
     }
 
