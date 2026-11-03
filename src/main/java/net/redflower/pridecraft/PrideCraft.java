@@ -57,6 +57,7 @@ public class PrideCraft {
         event.enqueueWork(() -> {
             ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.ABROSEXUAL_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_ABROSEXUAL_PRIDE_FLOWER);
             ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.AGENDER_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_AGENDER_PRIDE_FLOWER);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.ALLY_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_ALLY_PRIDE_FLOWER);
             ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.AROACE_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_AROACE_PRIDE_FLOWER);
             ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.AROMANTIC_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_AROMANTIC_PRIDE_FLOWER);
             ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(PrideCraftBlocks.ASEXUAL_PRIDE_FLOWER.getId(), PrideCraftBlocks.POTTED_ASEXUAL_PRIDE_FLOWER);

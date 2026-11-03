@@ -1,4 +1,4 @@
-// 1.21.1	2026-06-22T14:49:57.384886552	Item Models: pridecraft
+// 1.21.1	2026-11-03T17:31:00.39080145	Item Models: pridecraft
 133ff32b0f23d0453b79896a77668e6837f1d0bf assets/pridecraft/models/item/abrosexual_flag_carpet.json
 400cdb3bcd79d8f99b6bf177d40f8e788fe4ece3 assets/pridecraft/models/item/abrosexual_material.json
 40eec263b1b40791b1002240ed885634d3ca00b5 assets/pridecraft/models/item/abrosexual_mini_flag.json
@@ -9,6 +9,11 @@ fe85026549dc41257942282a657d8c6a12de4a18 assets/pridecraft/models/item/agender_m
 48ae07ba9646753350c1df7a71268c726268fdfe assets/pridecraft/models/item/agender_mini_flag.json
 b1661301dccd0637ef3056650a5b1f6d98e7d95a assets/pridecraft/models/item/agender_pride_flower.json
 4ac72f2c4578c4f778bde08e0fc7d164b842ecdf assets/pridecraft/models/item/agender_wall_flag.json
+a0d3d5e319f8b58ca38d891f798ef9db0b63feca assets/pridecraft/models/item/ally_flag_carpet.json
+887565259e857d50f0f4d883811ab40b4b3a5ba8 assets/pridecraft/models/item/ally_material.json
+fd2b5203c561dd77a2652753cd49873f800416f8 assets/pridecraft/models/item/ally_mini_flag.json
+46804455abe0fa752ebe1ab8c7310466fc12a592 assets/pridecraft/models/item/ally_pride_flower.json
+6e59a252e0ba8d5345b67af2df44d6618d8f9ccf assets/pridecraft/models/item/ally_wall_flag.json
 6c43708dfc07aca89645260507eca7ec6b7ffad2 assets/pridecraft/models/item/aroace_flag_carpet.json
 45d8258b2398c107ca1702ce11df7cbe75f9bf30 assets/pridecraft/models/item/aroace_material.json
 19b6b1fe3be0bbe388d4d5cf2a9af9e420d2645a assets/pridecraft/models/item/aroace_mini_flag.json

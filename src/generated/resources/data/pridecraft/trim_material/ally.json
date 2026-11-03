@@ -1,0 +1,9 @@
+{
+  "asset_name": "ally",
+  "description": {
+    "color": "#E50204",
+    "translate": "trim_material.pridecraft.ally"
+  },
+  "ingredient": "pridecraft:ally_material",
+  "item_model_index": 0.7
+}

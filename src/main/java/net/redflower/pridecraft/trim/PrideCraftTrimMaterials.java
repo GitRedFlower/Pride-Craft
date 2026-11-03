@@ -23,6 +23,9 @@ public class PrideCraftTrimMaterials {
     public static final ResourceKey<TrimMaterial> AGENDER =
             ResourceKey.create(Registries.TRIM_MATERIAL, ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID, "agender"));
 
+    public static final ResourceKey<TrimMaterial> ALLY =
+            ResourceKey.create(Registries.TRIM_MATERIAL, ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID, "ally"));
+
     public static final ResourceKey<TrimMaterial> AROACE =
             ResourceKey.create(Registries.TRIM_MATERIAL, ResourceLocation.fromNamespaceAndPath(PrideCraft.MODID, "aroace"));
 
@@ -112,6 +115,7 @@ public class PrideCraftTrimMaterials {
         //Name, Item Used, Item Text Color, Item Texture Color
         register(context, ABROSEXUAL, PrideCraftItems.ABROSEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#76CB92").getOrThrow()), 0.7f);
         register(context, AGENDER, PrideCraftItems.AGENDER_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#B8F483").getOrThrow()), 0.7f);
+        register(context, ALLY, PrideCraftItems.ALLY_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#E50204").getOrThrow()), 0.7f);
         register(context, AROACE, PrideCraftItems.AROACE_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#E28C00").getOrThrow()), 0.7f);
         register(context, AROMANTIC, PrideCraftItems.AROMANTIC_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#3DA542").getOrThrow()), 0.7f);
         register(context, ASEXUAL, PrideCraftItems.ASEXUAL_MATERIAL.get(), Style.EMPTY.withColor(TextColor.parseColor("#8D0085").getOrThrow()), 0.7f);

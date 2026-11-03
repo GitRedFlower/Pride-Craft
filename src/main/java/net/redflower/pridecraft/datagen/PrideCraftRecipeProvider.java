@@ -46,6 +46,14 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
                 .unlockedBy("has_agender_material", has(PrideCraftItems.AGENDER_MATERIAL))
                 .save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftBlocks.ALLY_FLAG_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', PrideCraftItems.ALLY_MATERIAL.get())
+                .unlockedBy("has_ally_material", has(PrideCraftItems.ALLY_MATERIAL))
+                .save(recipeOutput);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftBlocks.AROACE_FLAG_BLOCK.get())
                 .pattern("AAA")
                 .pattern("AAA")
@@ -287,6 +295,15 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
                 .define('A', PrideCraftItems.AGENDER_MATERIAL.get())
                 .define('B', Items.IRON_NUGGET)
                 .unlockedBy("has_agender_material", has(PrideCraftItems.AGENDER_MATERIAL))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftBlocks.ALLY_MINI_FLAG.get())
+                .pattern("BAA")
+                .pattern("B  ")
+                .pattern("B  ")
+                .define('A', PrideCraftItems.ALLY_MATERIAL.get())
+                .define('B', Items.IRON_NUGGET)
+                .unlockedBy("has_ally_material", has(PrideCraftItems.ALLY_MATERIAL))
                 .save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftBlocks.AROACE_MINI_FLAG.get())
@@ -560,6 +577,15 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
                 .unlockedBy("has_agender_material", has(PrideCraftItems.AGENDER_MATERIAL))
                 .save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftBlocks.ALLY_WALL_FLAG.get())
+                .pattern("BB ")
+                .pattern("AA ")
+                .pattern("   ")
+                .define('A', PrideCraftItems.ALLY_MATERIAL.get())
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_ally_material", has(PrideCraftItems.ALLY_MATERIAL))
+                .save(recipeOutput);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftBlocks.AROACE_WALL_FLAG.get())
                 .pattern("BB ")
                 .pattern("AA ")
@@ -829,6 +855,14 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
                 .unlockedBy("has_agender_material", has(PrideCraftItems.AGENDER_MATERIAL))
                 .save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftBlocks.ALLY_FLAG_CARPET.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AA ")
+                .define('A', PrideCraftItems.ALLY_MATERIAL.get())
+                .unlockedBy("has_ally_material", has(PrideCraftItems.ALLY_MATERIAL))
+                .save(recipeOutput);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftBlocks.AROACE_FLAG_CARPET.get())
                 .pattern("   ")
                 .pattern("   ")
@@ -1083,60 +1117,66 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftItems.GOLDEN_BLAHAJ.get())
                 .pattern("CBC")
                 .pattern("BAB")
-                .pattern("CBC")
+                .pattern("CDC")
                 .define('A', PrideCraftItems.BLAHAJ.get())
                 .define('B', Items.GOLD_BLOCK)
                 .define('C', Items.GOLD_INGOT)
+                .define('D', PrideCraftItems.PRIDE_INGOT)
                 .unlockedBy("has_blahaj", has(PrideCraftItems.BLAHAJ))
                 .save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftItems.ORANGE_BLAHAJ.get())
                 .pattern("CBC")
                 .pattern("BAB")
-                .pattern("CBC")
+                .pattern("CDC")
                 .define('A', PrideCraftItems.BLAHAJ.get())
                 .define('B', Items.MAGMA_BLOCK)
                 .define('C', Items.MAGMA_CREAM)
+                .define('D', PrideCraftItems.PRIDE_INGOT)
                 .unlockedBy("has_blahaj", has(PrideCraftItems.BLAHAJ))
                 .save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftItems.BLUE_BLAHAJ.get())
                 .pattern("CBC")
                 .pattern("BAB")
-                .pattern("CBC")
+                .pattern("CDC")
                 .define('A', PrideCraftItems.BLAHAJ.get())
                 .define('B', Items.NAUTILUS_SHELL)
                 .define('C', Items.SPONGE)
+                .define('D', PrideCraftItems.PRIDE_INGOT)
                 .unlockedBy("has_blahaj", has(PrideCraftItems.BLAHAJ))
                 .save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftItems.RED_BLAHAJ.get())
                 .pattern("CBC")
                 .pattern("BAB")
-                .pattern("CBC")
+                .pattern("CDC")
                 .define('A', PrideCraftItems.BLAHAJ.get())
                 .define('B', Items.GHAST_TEAR)
                 .define('C', Items.NETHER_WART_BLOCK)
+                .define('D', PrideCraftItems.PRIDE_INGOT)
                 .unlockedBy("has_blahaj", has(PrideCraftItems.BLAHAJ))
                 .save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftItems.GREEN_BLAHAJ.get())
                 .pattern("CBC")
                 .pattern("BAB")
-                .pattern("CBC")
+                .pattern("CDC")
                 .define('A', PrideCraftItems.BLAHAJ.get())
                 .define('B', Items.SUGAR)
                 .define('C', Items.EMERALD_BLOCK)
+                .define('D', PrideCraftItems.PRIDE_INGOT)
                 .unlockedBy("has_blahaj", has(PrideCraftItems.BLAHAJ))
                 .save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PrideCraftItems.PURPLE_BLAHAJ.get())
                 .pattern("CBC")
                 .pattern("BAB")
-                .pattern("CBC")
+                .pattern("CDC")
                 .define('A', PrideCraftItems.BLAHAJ.get())
                 .define('B', Items.AMETHYST_CLUSTER)
                 .define('C', Items.AMETHYST_BLOCK)
+                .define('D', PrideCraftItems.PRIDE_INGOT)
                 .unlockedBy("has_blahaj", has(PrideCraftItems.BLAHAJ))
                 .save(recipeOutput);
 
@@ -1158,6 +1198,11 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftItems.AGENDER_MATERIAL.get(), 9)
                 .requires(PrideCraftBlocks.AGENDER_FLAG_BLOCK)
                 .unlockedBy("has_agender_flag_block", has(PrideCraftBlocks.AGENDER_FLAG_BLOCK))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftItems.ALLY_MATERIAL.get(), 9)
+                .requires(PrideCraftBlocks.ALLY_FLAG_BLOCK)
+                .unlockedBy("has_ally_flag_block", has(PrideCraftBlocks.ALLY_FLAG_BLOCK))
                 .save(recipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftItems.AROACE_MATERIAL.get(), 9)
@@ -1315,6 +1360,12 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
                 .requires(ItemTags.SMALL_FLOWERS)
                 .requires(PrideCraftItems.AGENDER_MATERIAL)
                 .unlockedBy("has_agender_material", has(PrideCraftItems.AGENDER_MATERIAL))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.ALLY_PRIDE_FLOWER.get(), 1)
+                .requires(ItemTags.SMALL_FLOWERS)
+                .requires(PrideCraftItems.ALLY_MATERIAL)
+                .unlockedBy("has_ally_material", has(PrideCraftItems.ALLY_MATERIAL))
                 .save(recipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, PrideCraftBlocks.AROACE_PRIDE_FLOWER.get(), 1)
@@ -1516,6 +1567,7 @@ public class PrideCraftRecipeProvider extends RecipeProvider implements IConditi
         //Flag Materials
         stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.ABROSEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
         stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.AGENDER_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.ALLY_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
         stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.AROACE_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
         stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.AROMANTIC_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);
         stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, PrideCraftItems.ASEXUAL_MATERIAL.get(), PrideCraftItems.CORRUPTED_FLAG_MATERIAL, 2);

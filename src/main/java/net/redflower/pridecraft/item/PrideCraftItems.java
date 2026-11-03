@@ -28,6 +28,9 @@ public class PrideCraftItems {
     public static final DeferredItem<Item> AGENDER_MATERIAL = ITEMS.register("agender_material",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> ALLY_MATERIAL = ITEMS.register("ally_material",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> AROACE_MATERIAL = ITEMS.register("aroace_material",
             () -> new Item(new Item.Properties()));
 

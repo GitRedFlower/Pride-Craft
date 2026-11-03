@@ -73,6 +73,11 @@ public class PrideCraftBlocks {
                     .strength(0.4f)
                     .sound(SoundType.WOOL)));
 
+    public static final DeferredBlock<Block> ALLY_FLAG_BLOCK = registerBlock("ally_flag_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.4f)
+                    .sound(SoundType.WOOL)));
+
     public static final DeferredBlock<Block> AROACE_FLAG_BLOCK = registerBlock("aroace_flag_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(0.4f)
@@ -221,6 +226,12 @@ public class PrideCraftBlocks {
                     .sound(SoundType.METAL)));
 
     public static final DeferredBlock<MiniFlag> AGENDER_MINI_FLAG = registerBlock("agender_mini_flag",
+            () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
+    public static final DeferredBlock<MiniFlag> ALLY_MINI_FLAG = registerBlock("ally_mini_flag",
             () -> new MiniFlag(BlockBehaviour.Properties.of().noOcclusion()
                     .requiresCorrectToolForDrops()
                     .strength(0.5f)
@@ -407,6 +418,12 @@ public class PrideCraftBlocks {
                     .strength(0.5f)
                     .sound(SoundType.METAL)));
 
+    public static final DeferredBlock<WallFlag> ALLY_WALL_FLAG = registerBlock("ally_wall_flag",
+            () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
+                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
+                    .sound(SoundType.METAL)));
+
     public static final DeferredBlock<WallFlag> AROACE_WALL_FLAG = registerBlock("aroace_wall_flag",
             () -> new WallFlag(BlockBehaviour.Properties.of().noOcclusion()
                     .requiresCorrectToolForDrops()
@@ -586,6 +603,11 @@ public class PrideCraftBlocks {
                     .strength(0.2f)
                     .sound(SoundType.WOOL)));
 
+    public static final DeferredBlock<FlagCarpet> ALLY_FLAG_CARPET = registerBlock("ally_flag_carpet",
+            () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
+                    .strength(0.2f)
+                    .sound(SoundType.WOOL)));
+
     public static final DeferredBlock<FlagCarpet> AROACE_FLAG_CARPET = registerBlock("aroace_flag_carpet",
             () -> new FlagCarpet(BlockBehaviour.Properties.of().noOcclusion()
                     .strength(0.2f)
@@ -736,6 +758,14 @@ public class PrideCraftBlocks {
             ));
 
     public static final DeferredBlock<Block> AGENDER_PRIDE_FLOWER = registerBlock("agender_pride_flower",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .noCollission()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+            ));
+
+    public static final DeferredBlock<Block> ALLY_PRIDE_FLOWER = registerBlock("ally_pride_flower",
             () -> new FlowerBlock(MobEffects.ABSORPTION, 5, BlockBehaviour.Properties.of()
                     .noOcclusion()
                     .noCollission()
@@ -978,6 +1008,12 @@ public class PrideCraftBlocks {
     public static final DeferredBlock<Block> POTTED_AGENDER_PRIDE_FLOWER = registerBlock("potted_agender_pride_flower",
             () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
                     PrideCraftBlocks.AGENDER_PRIDE_FLOWER,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
+            ));
+
+    public static final DeferredBlock<Block> POTTED_ALLY_PRIDE_FLOWER = registerBlock("potted_ally_pride_flower",
+            () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT,
+                    PrideCraftBlocks.ALLY_PRIDE_FLOWER,
                     BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_OXEYE_DAISY)
             ));
 

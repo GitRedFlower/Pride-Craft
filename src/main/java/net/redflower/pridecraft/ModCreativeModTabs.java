@@ -36,6 +36,7 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                     //Flag Blocks
                     output.accept(PrideCraftBlocks.ABROSEXUAL_FLAG_BLOCK);
                     output.accept(PrideCraftBlocks.AGENDER_FLAG_BLOCK);
+                    output.accept(PrideCraftBlocks.ALLY_FLAG_BLOCK);
                     output.accept(PrideCraftBlocks.AROACE_FLAG_BLOCK);
                     output.accept(PrideCraftBlocks.AROMANTIC_FLAG_BLOCK);
                     output.accept(PrideCraftBlocks.ASEXUAL_FLAG_BLOCK);
@@ -68,6 +69,7 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                     //Flag Carpets
                     output.accept(PrideCraftBlocks.ABROSEXUAL_FLAG_CARPET);
                     output.accept(PrideCraftBlocks.AGENDER_FLAG_CARPET);
+                    output.accept(PrideCraftBlocks.ALLY_FLAG_CARPET);
                     output.accept(PrideCraftBlocks.AROACE_FLAG_CARPET);
                     output.accept(PrideCraftBlocks.AROMANTIC_FLAG_CARPET);
                     output.accept(PrideCraftBlocks.ASEXUAL_FLAG_CARPET);
@@ -100,6 +102,7 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                     //Mini Flags
                     output.accept(PrideCraftBlocks.ABROSEXUAL_MINI_FLAG);
                     output.accept(PrideCraftBlocks.AGENDER_MINI_FLAG);
+                    output.accept(PrideCraftBlocks.ALLY_MINI_FLAG);
                     output.accept(PrideCraftBlocks.AROACE_MINI_FLAG);
                     output.accept(PrideCraftBlocks.AROMANTIC_MINI_FLAG);
                     output.accept(PrideCraftBlocks.ASEXUAL_MINI_FLAG);
@@ -132,6 +135,7 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                     //Wall Flags
                     output.accept(PrideCraftBlocks.ABROSEXUAL_WALL_FLAG);
                     output.accept(PrideCraftBlocks.AGENDER_WALL_FLAG);
+                    output.accept(PrideCraftBlocks.ALLY_WALL_FLAG);
                     output.accept(PrideCraftBlocks.AROACE_WALL_FLAG);
                     output.accept(PrideCraftBlocks.AROMANTIC_WALL_FLAG);
                     output.accept(PrideCraftBlocks.ASEXUAL_WALL_FLAG);
@@ -164,6 +168,7 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                     //Flowers
                     output.accept(PrideCraftBlocks.ABROSEXUAL_PRIDE_FLOWER);
                     output.accept(PrideCraftBlocks.AGENDER_PRIDE_FLOWER);
+                    output.accept(PrideCraftBlocks.ALLY_PRIDE_FLOWER);
                     output.accept(PrideCraftBlocks.AROACE_PRIDE_FLOWER);
                     output.accept(PrideCraftBlocks.AROMANTIC_PRIDE_FLOWER);
                     output.accept(PrideCraftBlocks.ASEXUAL_PRIDE_FLOWER);
@@ -209,6 +214,7 @@ public static final Supplier<CreativeModeTab> PRIDE_CRAFT_BLOCKS_TAB = CREATIVE_
                         //Flag Materials
                         output.accept(PrideCraftItems.ABROSEXUAL_MATERIAL);
                         output.accept(PrideCraftItems.AGENDER_MATERIAL);
+                        output.accept(PrideCraftItems.ALLY_MATERIAL);
                         output.accept(PrideCraftItems.AROACE_MATERIAL);
                         output.accept(PrideCraftItems.AROMANTIC_MATERIAL);
                         output.accept(PrideCraftItems.ASEXUAL_MATERIAL);

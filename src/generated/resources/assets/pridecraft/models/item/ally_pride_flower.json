@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pridecraft:block/ally_pride_flower"
+  }
+}

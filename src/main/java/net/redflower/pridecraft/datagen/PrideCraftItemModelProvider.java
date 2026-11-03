@@ -21,6 +21,7 @@ public class PrideCraftItemModelProvider extends ItemModelProvider {
         //Flag Materials
         basicItem(PrideCraftItems.ABROSEXUAL_MATERIAL.get());
         basicItem(PrideCraftItems.AGENDER_MATERIAL.get());
+        basicItem(PrideCraftItems.ALLY_MATERIAL.get());
         basicItem(PrideCraftItems.AROACE_MATERIAL.get());
         basicItem(PrideCraftItems.AROMANTIC_MATERIAL.get());
         basicItem(PrideCraftItems.ASEXUAL_MATERIAL.get());
@@ -53,6 +54,7 @@ public class PrideCraftItemModelProvider extends ItemModelProvider {
         //Mini Flags
         customBlock(PrideCraftBlocks.ABROSEXUAL_MINI_FLAG);
         customBlock(PrideCraftBlocks.AGENDER_MINI_FLAG);
+        customBlock(PrideCraftBlocks.ALLY_MINI_FLAG);
         customBlock(PrideCraftBlocks.AROACE_MINI_FLAG);
         customBlock(PrideCraftBlocks.AROMANTIC_MINI_FLAG);
         customBlock(PrideCraftBlocks.ASEXUAL_MINI_FLAG);
@@ -86,6 +88,7 @@ public class PrideCraftItemModelProvider extends ItemModelProvider {
         //Wall Flag
         customBlock(PrideCraftBlocks.ABROSEXUAL_WALL_FLAG);
         customBlock(PrideCraftBlocks.AGENDER_WALL_FLAG);
+        customBlock(PrideCraftBlocks.ALLY_WALL_FLAG);
         customBlock(PrideCraftBlocks.AROACE_WALL_FLAG);
         customBlock(PrideCraftBlocks.AROMANTIC_WALL_FLAG);
         customBlock(PrideCraftBlocks.ASEXUAL_WALL_FLAG);
@@ -119,6 +122,7 @@ public class PrideCraftItemModelProvider extends ItemModelProvider {
         //Flag Carpet
         customBlock(PrideCraftBlocks.ABROSEXUAL_FLAG_CARPET);
         customBlock(PrideCraftBlocks.AGENDER_FLAG_CARPET);
+        customBlock(PrideCraftBlocks.ALLY_FLAG_CARPET);
         customBlock(PrideCraftBlocks.AROACE_FLAG_CARPET);
         customBlock(PrideCraftBlocks.AROMANTIC_FLAG_CARPET);
         customBlock(PrideCraftBlocks.ASEXUAL_FLAG_CARPET);
@@ -157,6 +161,7 @@ public class PrideCraftItemModelProvider extends ItemModelProvider {
         //Flowers
         simpleBlockItemBlockTexture(PrideCraftBlocks.ABROSEXUAL_PRIDE_FLOWER);
         simpleBlockItemBlockTexture(PrideCraftBlocks.AGENDER_PRIDE_FLOWER);
+        simpleBlockItemBlockTexture(PrideCraftBlocks.ALLY_PRIDE_FLOWER);
         simpleBlockItemBlockTexture(PrideCraftBlocks.AROACE_PRIDE_FLOWER);
         simpleBlockItemBlockTexture(PrideCraftBlocks.AROMANTIC_PRIDE_FLOWER);
         simpleBlockItemBlockTexture(PrideCraftBlocks.ASEXUAL_PRIDE_FLOWER);

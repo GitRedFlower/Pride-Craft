@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "pridecraft:ally_material"
+    },
+    "B": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "BAA",
+    "B  ",
+    "B  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "pridecraft:ally_mini_flag"
+  }
+}

@@ -23,6 +23,7 @@ public class PrideCraftItemTagProvider extends ItemTagsProvider {
         this.tag(ItemTags.TRIM_MATERIALS)
                 .add(PrideCraftItems.ABROSEXUAL_MATERIAL.get())
                 .add(PrideCraftItems.AGENDER_MATERIAL.get())
+                .add(PrideCraftItems.ALLY_MATERIAL.get())
                 .add(PrideCraftItems.AROACE_MATERIAL.get())
                 .add(PrideCraftItems.AROMANTIC_MATERIAL.get())
                 .add(PrideCraftItems.ASEXUAL_MATERIAL.get())

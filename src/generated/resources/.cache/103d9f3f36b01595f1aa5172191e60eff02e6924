@@ -1,8 +1,9 @@
-// 1.21.1	2026-09-09T18:53:20.12557723	Registries
+// 1.21.1	2026-10-23T22:35:25.067127359	Registries
 a6ec8fc240be2f1405e649d171f620676a7a4e37 data/pridecraft/neoforge/biome_modifier/add_pride_ore.json
 d4e8ccc0b74ed87fc13a1f219080713826664efa data/pridecraft/neoforge/biome_modifier/add_unknown_ore.json
 b8b60080af27feced3dcff928493094e350e5a50 data/pridecraft/trim_material/abrosexual.json
 fa463fa652e3b5e3636c9ff3f34aac1f8c5501e1 data/pridecraft/trim_material/agender.json
+014b08ced9d6ae52a1e00216c0bc87c703767ed6 data/pridecraft/trim_material/ally.json
 f9d10ae5f71c505926eadd4d8e2d380de16f88f9 data/pridecraft/trim_material/aroace.json
 02798fce2eec71543bf8cb8938c13617effa1388 data/pridecraft/trim_material/aromantic.json
 06fdfbee59462514cd5679a6bcd09766137f01a9 data/pridecraft/trim_material/asexual.json

@@ -10,12 +10,15 @@
     },
     "C": {
       "item": "minecraft:sponge"
+    },
+    "D": {
+      "item": "pridecraft:pride_ingot"
     }
   },
   "pattern": [
     "CBC",
     "BAB",
-    "CBC"
+    "CDC"
   ],
   "result": {
     "count": 1,

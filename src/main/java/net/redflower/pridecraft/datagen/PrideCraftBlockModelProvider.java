@@ -19,6 +19,7 @@ public class PrideCraftBlockModelProvider extends BlockStateProvider {
         //Flag Block
         blockWIthItem(PrideCraftBlocks.ABROSEXUAL_FLAG_BLOCK);
         blockWIthItem(PrideCraftBlocks.AGENDER_FLAG_BLOCK);
+        blockWIthItem(PrideCraftBlocks.ALLY_FLAG_BLOCK);
         blockWIthItem(PrideCraftBlocks.AROACE_FLAG_BLOCK);
         blockWIthItem(PrideCraftBlocks.AROMANTIC_FLAG_BLOCK);
         blockWIthItem(PrideCraftBlocks.ASEXUAL_FLAG_BLOCK);
@@ -51,6 +52,7 @@ public class PrideCraftBlockModelProvider extends BlockStateProvider {
         //Flowers
         flowerBlock(PrideCraftBlocks.ABROSEXUAL_PRIDE_FLOWER, PrideCraftBlocks.POTTED_ABROSEXUAL_PRIDE_FLOWER);
         flowerBlock(PrideCraftBlocks.AGENDER_PRIDE_FLOWER, PrideCraftBlocks.POTTED_AGENDER_PRIDE_FLOWER);
+        flowerBlock(PrideCraftBlocks.ALLY_PRIDE_FLOWER, PrideCraftBlocks.POTTED_ALLY_PRIDE_FLOWER);
         flowerBlock(PrideCraftBlocks.AROACE_PRIDE_FLOWER, PrideCraftBlocks.POTTED_AROACE_PRIDE_FLOWER);
         flowerBlock(PrideCraftBlocks.AROMANTIC_PRIDE_FLOWER, PrideCraftBlocks.POTTED_AROMANTIC_PRIDE_FLOWER);
         flowerBlock(PrideCraftBlocks.ASEXUAL_PRIDE_FLOWER, PrideCraftBlocks.POTTED_ASEXUAL_PRIDE_FLOWER);
@@ -91,6 +93,8 @@ public class PrideCraftBlockModelProvider extends BlockStateProvider {
         blockWIthItem(PrideCraftBlocks.UNKNOWN_MATERIAL_BLOCK);
         blockWIthItem(PrideCraftBlocks.CORRUPTED_FLAG_BLOCK);
         blockWIthItem(PrideCraftBlocks.PRIDE_BLOCK);
+
+
     }
 
     private void blockWIthItem(DeferredBlock<?> deferredBlock) {

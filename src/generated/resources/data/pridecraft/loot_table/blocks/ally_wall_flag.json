@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pridecraft:ally_wall_flag"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "pridecraft:blocks/ally_wall_flag"
+}

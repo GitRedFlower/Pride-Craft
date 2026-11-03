@@ -30,6 +30,7 @@ public class PrideCraftBlockLootTableProvider extends BlockLootSubProvider {
         //Flag Blocks
         dropSelf(PrideCraftBlocks.ABROSEXUAL_FLAG_BLOCK.get());
         dropSelf(PrideCraftBlocks.AGENDER_FLAG_BLOCK.get());
+        dropSelf(PrideCraftBlocks.ALLY_FLAG_BLOCK.get());
         dropSelf(PrideCraftBlocks.AROACE_FLAG_BLOCK.get());
         dropSelf(PrideCraftBlocks.AROMANTIC_FLAG_BLOCK.get());
         dropSelf(PrideCraftBlocks.ASEXUAL_FLAG_BLOCK.get());
@@ -62,6 +63,7 @@ public class PrideCraftBlockLootTableProvider extends BlockLootSubProvider {
         //Mini Flags
         dropSelf(PrideCraftBlocks.ABROSEXUAL_MINI_FLAG.get());
         dropSelf(PrideCraftBlocks.AGENDER_MINI_FLAG.get());
+        dropSelf(PrideCraftBlocks.ALLY_MINI_FLAG.get());
         dropSelf(PrideCraftBlocks.AROACE_MINI_FLAG.get());
         dropSelf(PrideCraftBlocks.AROMANTIC_MINI_FLAG.get());
         dropSelf(PrideCraftBlocks.ASEXUAL_MINI_FLAG.get());
@@ -94,6 +96,7 @@ public class PrideCraftBlockLootTableProvider extends BlockLootSubProvider {
         //Wall Flags
         dropSelf(PrideCraftBlocks.ABROSEXUAL_WALL_FLAG.get());
         dropSelf(PrideCraftBlocks.AGENDER_WALL_FLAG.get());
+        dropSelf(PrideCraftBlocks.ALLY_WALL_FLAG.get());
         dropSelf(PrideCraftBlocks.AROACE_WALL_FLAG.get());
         dropSelf(PrideCraftBlocks.AROMANTIC_WALL_FLAG.get());
         dropSelf(PrideCraftBlocks.ASEXUAL_WALL_FLAG.get());
@@ -126,6 +129,7 @@ public class PrideCraftBlockLootTableProvider extends BlockLootSubProvider {
         //Flag Carpets
         dropSelf(PrideCraftBlocks.ABROSEXUAL_FLAG_CARPET.get());
         dropSelf(PrideCraftBlocks.AGENDER_FLAG_CARPET.get());
+        dropSelf(PrideCraftBlocks.ALLY_FLAG_CARPET.get());
         dropSelf(PrideCraftBlocks.AROACE_FLAG_CARPET.get());
         dropSelf(PrideCraftBlocks.AROMANTIC_FLAG_CARPET.get());
         dropSelf(PrideCraftBlocks.ASEXUAL_FLAG_CARPET.get());
@@ -158,6 +162,7 @@ public class PrideCraftBlockLootTableProvider extends BlockLootSubProvider {
         //Flowers
         dropSelf(PrideCraftBlocks.ABROSEXUAL_PRIDE_FLOWER.get());
         dropSelf(PrideCraftBlocks.AGENDER_PRIDE_FLOWER.get());
+        dropSelf(PrideCraftBlocks.ALLY_PRIDE_FLOWER.get());
         dropSelf(PrideCraftBlocks.AROACE_PRIDE_FLOWER.get());
         dropSelf(PrideCraftBlocks.AROMANTIC_PRIDE_FLOWER.get());
         dropSelf(PrideCraftBlocks.ASEXUAL_PRIDE_FLOWER.get());
@@ -190,6 +195,7 @@ public class PrideCraftBlockLootTableProvider extends BlockLootSubProvider {
         //Potted Flowers
         add(PrideCraftBlocks.POTTED_ABROSEXUAL_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.ABROSEXUAL_PRIDE_FLOWER.get()));
         add(PrideCraftBlocks.POTTED_AGENDER_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.AGENDER_PRIDE_FLOWER.get()));
+        add(PrideCraftBlocks.POTTED_ALLY_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.ALLY_PRIDE_FLOWER.get()));
         add(PrideCraftBlocks.POTTED_AROACE_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.AROACE_PRIDE_FLOWER.get()));
         add(PrideCraftBlocks.POTTED_AROMANTIC_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.AROMANTIC_PRIDE_FLOWER.get()));
         add(PrideCraftBlocks.POTTED_ASEXUAL_PRIDE_FLOWER.get(), createPotFlowerItemTable(PrideCraftBlocks.ASEXUAL_PRIDE_FLOWER.get()));

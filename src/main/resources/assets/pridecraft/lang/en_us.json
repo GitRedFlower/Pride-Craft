@@ -13,6 +13,7 @@
 
   "block.pridecraft.abrosexual_flag_block": "Abrosexual Flag Block",
   "block.pridecraft.agender_flag_block": "Agender Flag Block",
+  "block.pridecraft.ally_flag_block": "Ally Flag Block",
   "block.pridecraft.aroace_flag_block": "AroAce Flag Block",
   "block.pridecraft.aromantic_flag_block": "Aromantic Flag Block",
   "block.pridecraft.asexual_flag_block": "Asexual Flag Block",
@@ -44,6 +45,7 @@
 
   "block.pridecraft.abrosexual_mini_flag": "Abrosexual Mini Flag",
   "block.pridecraft.agender_mini_flag": "Agender Mini Flag",
+  "block.pridecraft.ally_mini_flag": "Ally Mini Flag",
   "block.pridecraft.aroace_mini_flag": "Aroace Mini Flag",
   "block.pridecraft.aromantic_mini_flag": "Aromantic Mini Flag",
   "block.pridecraft.asexual_mini_flag": "Asexual Mini Flag",
@@ -75,6 +77,7 @@
 
   "block.pridecraft.abrosexual_wall_flag": "Abrosexual Wall Flag",
   "block.pridecraft.agender_wall_flag": "Agender Wall Flag",
+  "block.pridecraft.ally_wall_flag": "Ally Wall Flag",
   "block.pridecraft.aroace_wall_flag": "Aroace Wall Flag",
   "block.pridecraft.aromantic_wall_flag": "Aromantic Wall Flag",
   "block.pridecraft.asexual_wall_flag": "Asexual Wall Flag",
@@ -106,6 +109,7 @@
 
   "block.pridecraft.abrosexual_flag_carpet": "Abrosexual Flag Carpet",
   "block.pridecraft.agender_flag_carpet": "Agender Flag Carpet",
+  "block.pridecraft.ally_flag_carpet": "Ally Flag Carpet",
   "block.pridecraft.aroace_flag_carpet": "AroAce Flag Carpet",
   "block.pridecraft.aromantic_flag_carpet": "Aromantic Flag Carpet",
   "block.pridecraft.asexual_flag_carpet": "Asexual Flag Carpet",
@@ -137,6 +141,7 @@
 
   "block.pridecraft.abrosexual_pride_flower": "Abrosexual Pride Flower",
   "block.pridecraft.agender_pride_flower": "Agender Pride Flower",
+  "block.pridecraft.ally_pride_flower": "Ally Pride Flower",
   "block.pridecraft.aroace_pride_flower": "Aroace Pride Flower",
   "block.pridecraft.aromantic_pride_flower": "Aromantic Pride Flower",
   "block.pridecraft.asexual_pride_flower": "Asexual Pride Flower",
@@ -172,6 +177,7 @@
 
   "item.pridecraft.abrosexual_material": "Abrosexual Material",
   "item.pridecraft.agender_material": "Agender Material",
+  "item.pridecraft.ally_material": "Ally Material",
   "item.pridecraft.aroace_material": "AroAce Material",
   "item.pridecraft.aromantic_material": "Aromantic Material",
   "item.pridecraft.asexual_material": "Asexual Material",
@@ -211,6 +217,7 @@
 
   "trim_material.pridecraft.abrosexual": "Abrosexual Material",
   "trim_material.pridecraft.agender": "Agender Material",
+  "trim_material.pridecraft.ally": "Ally Material",
   "trim_material.pridecraft.aroace": "AroAce Material",
   "trim_material.pridecraft.aromantic": "Aromantic Material",
   "trim_material.pridecraft.asexual": "Asexual Material",
@@ -240,7 +247,7 @@
   "trim_material.pridecraft.transfeminine": "Transfeminine Material",
   "trim_material.pridecraft.transmasculine": "Transmasculine Material",
 
-  "pridecraft.jei.info.blahaj" : "Cute little friend.\nFound in Ancient Cities chests, with a chance of 20%.\nGives effect Resistence I.",
+  "pridecraft.jei.info.blahaj" : "Cute little friend.\nFound in Ancient Cities chests, with a chance of 30%.\nGives effect Resistence I.",
   "pridecraft.jei.info.golden_blahaj" : "Golden Cute little friend.\nCrafted from a Blahaj.\nGives effect Resistance II.",
   "pridecraft.jei.info.orange_blahaj" : "Orange Cute little friend.\nCrafted from a Blahaj.\nGives effect Fire Resistance.",
   "pridecraft.jei.info.blue_blahaj" : "Blue Cute little friend.\nCrafted from a Blahaj.\nGives effect Water Breathing.",
